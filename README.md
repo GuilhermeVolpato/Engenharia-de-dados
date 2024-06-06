@@ -9,3 +9,4 @@
 [GuilhermeMSilveira](https://github.com/GuilhermeMSilveira)<br>
 [CharlesClezar](https://github.com/CharlesClezar)<br>
 [pedrohahn](https://github.com/pedrohahn)<br>
+[KinhoMilak](https://github.com/KinhoMilak)<br>
