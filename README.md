@@ -10,3 +10,8 @@
 [CharlesClezar](https://github.com/CharlesClezar)<br>
 [pedrohahn](https://github.com/pedrohahn)<br>
 [KinhoMilak](https://github.com/KinhoMilak)<br>
+
+### Modelo Físico:
+Utilizado [https://dbdiagram.io/]<br>
+Arquivo fonte: [https://dbdiagram.io/d/6499ee8e02bd1c4a5e18a355]<code>link pro arquivo</code><br>
+  
