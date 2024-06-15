@@ -1,0 +1,30 @@
+{
+	"name": "JsonFuncionarios",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PingadoDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "PingadoDatalakeFiles"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('Funcionarios_',formatDateTime(utcNow(),'yyyyMMddHHmm'),'.json')",
+					"type": "Expression"
+				},
+				"folderPath": "Funcionarios",
+				"fileSystem": "landing-zone"
+			},
+			"compression": {
+				"type": "gzip",
+				"level": "Fastest"
+			}
+		},
+		"schema": {}
+	}
+}

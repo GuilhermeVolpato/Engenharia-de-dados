@@ -1,0 +1,30 @@
+{
+	"name": "JsonPagamento",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PingadoDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "PingadoDatalakeFiles"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('Pagamento_',formatDateTime(utcNow(),'yyyyMMddHHmm'),'.json')",
+					"type": "Expression"
+				},
+				"folderPath": "Pagamento",
+				"fileSystem": "landing-zone"
+			},
+			"compression": {
+				"type": "gzip",
+				"level": "Fastest"
+			}
+		},
+		"schema": {}
+	}
+}

@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "PingadoTables"
+			"name": "PingadoDatabaseTables"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",

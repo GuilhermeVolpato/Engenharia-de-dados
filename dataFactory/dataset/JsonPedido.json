@@ -1,0 +1,30 @@
+{
+	"name": "JsonPedido",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PingadoDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "PingadoDatalakeFiles"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('Pedido_',formatDateTime(utcNow(),'yyyyMMddHHmm'),'.json')",
+					"type": "Expression"
+				},
+				"folderPath": "Pedido",
+				"fileSystem": "landing-zone"
+			},
+			"compression": {
+				"type": "gzip",
+				"level": "Fastest"
+			}
+		},
+		"schema": {}
+	}
+}
