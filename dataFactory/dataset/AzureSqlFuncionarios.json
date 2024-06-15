@@ -1,0 +1,19 @@
+{
+	"name": "AzureSqlFuncionarios",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PingadoSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "PingadoTables"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "funcionarios"
+		}
+	}
+}
