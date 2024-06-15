@@ -1,0 +1,9 @@
+{
+	"name": "engdados2024orquestracao",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b1443477-3dad-49ba-90ca-c6243dfdbb07",
+		"tenantId": "57649351-8eaf-4a8e-a27f-ebab8ce4339d"
+	}
+}
