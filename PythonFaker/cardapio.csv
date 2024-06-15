@@ -1,0 +1,101 @@
+id_item_cardapio,nome_item,valor,descricao,categoria,disponibilidade
+7,Café Expresso,20.45,Café puro e forte,Bebida,True
+59,Café com Leite,9.79,Café com leite espumado,Bebida,True
+94,Capuccino,16.19,Café com chocolate e canela,Bebida,False
+38,Pão de Queijo,27.18,Pão de queijo tradicional,Comida,False
+85,Croissant,9.35,Croissant folhado e amanteigado,Comida,True
+90,Bolo de Cenoura,27.37,Bolo com cobertura de chocolate,Comida,False
+84,Café Expresso,13.27,Café puro e forte,Bebida,False
+52,Café com Leite,11.74,Café com leite espumado,Bebida,False
+60,Capuccino,21.43,Café com chocolate e canela,Bebida,True
+96,Pão de Queijo,7.47,Pão de queijo tradicional,Comida,True
+43,Croissant,27.05,Croissant folhado e amanteigado,Comida,True
+20,Bolo de Cenoura,21.83,Bolo com cobertura de chocolate,Comida,False
+61,Café Expresso,22.65,Café puro e forte,Bebida,False
+82,Café com Leite,16.13,Café com leite espumado,Bebida,False
+45,Capuccino,20.15,Café com chocolate e canela,Bebida,True
+15,Pão de Queijo,5.53,Pão de queijo tradicional,Comida,False
+28,Croissant,11.07,Croissant folhado e amanteigado,Comida,False
+51,Bolo de Cenoura,8.77,Bolo com cobertura de chocolate,Comida,True
+24,Café Expresso,28.28,Café puro e forte,Bebida,False
+54,Café com Leite,25.01,Café com leite espumado,Bebida,False
+98,Capuccino,27.85,Café com chocolate e canela,Bebida,False
+13,Pão de Queijo,14.9,Pão de queijo tradicional,Comida,True
+88,Croissant,8.75,Croissant folhado e amanteigado,Comida,True
+91,Bolo de Cenoura,24.03,Bolo com cobertura de chocolate,Comida,False
+32,Café Expresso,21.62,Café puro e forte,Bebida,True
+75,Café com Leite,7.88,Café com leite espumado,Bebida,False
+95,Capuccino,19.91,Café com chocolate e canela,Bebida,True
+30,Pão de Queijo,12.09,Pão de queijo tradicional,Comida,True
+58,Croissant,27.09,Croissant folhado e amanteigado,Comida,True
+31,Bolo de Cenoura,26.01,Bolo com cobertura de chocolate,Comida,False
+79,Café Expresso,28.7,Café puro e forte,Bebida,True
+87,Café com Leite,7.1,Café com leite espumado,Bebida,False
+53,Capuccino,28.45,Café com chocolate e canela,Bebida,True
+57,Pão de Queijo,10.4,Pão de queijo tradicional,Comida,True
+29,Croissant,7.94,Croissant folhado e amanteigado,Comida,True
+26,Bolo de Cenoura,24.55,Bolo com cobertura de chocolate,Comida,False
+25,Café Expresso,17.57,Café puro e forte,Bebida,False
+73,Café com Leite,19.86,Café com leite espumado,Bebida,False
+66,Capuccino,7.27,Café com chocolate e canela,Bebida,False
+11,Pão de Queijo,9.55,Pão de queijo tradicional,Comida,True
+12,Croissant,25.43,Croissant folhado e amanteigado,Comida,False
+4,Bolo de Cenoura,16.51,Bolo com cobertura de chocolate,Comida,True
+92,Café Expresso,10.75,Café puro e forte,Bebida,True
+3,Café com Leite,6.45,Café com leite espumado,Bebida,True
+63,Capuccino,19.14,Café com chocolate e canela,Bebida,False
+10,Pão de Queijo,29.84,Pão de queijo tradicional,Comida,True
+50,Croissant,20.4,Croissant folhado e amanteigado,Comida,True
+80,Bolo de Cenoura,27.35,Bolo com cobertura de chocolate,Comida,False
+27,Café Expresso,22.21,Café puro e forte,Bebida,True
+14,Café com Leite,24.32,Café com leite espumado,Bebida,False
+21,Capuccino,29.44,Café com chocolate e canela,Bebida,True
+46,Pão de Queijo,21.57,Pão de queijo tradicional,Comida,True
+69,Croissant,16.5,Croissant folhado e amanteigado,Comida,False
+62,Bolo de Cenoura,20.93,Bolo com cobertura de chocolate,Comida,False
+93,Café Expresso,18.99,Café puro e forte,Bebida,True
+89,Café com Leite,5.34,Café com leite espumado,Bebida,True
+70,Capuccino,6.66,Café com chocolate e canela,Bebida,True
+17,Pão de Queijo,16.57,Pão de queijo tradicional,Comida,False
+44,Croissant,5.03,Croissant folhado e amanteigado,Comida,True
+18,Bolo de Cenoura,14.6,Bolo com cobertura de chocolate,Comida,False
+36,Café Expresso,5.34,Café puro e forte,Bebida,False
+37,Café com Leite,22.26,Café com leite espumado,Bebida,False
+65,Capuccino,12.3,Café com chocolate e canela,Bebida,False
+2,Pão de Queijo,9.68,Pão de queijo tradicional,Comida,False
+5,Croissant,16.3,Croissant folhado e amanteigado,Comida,False
+74,Bolo de Cenoura,11.41,Bolo com cobertura de chocolate,Comida,False
+8,Café Expresso,7.21,Café puro e forte,Bebida,False
+99,Café com Leite,20.27,Café com leite espumado,Bebida,True
+97,Capuccino,9.9,Café com chocolate e canela,Bebida,False
+56,Pão de Queijo,24.31,Pão de queijo tradicional,Comida,True
+6,Croissant,15.73,Croissant folhado e amanteigado,Comida,False
+77,Bolo de Cenoura,19.55,Bolo com cobertura de chocolate,Comida,True
+76,Café Expresso,29.18,Café puro e forte,Bebida,False
+40,Café com Leite,21.47,Café com leite espumado,Bebida,False
+81,Capuccino,27.76,Café com chocolate e canela,Bebida,False
+86,Pão de Queijo,5.54,Pão de queijo tradicional,Comida,False
+23,Croissant,14.41,Croissant folhado e amanteigado,Comida,True
+68,Bolo de Cenoura,22.65,Bolo com cobertura de chocolate,Comida,False
+49,Café Expresso,17.22,Café puro e forte,Bebida,True
+22,Café com Leite,16.87,Café com leite espumado,Bebida,True
+67,Capuccino,23.74,Café com chocolate e canela,Bebida,True
+9,Pão de Queijo,12.76,Pão de queijo tradicional,Comida,True
+41,Croissant,15.36,Croissant folhado e amanteigado,Comida,False
+71,Bolo de Cenoura,21.85,Bolo com cobertura de chocolate,Comida,True
+78,Café Expresso,11.94,Café puro e forte,Bebida,True
+83,Café com Leite,20.77,Café com leite espumado,Bebida,False
+16,Capuccino,11.85,Café com chocolate e canela,Bebida,False
+1,Pão de Queijo,19.86,Pão de queijo tradicional,Comida,True
+100,Croissant,8.55,Croissant folhado e amanteigado,Comida,True
+39,Bolo de Cenoura,19.11,Bolo com cobertura de chocolate,Comida,True
+35,Café Expresso,12.55,Café puro e forte,Bebida,True
+42,Café com Leite,18.57,Café com leite espumado,Bebida,False
+47,Capuccino,26.34,Café com chocolate e canela,Bebida,True
+72,Pão de Queijo,23.92,Pão de queijo tradicional,Comida,False
+64,Croissant,23.4,Croissant folhado e amanteigado,Comida,False
+55,Bolo de Cenoura,22.41,Bolo com cobertura de chocolate,Comida,False
+48,Café Expresso,28.6,Café puro e forte,Bebida,False
+34,Café com Leite,11.36,Café com leite espumado,Bebida,True
+19,Capuccino,18.37,Café com chocolate e canela,Bebida,True
+33,Pão de Queijo,23.33,Pão de queijo tradicional,Comida,True

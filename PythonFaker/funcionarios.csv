@@ -1,0 +1,1001 @@
+id_funcionario,nome,sobrenome,telefone,email,cargo,data_contratacao
+372,Cauê,Gomes,+55 (041) 5958 2338,joao-feliperocha@example.com,Cozinheiro,2023-09-22
+359,Benicio,Correia,+55 (031) 8635 6078,ksantos@example.net,Cozinheiro,2022-04-16
+193,Lunna,Pastor,+55 51 6133 7100,caue65@example.com,Barista,2023-05-27
+539,Letícia,Sales,0800-746-5144,casa-grandegustavo@example.com,Atendente,2022-07-17
+875,Otto,Costela,84 1727-4504,yasminpeixoto@example.net,Atendente,2023-04-24
+120,Benjamim,Farias,41 2771 5217,luara06@example.net,Atendente,2024-05-10
+6,Natália,da Paz,84 6644-2138,araujoliz@example.com,Gerente,2022-05-06
+204,Ana Clara,Silveira,81 8403 0392,helena56@example.net,Barista,2021-11-03
+560,Isis,Sales,(051) 1665-0590,gomesanthony-gabriel@example.org,Cozinheiro,2022-01-23
+201,Diogo,Lopes,+55 51 4101 3520,benicioaparecida@example.com,Gerente,2023-04-23
+676,Augusto,Machado,(031) 6978-8584,agathaduarte@example.com,Cozinheiro,2023-01-30
+768,Otto,Melo,+55 84 8708-1921,ida-rosa@example.org,Barista,2023-02-09
+636,Ana Carolina,Dias,(031) 6033 1608,aurora59@example.com,Barista,2023-08-29
+158,Sophia,Duarte,71 7512-1912,msouza@example.com,Barista,2024-01-19
+804,Ana Julia,da Rosa,84 4534-4006,oferreira@example.net,Barista,2023-04-09
+609,Pedro Lucas,Siqueira,(071) 5600-2494,ygomes@example.org,Cozinheiro,2022-06-16
+769,Mariana,da Luz,(011) 9044-0258,henryfonseca@example.net,Gerente,2022-03-16
+667,Laura,Pastor,(081) 6805 9581,leandrocastro@example.com,Gerente,2022-03-22
+21,Eduarda,Freitas,(084) 2056 6233,alana79@example.net,Atendente,2022-03-10
+350,Leandro,Costa,(071) 8299-0384,maria-alicecampos@example.net,Atendente,2023-10-18
+986,Theo,Moreira,+55 (041) 7978 8084,albuquerqueelisa@example.net,Atendente,2023-03-11
+492,Laís,Montenegro,81 8251-0091,cecilia05@example.net,Atendente,2022-11-24
+947,Larissa,Cunha,+55 31 4371-9292,aborges@example.org,Atendente,2023-09-05
+36,Isabelly,Ribeiro,+55 81 4888-5574,jesuspedro-lucas@example.net,Atendente,2023-09-01
+296,Lívia,Pacheco,(011) 7012-0942,luna26@example.net,Atendente,2022-01-15
+414,Maitê,Fernandes,+55 11 3659-9883,usampaio@example.com,Cozinheiro,2022-04-07
+963,Bianca,Costa,+55 41 8772-9032,da-motatheodoro@example.com,Gerente,2022-06-11
+432,Cecília,Cirino,+55 (061) 9713 0597,gaelsousa@example.net,Barista,2023-05-08
+270,Luigi,Pinto,+55 (071) 3778-4337,apeixoto@example.net,Cozinheiro,2021-07-25
+525,Vitor,Azevedo,(071) 0105-6499,matteo86@example.com,Atendente,2024-06-09
+540,Francisco,Machado,+55 (031) 9871 0210,scorreia@example.net,Cozinheiro,2024-05-16
+352,Isabelly,Guerra,(051) 2687 3484,gabriela52@example.com,Barista,2023-07-18
+526,Kaique,Aragão,+55 (081) 1812-4590,luanmelo@example.org,Cozinheiro,2023-08-30
+174,Liam,Nogueira,+55 21 0927 2891,maria-isis10@example.org,Barista,2022-03-12
+511,Bárbara,Andrade,+55 71 1249 7563,goncalvesanthony-gabriel@example.org,Gerente,2023-09-29
+74,Sofia,Farias,+55 61 8832-5437,maria-julia65@example.net,Atendente,2022-06-02
+868,Daniel,Barbosa,61 0592-8323,lorena63@example.org,Barista,2024-05-22
+381,Catarina,Vasconcelos,+55 61 0071 1047,cbarros@example.org,Atendente,2023-03-25
+209,Juan,Peixoto,71 9532 6700,stephanyvasconcelos@example.com,Gerente,2022-06-07
+536,João Guilherme,Albuquerque,+55 11 2103-2953,kevinda-paz@example.org,Atendente,2024-05-22
+651,Breno,Teixeira,84 8180 7517,fernandapimenta@example.org,Gerente,2022-07-12
+323,Dom,Marques,(051) 0269-4754,alexandreda-luz@example.org,Atendente,2024-01-27
+588,Ana Sophia,Carvalho,+55 81 6076-1045,zrezende@example.org,Cozinheiro,2022-02-22
+809,Maria Alice,Lima,+55 31 2496-7840,zsiqueira@example.org,Gerente,2022-12-10
+721,Laís,da Cunha,31 2923-1202,jadepereira@example.com,Atendente,2023-08-21
+475,Arthur Gabriel,Leão,+55 (011) 0016-6448,helena98@example.net,Barista,2024-01-15
+755,Luiz Gustavo,Lima,+55 71 6225 0549,cavalcantilais@example.org,Cozinheiro,2022-12-08
+541,Erick,Pires,(021) 1043-0022,zmendes@example.org,Atendente,2023-05-26
+706,Maria Luiza,Costela,(081) 1992 6092,otto19@example.net,Atendente,2022-01-19
+485,Melina,Cavalcante,0500-971-6936,biancada-cruz@example.org,Cozinheiro,2023-10-30
+357,Antony,Santos,21 5861-3464,fonsecabenicio@example.org,Barista,2023-09-10
+99,Brenda,Abreu,(051) 8000-8493,joao-felipemarques@example.org,Barista,2021-09-29
+340,Luiz Miguel,Montenegro,+55 (071) 0485 6818,josuearaujo@example.net,Barista,2022-06-28
+249,Clara,Vieira,81 5641 2116,kaiqueaparecida@example.com,Cozinheiro,2022-10-09
+345,Bento,das Neves,+55 51 7305 7189,mouravalentina@example.net,Gerente,2023-02-09
+308,Theodoro,Ramos,+55 (021) 6663 7978,hmendes@example.org,Cozinheiro,2023-12-10
+130,Diego,da Costa,+55 71 3784 7660,maria-alicemendonca@example.org,Atendente,2021-12-27
+212,Oliver,da Paz,21 3882-4318,novaisesther@example.org,Barista,2022-05-02
+786,Sophie,Câmara,+55 (021) 1897-0461,vitoria26@example.com,Barista,2021-10-15
+509,Juliana,Nunes,+55 (031) 8966-3747,sampaiolorenzo@example.org,Gerente,2023-12-10
+939,Maria Júlia,da Costa,+55 31 5188 8738,luiz-gustavo42@example.com,Barista,2023-04-02
+617,Sara,Jesus,0900 566 3912,gael-henrique02@example.com,Gerente,2021-12-12
+168,Alana,Pimenta,0900-996-7647,moraesrebeca@example.org,Barista,2024-01-25
+200,Luiz Fernando,Moraes,+55 21 2617 7518,joanapimenta@example.org,Cozinheiro,2024-01-23
+770,Rael,Freitas,+55 (084) 1037-3113,vinicius01@example.com,Atendente,2023-04-23
+843,Calebe,Campos,(071) 2394 7635,eloahlima@example.com,Barista,2022-11-28
+470,Ana Cecília,Silveira,+55 11 1657-0212,brenda33@example.org,Atendente,2023-07-25
+522,Milena,Oliveira,0800 930 5742,portolorenzo@example.net,Barista,2023-11-10
+224,Matheus,Almeida,84 0236-5113,vsiqueira@example.org,Gerente,2023-05-31
+656,Igor,Dias,+55 31 5917 6623,omarques@example.net,Barista,2022-07-12
+851,Breno,Sales,(081) 8694 9580,casa-grandematheus@example.org,Atendente,2022-09-18
+559,Gabriel,Mendonça,51 5364 6451,levi46@example.org,Gerente,2022-03-05
+177,Heitor,Freitas,(031) 3948-0994,elisamendes@example.net,Cozinheiro,2022-08-13
+451,Maya,Freitas,(031) 8217-8664,sda-cruz@example.net,Atendente,2022-05-15
+628,Helena,Jesus,+55 31 4797 9811,mpires@example.org,Barista,2023-04-20
+703,Sofia,Porto,41 0852 1876,ayla64@example.net,Cozinheiro,2021-09-10
+241,Pietra,Almeida,81 9640 6181,tpimenta@example.com,Gerente,2024-03-05
+330,Miguel,das Neves,84 2359-8969,lizsilva@example.net,Atendente,2023-10-05
+921,Joaquim,Pires,+55 11 9295 4188,lunavasconcelos@example.org,Atendente,2023-11-03
+839,Vitor Hugo,Azevedo,0800-019-8434,dmelo@example.org,Cozinheiro,2023-07-11
+594,Anna Liz,Ferreira,+55 (071) 5619-3633,bcampos@example.com,Gerente,2022-10-04
+149,Ísis,Vieira,51 6304 0003,rmacedo@example.com,Atendente,2023-12-22
+615,João Miguel,Alves,0800-763-5037,yrodrigues@example.org,Cozinheiro,2023-06-03
+529,Davi Luiz,da Costa,(041) 4769-3623,ggomes@example.net,Gerente,2022-10-16
+811,Luan,Moreira,(051) 9207 6349,ferreirabenjamin@example.net,Cozinheiro,2021-10-03
+828,Larissa,Moraes,11 4017 2837,peixotoeduarda@example.com,Barista,2022-01-28
+857,Bruno,Aragão,(031) 2631 6748,costajoao-felipe@example.net,Atendente,2022-03-09
+838,Ana Júlia,Azevedo,+55 (011) 4383 4506,yago01@example.org,Cozinheiro,2021-07-05
+482,Emanuel,Castro,0800-894-3903,maria09@example.com,Barista,2024-05-10
+679,Antony,da Rocha,(021) 2265-3435,mcavalcante@example.net,Cozinheiro,2021-10-01
+800,Calebe,Gonçalves,+55 (084) 0408-5825,vpimenta@example.net,Gerente,2021-07-23
+373,Guilherme,Nogueira,(041) 8059-7199,pachecogustavo@example.net,Gerente,2023-10-20
+109,Bernardo,Gomes,51 9330 6999,lorenzo30@example.org,Atendente,2023-05-14
+417,Guilherme,Ribeiro,(084) 5445 8342,hpires@example.org,Cozinheiro,2024-04-11
+500,Alexandre,da Costa,+55 31 1444 5683,novaesisabelly@example.org,Gerente,2022-08-31
+681,Rafael,Duarte,51 5538 5169,hdas-neves@example.net,Atendente,2022-11-13
+930,Juan,Teixeira,21 6664 7972,diasjosue@example.org,Cozinheiro,2023-03-10
+243,Diogo,Ramos,+55 41 1033 7956,diogocorreia@example.com,Atendente,2022-11-19
+80,Bella,Freitas,+55 41 2271 3046,rgarcia@example.org,Atendente,2023-09-08
+510,Giovanna,Ramos,+55 (071) 5473 0026,isaquegarcia@example.net,Atendente,2022-01-13
+157,Clara,Campos,+55 31 0175 1562,ada-luz@example.org,Gerente,2022-11-25
+976,Diego,Mendonça,(041) 2237 9324,pcamargo@example.com,Atendente,2021-10-05
+484,Olívia,Oliveira,(041) 0215-1010,ana-livia56@example.net,Atendente,2023-11-09
+11,Marina,Rios,+55 (061) 8601 7960,kamillyda-rocha@example.org,Cozinheiro,2021-08-20
+314,Davi Miguel,Brito,(011) 9141 0614,abreuleticia@example.com,Gerente,2023-06-29
+791,Bruna,Marques,+55 31 4863 8630,vitor98@example.com,Cozinheiro,2024-01-05
+311,Murilo,Ramos,+55 84 7447-0154,vitor-gabriel13@example.com,Gerente,2022-01-06
+762,Gabriela,Martins,41 3022-2771,henry-gabrielfogaca@example.net,Cozinheiro,2023-06-09
+639,Maysa,Mendonça,+55 81 3323-1698,aurora38@example.net,Cozinheiro,2023-07-20
+946,Mariana,Gomes,(031) 3160-6656,qpacheco@example.net,Cozinheiro,2021-11-07
+108,Ravi Lucca,da Luz,+55 (081) 1217 9377,da-matalarissa@example.org,Atendente,2024-01-15
+793,Brenda,Pastor,(051) 9297 9919,castroigor@example.net,Atendente,2023-02-26
+422,Luísa,Vieira,(071) 4480 9736,qbarros@example.net,Cozinheiro,2023-08-01
+820,João Vitor,Cardoso,+55 (031) 9163 5646,azevedoarthur-miguel@example.com,Atendente,2023-01-14
+228,Theodoro,Câmara,81 3559-7034,sferreira@example.com,Gerente,2024-04-24
+573,Ana Julia,das Neves,(041) 2236 8831,nnovais@example.org,Cozinheiro,2024-03-02
+962,Enrico,Fogaça,(011) 6814-1717,theomarques@example.org,Atendente,2021-07-10
+549,Ana Júlia,Moraes,+55 (071) 7349-0671,ycavalcanti@example.net,Gerente,2021-07-06
+488,Gael Henrique,Novais,+55 (081) 2047-6408,diegoabreu@example.net,Atendente,2022-07-12
+13,Maria Luísa,Aparecida,+55 (011) 5026-4414,da-conceicaoaurora@example.org,Gerente,2021-06-15
+834,Maria Vitória,Moraes,+55 (061) 0258-4074,amandapires@example.org,Cozinheiro,2023-10-03
+434,Anthony,Moraes,31 1135 8262,felipe80@example.org,Gerente,2023-11-14
+720,Fernando,Oliveira,11 9459-5333,lizgoncalves@example.org,Gerente,2023-06-17
+472,Francisco,Albuquerque,51 6281 5852,vramos@example.net,Gerente,2021-08-15
+387,Isabela,Mendes,+55 21 5270-7961,cirinojade@example.com,Cozinheiro,2022-12-23
+383,Vitor Gabriel,Costa,11 7077-6192,zoe26@example.com,Atendente,2022-11-25
+117,Igor,Vasconcelos,+55 (051) 0604-0604,maria-isiscorreia@example.org,Barista,2024-04-28
+429,Lara,Moraes,(031) 0557-9247,maria-fernandaaragao@example.com,Gerente,2023-04-21
+792,Erick,Silveira,+55 81 1277-1837,raul31@example.net,Atendente,2022-04-18
+94,Ana Vitória,Macedo,(041) 4876 3498,hdas-neves@example.net,Atendente,2021-11-24
+129,Gustavo,Castro,+55 61 2991 2264,monteiromaria-julia@example.org,Barista,2023-01-10
+431,João Miguel,Costela,+55 (021) 8100 6565,joao-guilhermeda-luz@example.org,Cozinheiro,2022-06-05
+326,Sara,das Neves,84 5593-2766,hpinto@example.org,Gerente,2023-03-22
+906,Stephany,Campos,+55 (081) 1047-1073,azevedoluiz-otavio@example.com,Gerente,2023-11-25
+51,Kevin,da Luz,+55 51 4317 4354,diasenrico@example.net,Atendente,2021-11-08
+458,Yago,Lima,(081) 6329 6799,lunnagarcia@example.com,Gerente,2022-10-07
+508,Levi,Dias,+55 (021) 7206-5756,caldeiraemanuel@example.net,Gerente,2024-03-28
+572,Isabella,Campos,+55 61 3626 2903,guerraanthony-gabriel@example.net,Cozinheiro,2022-10-01
+756,Olívia,Guerra,+55 (081) 4836-3730,wda-paz@example.com,Barista,2024-01-03
+73,Dante,da Cunha,(031) 8264-9120,luiza53@example.net,Cozinheiro,2024-04-25
+597,Arthur Miguel,Vieira,31 3238 5785,rael07@example.org,Cozinheiro,2024-06-05
+814,Josué,Novais,+55 (081) 0590 8174,luna21@example.com,Barista,2023-02-05
+521,Vinicius,Martins,+55 (011) 1502 2187,da-rochamariah@example.com,Atendente,2024-05-07
+524,Mirella,da Rosa,+55 (061) 5892-6593,ninavasconcelos@example.com,Barista,2021-11-08
+796,Vinicius,Araújo,+55 (011) 3981 5404,alicia60@example.org,Atendente,2023-11-12
+197,Isaac,Rocha,11 9247 9929,montenegronatalia@example.net,Gerente,2021-06-21
+88,Luna,Lopes,+55 41 6268-1094,joanateixeira@example.net,Barista,2022-04-21
+46,Giovanna,Garcia,41 8894 2795,limamaite@example.org,Atendente,2024-04-01
+286,Melina,Abreu,(051) 8532-9065,xaparecida@example.com,Cozinheiro,2024-05-02
+230,Rhavi,Nogueira,(021) 7341 9224,emillyaparecida@example.net,Atendente,2021-10-17
+528,Ana Beatriz,da Luz,(071) 7324-1368,joao-lucas53@example.net,Barista,2022-12-21
+45,Samuel,da Conceição,+55 (081) 8013 5128,britoluiz-otavio@example.org,Cozinheiro,2022-11-25
+772,Luigi,Pires,(051) 6561-5154,da-costaenzo@example.net,Cozinheiro,2021-08-05
+700,Pedro Henrique,Ferreira,41 3448 2545,bellacastro@example.net,Cozinheiro,2023-01-30
+304,Zoe,Ferreira,0300-113-3907,amartins@example.com,Atendente,2024-04-24
+915,Calebe,da Rocha,+55 (021) 1100-2472,bruno89@example.net,Atendente,2021-08-09
+268,Luana,Campos,+55 (084) 4355 1418,maria-alicefogaca@example.net,Cozinheiro,2023-11-17
+439,Ana Cecília,da Mata,81 7918-9426,da-cruzluiza@example.com,Gerente,2024-02-16
+658,Brayan,Pires,71 3708-8260,guerrajuan@example.com,Gerente,2022-04-12
+125,Luiz Miguel,Costela,(041) 1707-2885,cavalcantesophie@example.org,Gerente,2023-06-18
+659,Joana,Ribeiro,+55 81 0677-2108,pedro-miguelbarros@example.net,Atendente,2023-07-13
+995,Agatha,Montenegro,+55 81 0984-0955,amanda79@example.com,Barista,2022-10-16
+596,Dante,Ferreira,(031) 3729-9769,antoniolopes@example.net,Atendente,2023-04-09
+349,Heloisa,Freitas,0500-390-2524,erickda-rocha@example.net,Gerente,2023-07-24
+450,Matteo,Gonçalves,(051) 5627-3777,ana-lauravasconcelos@example.org,Barista,2022-01-06
+413,Gustavo Henrique,Fogaça,+55 51 3171 1605,lucca11@example.org,Atendente,2022-03-01
+863,Eloah,Cirino,41 3948-2093,isabella74@example.com,Cozinheiro,2023-04-23
+766,Mariane,Rocha,+55 (011) 5740-2151,lais88@example.net,Cozinheiro,2023-10-15
+665,Sophia,Siqueira,84 9527 8792,cirinojoao-guilherme@example.net,Atendente,2022-07-17
+410,Henry,Gomes,(021) 3801 2398,fjesus@example.org,Atendente,2021-08-27
+288,Maria Alice,Correia,+55 21 0045-4754,ccavalcanti@example.org,Atendente,2024-03-10
+178,Anthony,Dias,11 8095-0263,peixotomaria-alice@example.org,Barista,2022-02-22
+969,Otto,Cavalcanti,+55 (051) 2852-9307,portopaulo@example.com,Gerente,2023-10-06
+213,Mariah,Carvalho,+55 (031) 1025-5800,thiago03@example.net,Cozinheiro,2024-03-02
+980,Gustavo,Costela,+55 84 7538-1670,asafemelo@example.net,Cozinheiro,2023-09-15
+697,Enzo Gabriel,Araújo,+55 (031) 0488-8679,gda-mota@example.net,Cozinheiro,2023-02-16
+725,Heitor,Melo,(061) 4710 7645,cardosoeduardo@example.org,Cozinheiro,2021-07-23
+227,Joana,Lopes,+55 (061) 4041 7418,moraesthomas@example.org,Gerente,2024-02-25
+416,Yasmin,da Paz,41 5707-0257,montenegroana-carolina@example.net,Barista,2022-12-31
+210,Maysa,Martins,11 0231 9412,yago18@example.net,Barista,2021-09-18
+858,Theodoro,Pires,+55 71 2633 5992,pietroramos@example.com,Atendente,2024-04-27
+570,Pedro,Aparecida,+55 (021) 9472-7029,pastoryuri@example.net,Gerente,2021-12-10
+674,Matheus,Borges,+55 (081) 1831-3262,wcunha@example.com,Barista,2021-09-25
+662,Samuel,Moura,+55 31 0821-8382,da-luzmaria-luisa@example.org,Barista,2022-12-26
+530,Lara,Cavalcanti,+55 (071) 7831-1040,lais89@example.com,Atendente,2022-05-05
+466,João Vitor,Abreu,51 1820 1211,hadassa30@example.net,Atendente,2021-07-21
+42,Benjamim,Monteiro,(084) 0956-8121,mpinto@example.net,Gerente,2022-11-25
+315,João Guilherme,Moraes,(071) 0551-2333,costaana-vitoria@example.net,Gerente,2022-04-26
+295,Maria Fernanda,Sales,0500-777-4500,rvargas@example.org,Gerente,2022-12-10
+728,Ayla,da Conceição,71 0895-3599,da-matanatalia@example.net,Cozinheiro,2023-02-26
+670,Maria Laura,Azevedo,0300-974-4276,gael-henriquesantos@example.com,Cozinheiro,2021-12-30
+944,Rafaela,Machado,0500-769-1896,vborges@example.com,Gerente,2021-10-14
+189,Maria Sophia,Rodrigues,+55 (031) 8348 1095,ana20@example.com,Gerente,2021-11-13
+44,Sara,Cavalcanti,21 8258 8805,liamda-conceicao@example.net,Atendente,2023-11-06
+418,Vitor Gabriel,Albuquerque,84 9243-8193,ipastor@example.net,Atendente,2022-04-04
+67,Sophia,Nascimento,31 6738-2400,emanuelda-costa@example.net,Atendente,2022-10-26
+362,Bryan,Pacheco,(011) 5581 9619,pereiracaue@example.net,Cozinheiro,2024-02-18
+779,Luara,da Mota,21 7958-1851,ana-ceciliamoreira@example.com,Gerente,2023-04-12
+844,Rafaela,Vieira,+55 71 9977-5281,monteirofernando@example.org,Barista,2022-11-13
+631,João Felipe,Abreu,(084) 8853-3151,da-costayuri@example.net,Gerente,2023-08-04
+12,Théo,Pinto,+55 61 4421 7784,maria-alice53@example.com,Gerente,2021-08-16
+325,Yan,Cavalcanti,+55 84 4892 9481,fbarbosa@example.com,Cozinheiro,2023-10-28
+943,Vinicius,Ribeiro,61 6956 5844,pda-mata@example.com,Barista,2023-01-04
+77,Ana Liz,Rezende,(081) 2770-1188,milena43@example.com,Barista,2021-11-23
+176,Manuella,da Paz,+55 (031) 1973-3093,aliciaribeiro@example.com,Barista,2024-06-10
+309,Benjamin,Cassiano,+55 (061) 9136 9680,sampaioluiz-otavio@example.com,Atendente,2023-03-26
+481,Agatha,da Luz,31 1384 2595,aparecidaotavio@example.net,Barista,2021-10-17
+936,Noah,Rios,11 1019 1502,fogacaallana@example.org,Barista,2022-08-03
+173,Léo,Nogueira,84 4713 1296,azevedovalentina@example.net,Barista,2024-06-10
+802,Danilo,Barbosa,0900 248 5031,pcamargo@example.net,Cozinheiro,2023-12-31
+377,Maria Vitória,da Mata,+55 71 9488-4230,mouraian@example.net,Cozinheiro,2021-10-01
+424,Otávio,Macedo,+55 (084) 3548-5064,nunespietra@example.net,Gerente,2022-05-08
+106,Luan,Carvalho,61 7484 9572,jose-pedro33@example.org,Barista,2021-08-31
+650,Gustavo Henrique,Novaes,+55 (041) 4406 8481,xsilveira@example.com,Cozinheiro,2022-06-20
+239,Breno,Lopes,+55 (051) 8716-8384,hleao@example.com,Atendente,2023-12-14
+334,Júlia,Farias,(071) 1264-1710,miguelcavalcanti@example.org,Atendente,2024-03-22
+788,Gabriel,Pacheco,+55 61 4085 5026,emanuellycamara@example.org,Barista,2023-12-12
+9,Matteo,Sales,+55 (041) 8792-7039,pazevedo@example.com,Barista,2023-09-17
+877,Alícia,Viana,+55 (071) 2294-3398,mouralevi@example.org,Barista,2023-04-07
+433,Luiz Fernando,Teixeira,41 0779 6845,da-rosacaleb@example.net,Atendente,2021-08-14
+335,José Miguel,Novaes,+55 84 2990 2172,camila77@example.com,Cozinheiro,2021-11-24
+742,Isaac,Novaes,+55 21 3474 1528,idas-neves@example.net,Barista,2024-02-26
+499,Ester,Borges,31 8692-7914,vcarvalho@example.org,Atendente,2023-04-25
+131,Ana Laura,Costela,+55 31 9062-3686,ayllaandrade@example.org,Atendente,2024-05-02
+761,Ayla,Sá,+55 (041) 8543-7542,mmoreira@example.org,Gerente,2022-08-01
+250,Ágatha,Casa Grande,+55 (081) 8040-1526,manuelaabreu@example.net,Gerente,2022-08-28
+745,Arthur,Porto,(061) 5174 9229,leo52@example.com,Barista,2021-06-24
+146,Ravy,Montenegro,21 5235-3982,luaracunha@example.net,Gerente,2021-10-30
+845,Olívia,Sá,+55 21 9140-9853,bryansampaio@example.net,Gerente,2023-07-01
+133,Luiz Felipe,Cassiano,(081) 8157 0759,da-conceicaogustavo-henrique@example.org,Cozinheiro,2022-07-09
+438,Ana,Melo,+55 (084) 3600-4364,enzocardoso@example.com,Cozinheiro,2023-12-07
+290,Jade,Rios,(021) 8777-8883,benjamin58@example.org,Cozinheiro,2022-07-19
+246,Ian,Vargas,11 3124 9868,meloanna-liz@example.net,Atendente,2021-08-18
+798,Evelyn,Souza,(081) 3128 8782,emanuelcunha@example.org,Atendente,2022-03-07
+657,Ana,da Paz,0800 236 3132,benicio74@example.org,Atendente,2021-09-04
+872,Diego,Sampaio,+55 81 6780-0211,eda-rocha@example.net,Gerente,2023-02-21
+860,Yan,Costela,(021) 9462 7264,fernandesluisa@example.org,Gerente,2024-05-07
+267,Isis,Rodrigues,0500-717-1655,rafael83@example.org,Atendente,2022-11-03
+548,Leonardo,Pacheco,11 7882 8231,vsa@example.org,Cozinheiro,2022-07-26
+50,Gustavo Henrique,Ferreira,11 5124-4911,isadora62@example.org,Cozinheiro,2023-03-01
+394,Luana,Lopes,81 6944 2902,pimentabruna@example.com,Barista,2023-10-09
+663,Mariane,Porto,0300-298-8452,stellamacedo@example.com,Cozinheiro,2022-03-07
+664,Luísa,Sampaio,+55 (051) 8064-2002,wcampos@example.com,Barista,2022-12-07
+386,Maria Fernanda,Moraes,81 6222 4109,eloa17@example.com,Gerente,2022-11-04
+396,Stella,da Paz,(011) 1829 5243,das-nevesguilherme@example.com,Gerente,2024-01-26
+754,Asafe,Siqueira,81 3002 5761,evelynmachado@example.net,Barista,2024-03-30
+284,Luana,Rios,(081) 5982 7503,jose-pedro20@example.com,Barista,2023-01-07
+452,Breno,Araújo,(071) 7298-6778,isa@example.com,Atendente,2022-05-11
+147,Benício,Abreu,(031) 6988-8161,cunhatheo@example.net,Cozinheiro,2023-02-07
+992,Juliana,Pacheco,(084) 0907 7858,isis99@example.org,Barista,2022-07-22
+468,Ana Vitória,Mendonça,+55 84 0795 3707,montenegroarthur-gabriel@example.com,Gerente,2023-06-09
+83,Maria,Sousa,+55 (061) 6840-6343,fsiqueira@example.com,Atendente,2022-05-13
+385,Gustavo,Souza,0800 483 0278,azevedogabriela@example.net,Cozinheiro,2022-08-17
+874,Heloísa,Azevedo,+55 51 2800 1071,sramos@example.com,Barista,2024-02-16
+258,Catarina,Sousa,(081) 4247-1648,diogovieira@example.com,Gerente,2021-06-30
+370,Caio,Rocha,+55 (061) 4981 6148,valentinacirino@example.org,Cozinheiro,2024-01-07
+155,Heloísa,Ribeiro,+55 (081) 2933-4271,maria-luizaalbuquerque@example.org,Gerente,2023-08-20
+378,Erick,Borges,+55 81 9607 7518,ramosemanuella@example.org,Atendente,2022-08-17
+757,Cecilia,Moraes,(081) 4971-0042,mariane43@example.org,Barista,2022-01-25
+956,Yasmin,da Conceição,0300 208 7566,da-costaaylla@example.net,Gerente,2022-03-06
+237,Thomas,Nascimento,0500-942-6656,agathacavalcante@example.net,Cozinheiro,2023-01-01
+404,João Gabriel,Araújo,+55 (071) 3564 6553,kevin06@example.org,Cozinheiro,2022-04-11
+232,Zoe,Macedo,61 9752-1015,arthur-miguelmontenegro@example.net,Barista,2024-01-25
+895,Benício,Gonçalves,61 1734 0687,isabelly71@example.org,Cozinheiro,2021-09-09
+307,Isabela,Garcia,21 4730-4495,jazevedo@example.net,Atendente,2023-02-20
+556,Gustavo Henrique,Leão,61 2933-7207,arthur09@example.com,Cozinheiro,2021-12-01
+160,Igor,Pastor,0800-031-2559,bnovais@example.com,Gerente,2024-05-30
+805,Emilly,Guerra,+55 (051) 3089-7556,sampaioluisa@example.org,Cozinheiro,2023-04-08
+366,Luiz Henrique,Oliveira,(081) 7362 4247,melotheodoro@example.com,Barista,2021-12-21
+960,João Felipe,da Conceição,0300-754-5031,davi-luizleao@example.net,Gerente,2023-05-07
+778,Marcelo,Farias,51 8360 1535,inovaes@example.net,Atendente,2023-03-17
+649,Enzo,Fonseca,+55 21 8540-9038,marquesisabelly@example.com,Barista,2024-03-21
+54,Rebeca,Moreira,(084) 3902-6330,vicente38@example.org,Cozinheiro,2021-11-05
+421,Sophia,Duarte,0500 206 4096,manuela39@example.com,Gerente,2022-01-03
+38,Helena,Montenegro,71 4346 8409,pedro-miguel84@example.com,Atendente,2021-11-08
+977,Cauã,Barros,0900-455-1009,inovaes@example.com,Barista,2021-08-25
+959,Maysa,Aragão,+55 51 7951 7938,luccacardoso@example.com,Gerente,2021-09-06
+586,Mariana,Pastor,61 2364-4276,marianadas-neves@example.org,Gerente,2023-09-23
+457,Cecília,Dias,0800 010 2704,yleao@example.com,Gerente,2024-05-24
+264,Caio,da Rosa,0300 246 4767,kevinmoreira@example.org,Barista,2021-11-03
+810,Mariah,Rocha,+55 11 8961 0913,wborges@example.com,Barista,2021-10-26
+455,Levi,Oliveira,81 7379-0224,oliviapires@example.com,Cozinheiro,2022-07-19
+310,Maria Alice,Cavalcanti,(031) 2135-0644,vcamara@example.org,Gerente,2023-06-30
+110,Liam,da Conceição,+55 (011) 1133-7494,beniciosampaio@example.net,Cozinheiro,2022-04-26
+569,Julia,Camargo,0300 274 7243,enricoteixeira@example.net,Atendente,2024-05-13
+208,Noah,Teixeira,0500 803 3346,qsiqueira@example.com,Cozinheiro,2021-08-31
+738,Antony,Lopes,+55 31 8984 2273,heloisa16@example.org,Atendente,2022-04-26
+59,Felipe,Pacheco,(051) 6182 4583,lmoraes@example.net,Cozinheiro,2022-12-17
+89,Carolina,Cavalcanti,+55 (081) 7751 8456,benjamimcardoso@example.net,Atendente,2022-09-12
+750,Ana Cecília,Araújo,+55 21 0860 4394,benicio21@example.com,Atendente,2022-01-14
+430,Ravy,Cirino,+55 (051) 9872-6311,da-pazisadora@example.com,Cozinheiro,2024-06-11
+376,Otto,Albuquerque,0300-964-7965,theodoromoraes@example.com,Barista,2023-09-15
+682,Matteo,Araújo,(011) 4165 4224,maria-luiza53@example.com,Gerente,2021-08-30
+259,Yuri,Oliveira,+55 11 1347-6828,bcavalcante@example.org,Barista,2021-07-27
+699,Heloísa,Abreu,(081) 3865 5287,clima@example.org,Cozinheiro,2023-08-24
+671,Ana Julia,Campos,(081) 5257 6887,silvaayla@example.org,Gerente,2021-12-07
+336,Caleb,Correia,81 8452 0540,dsantos@example.com,Barista,2022-01-15
+859,Júlia,Cassiano,+55 84 0794-3417,pintoigor@example.com,Barista,2023-03-04
+563,João Felipe,Fonseca,21 5479 8431,rochaenzo@example.org,Cozinheiro,2022-01-05
+100,Lorenzo,Rocha,(051) 4945-2358,maria-laura72@example.org,Barista,2022-05-09
+876,Hadassa,Rios,+55 61 6486-9336,qcavalcante@example.org,Barista,2022-02-26
+303,João Miguel,Montenegro,84 3139 1162,augusto54@example.org,Atendente,2024-04-07
+191,Ana,Pimenta,+55 (081) 4515-3027,maysa00@example.com,Cozinheiro,2023-01-29
+402,Gael,Duarte,+55 81 8744 3776,jjesus@example.com,Atendente,2023-11-17
+269,Davi Lucas,Barbosa,41 5164-6597,natalia15@example.com,Gerente,2022-06-01
+746,Hadassa,Carvalho,+55 (051) 7089 7169,pimentamaria-laura@example.org,Atendente,2023-06-09
+320,Brenda,Barbosa,0500 931 1049,gmonteiro@example.com,Cozinheiro,2022-03-31
+401,Vinicius,Aparecida,+55 71 7437 0317,ana-clarada-paz@example.com,Gerente,2022-08-02
+867,Ravi,Freitas,+55 31 4767 3761,mirella17@example.net,Barista,2024-04-11
+34,Kevin,da Costa,+55 (011) 9774-4628,amoura@example.com,Gerente,2024-06-01
+411,Isis,Moreira,+55 71 1839 5232,gael-henriquesantos@example.net,Gerente,2024-02-29
+353,Isadora,Porto,+55 61 5050-6255,fernandesrenan@example.net,Atendente,2021-10-15
+923,Esther,Gomes,(051) 1697-9303,davi-lucasda-rocha@example.net,Barista,2022-06-26
+23,Danilo,Sales,(061) 4062-5882,igarcia@example.org,Atendente,2023-02-04
+677,Maria Vitória,Viana,(061) 5617 9274,marcelamendonca@example.net,Gerente,2022-04-25
+346,Marcela,Campos,+55 31 0124 4564,zda-cruz@example.com,Barista,2022-02-12
+878,Arthur Gabriel,Porto,84 9167 7539,qfarias@example.com,Atendente,2023-02-10
+300,Thomas,Sales,+55 (011) 4829-6927,davi-luizcamara@example.net,Cozinheiro,2022-09-24
+917,Nina,Gomes,31 9549 2022,nsampaio@example.org,Cozinheiro,2023-08-18
+897,Mariana,Gomes,+55 (081) 6966-1556,caiocampos@example.com,Atendente,2023-07-01
+407,Arthur Miguel,Moura,+55 (041) 1368 6039,heloisa86@example.net,Atendente,2022-03-30
+736,Lara,Brito,+55 (081) 3678-4040,bramos@example.org,Atendente,2022-08-03
+729,Júlia,Mendes,(071) 7309-8548,teixeirahenry-gabriel@example.com,Gerente,2022-04-17
+453,Liz,da Paz,(041) 9385 9878,rafaelamacedo@example.org,Gerente,2021-09-15
+437,Kaique,Fogaça,(084) 5889-0696,pintootavio@example.org,Barista,2024-01-23
+555,Guilherme,da Cunha,31 7662 4342,andradevinicius@example.net,Atendente,2022-06-07
+490,Maysa,Peixoto,(061) 9461-1869,gabrielly99@example.com,Cozinheiro,2023-01-03
+564,Sofia,Sá,(061) 7499-5932,maria-aliceda-mota@example.net,Cozinheiro,2022-04-29
+773,Brenda,Castro,+55 (071) 4539 2523,theocamara@example.com,Cozinheiro,2021-07-10
+558,Maria Alice,da Rosa,(084) 7340-4475,barrosmaysa@example.org,Atendente,2021-07-24
+22,José Miguel,Cunha,+55 (061) 3535-2881,monteirobento@example.net,Barista,2023-01-12
+689,Ian,Freitas,(084) 0130-5539,maria-julia31@example.org,Cozinheiro,2021-12-19
+758,Sophia,Teixeira,+55 81 1121-9974,abreubenjamim@example.com,Gerente,2024-01-08
+978,Theodoro,da Cunha,(081) 9229-6253,xdas-neves@example.org,Barista,2023-02-20
+591,Asafe,Cavalcanti,+55 81 8523 4760,biancanascimento@example.net,Atendente,2022-03-12
+195,Aylla,Jesus,+55 41 7463-3530,enzo-gabriel43@example.org,Barista,2022-05-14
+355,Maysa,Lima,+55 (021) 6817 2089,agatha08@example.com,Atendente,2024-01-05
+929,Arthur Miguel,da Paz,+55 (011) 4826 9478,isabellaaparecida@example.org,Barista,2022-10-29
+974,Raul,Alves,+55 81 2837-7673,bento66@example.net,Gerente,2021-07-15
+637,Luigi,Albuquerque,+55 21 6434 3095,zfarias@example.org,Atendente,2023-02-03
+515,Maria Fernanda,Sá,(051) 8966 7770,macedoisabella@example.com,Cozinheiro,2022-07-15
+836,Arthur Gabriel,Souza,+55 (041) 9398 7349,oliveiraryan@example.org,Cozinheiro,2022-12-18
+598,Rhavi,Jesus,0500 684 5273,maria-lizribeiro@example.net,Cozinheiro,2024-05-11
+934,Diogo,Albuquerque,51 9605 0967,arthur-gabriel40@example.org,Cozinheiro,2023-07-15
+999,Renan,Andrade,+55 31 3583 9703,rafaela73@example.net,Atendente,2023-11-23
+732,Ana Laura,Garcia,0800-302-2534,ana-vitoria70@example.com,Gerente,2023-05-15
+274,Thales,Gomes,+55 (031) 6912-7610,maya79@example.com,Gerente,2023-09-21
+774,Ana Luiza,da Cruz,31 5185 6662,luiza88@example.com,Cozinheiro,2024-01-26
+448,Marcelo,Novaes,0500 543 2535,erick19@example.org,Barista,2022-12-03
+156,Catarina,Farias,+55 31 0753 5586,valentim07@example.com,Cozinheiro,2024-03-14
+463,Gael Henrique,Cassiano,+55 (061) 4394-3474,maria-claracamargo@example.com,Atendente,2022-04-16
+790,Luiz Miguel,Barros,(061) 0948-7710,maysaferreira@example.com,Cozinheiro,2023-12-28
+503,Maria Cecília,das Neves,(011) 4170-5625,macedobruna@example.org,Gerente,2021-10-30
+285,Mariana,Silveira,+55 (031) 3104 6399,dcavalcanti@example.com,Cozinheiro,2021-08-10
+575,Ana Cecília,Alves,81 0468-3632,abreumaria-vitoria@example.com,Gerente,2021-08-01
+789,Maria Julia,Aparecida,+55 71 4405 8203,riostheo@example.com,Atendente,2022-12-13
+610,Matheus,da Conceição,+55 (021) 1185 8903,maria-florcamargo@example.com,Cozinheiro,2023-12-18
+348,Mathias,Carvalho,+55 51 9181 4797,isabella59@example.org,Cozinheiro,2021-12-27
+898,Melissa,Pinto,+55 41 6525-6468,igormelo@example.org,Barista,2023-04-02
+693,Ana,Mendes,+55 71 0288-9549,cirinomaysa@example.org,Atendente,2023-11-03
+714,Luna,Pires,(071) 7010 9459,da-cruzvitoria@example.net,Gerente,2021-12-21
+849,Olívia,Machado,(011) 6776 1280,apereira@example.org,Barista,2022-10-08
+708,Ryan,Costela,(071) 0135-9444,calebealbuquerque@example.com,Atendente,2024-05-20
+675,Arthur Gabriel,Rocha,+55 (011) 9079 0007,razevedo@example.net,Cozinheiro,2023-02-28
+955,Benjamin,Novaes,71 0326-4281,nogueiralunna@example.net,Gerente,2023-03-14
+685,Nicolas,Ramos,+55 81 4551 1923,gomessabrina@example.com,Barista,2023-01-27
+578,Antony,da Rosa,0300 707 2508,henryfogaca@example.com,Barista,2023-01-05
+982,Maria Vitória,Câmara,+55 (081) 0267-8807,calebe97@example.com,Atendente,2022-04-21
+338,Yago,Sá,+55 (011) 9882-1947,guilhermemarques@example.com,Gerente,2023-08-05
+638,Marcelo,Sá,+55 (061) 3054-8510,jmendes@example.com,Atendente,2022-08-26
+459,João Guilherme,Pires,84 9292-3527,joao-guilhermedas-neves@example.net,Gerente,2023-01-14
+446,Melissa,da Paz,51 4333 8784,diasana-luiza@example.org,Atendente,2021-08-09
+566,Evelyn,Alves,+55 (081) 8408-5272,pachecohenry@example.org,Barista,2021-09-08
+471,Maria Alice,Barbosa,+55 31 4066 0652,oalves@example.net,Barista,2021-12-18
+419,Valentina,Barbosa,+55 (051) 6108-9980,elisa65@example.org,Gerente,2023-06-09
+397,Antony,Mendes,71 6249 6141,qmoraes@example.net,Atendente,2021-11-02
+354,Stella,Casa Grande,61 1526-0401,da-cruzsabrina@example.org,Atendente,2021-11-17
+989,Davi,Nunes,+55 (011) 0396-7972,brayan46@example.com,Barista,2022-07-14
+39,Carlos Eduardo,Barbosa,51 3663 7278,gustavo-henriqueporto@example.org,Gerente,2022-09-28
+5,Maysa,Pacheco,0900-090-0163,luiz-otavio61@example.net,Atendente,2022-07-18
+103,Henry Gabriel,Pires,+55 51 8554 9187,wgomes@example.org,Cozinheiro,2023-04-02
+643,Erick,Duarte,(021) 9877-0677,nunesmaria-cecilia@example.org,Barista,2024-03-03
+696,Emanuel,Albuquerque,+55 71 0664-8328,gpereira@example.net,Barista,2022-04-14
+538,Anthony,da Costa,(031) 6117 2440,ravi-luccacostela@example.com,Barista,2023-01-15
+154,João Pedro,Moraes,(021) 2167-7485,julianacosta@example.org,Gerente,2021-08-03
+535,Samuel,da Mata,0300 562 3906,rezendeluiz-fernando@example.net,Barista,2024-01-01
+62,Bento,Mendes,(021) 6695-1114,yuri91@example.org,Cozinheiro,2021-12-18
+580,Luiza,Peixoto,+55 (041) 8269-1898,bella00@example.com,Atendente,2023-03-01
+783,Davi,Fonseca,(084) 4986-0871,juan81@example.org,Cozinheiro,2022-05-10
+890,Lívia,Viana,+55 (021) 5225-5306,gabriellypastor@example.net,Cozinheiro,2022-04-20
+648,Isaac,da Cunha,+55 (071) 4291 2697,da-cunharafael@example.com,Cozinheiro,2022-04-19
+787,Lunna,Carvalho,(061) 5419-6167,garciagustavo@example.org,Barista,2023-10-29
+583,Bárbara,Abreu,11 3856 6015,nogueirahenry@example.net,Cozinheiro,2021-10-26
+678,Cecilia,Moura,+55 (051) 1232 0402,silvaheloisa@example.net,Barista,2023-06-28
+602,Dom,Pires,(071) 8269 4016,alicecamargo@example.org,Gerente,2024-02-02
+880,Alana,Casa Grande,81 6425-0919,pimentaana-cecilia@example.org,Gerente,2024-02-22
+852,Catarina,Pastor,+55 31 2474-5472,melina11@example.com,Cozinheiro,2024-03-03
+118,Lunna,Sousa,(051) 3255-3761,clarice56@example.com,Gerente,2023-02-04
+869,Yan,Santos,+55 (061) 2158 7610,isabela23@example.com,Atendente,2023-01-04
+889,Luana,da Cunha,(081) 7538-0810,laisrezende@example.com,Gerente,2022-01-20
+988,Ana Carolina,Lopes,+55 11 5961-8710,ocardoso@example.net,Atendente,2022-05-07
+968,Theo,Ribeiro,(071) 4317 2920,camposnathan@example.org,Cozinheiro,2022-06-01
+723,Diogo,Costa,(084) 3636-6649,raquel24@example.org,Cozinheiro,2023-09-07
+840,Mariana,Rodrigues,+55 (041) 6623 5496,augustopimenta@example.net,Barista,2022-03-05
+764,Igor,Costela,+55 11 6887 3706,gabrielaviana@example.org,Gerente,2022-10-23
+544,Esther,Almeida,+55 (051) 4165-1771,da-conceicaoana-cecilia@example.org,Cozinheiro,2023-02-06
+260,Leandro,Rodrigues,81 7682 4708,laura56@example.org,Atendente,2022-10-30
+737,Benjamim,Ramos,+55 (071) 4069-5705,zda-luz@example.org,Barista,2022-08-09
+532,Théo,Castro,+55 84 9435 9020,rafaelcampos@example.com,Cozinheiro,2022-03-27
+319,Emanuelly,Borges,+55 81 7644-9121,jesuscarlos-eduardo@example.com,Atendente,2023-10-25
+317,Júlia,Barbosa,51 8207 0200,duartelorena@example.org,Atendente,2023-02-23
+56,Leonardo,Gonçalves,+55 (071) 4043 4355,lorenzofogaca@example.net,Atendente,2023-09-25
+15,Elisa,Fonseca,+55 61 9825 8454,rodrigo45@example.net,Gerente,2022-07-04
+30,José Pedro,Garcia,0500 742 5176,mendesravy@example.com,Cozinheiro,2022-06-23
+710,Maria Luísa,Jesus,31 3908 3606,oliveiraamanda@example.org,Atendente,2022-08-31
+454,Davi Lucca,Montenegro,+55 11 6999-1040,luccacamargo@example.com,Cozinheiro,2021-11-25
+599,Luiza,Melo,(061) 8051 2776,bella78@example.net,Barista,2022-12-22
+379,Diogo,Moraes,+55 (061) 8948 1352,da-rochaluiz-otavio@example.org,Cozinheiro,2022-09-10
+358,Alexandre,Fonseca,+55 (071) 2005-1533,da-conceicaobrayan@example.net,Cozinheiro,2022-08-07
+702,Liam,Guerra,+55 31 4300 7337,bellada-paz@example.org,Barista,2022-02-03
+949,Agatha,Albuquerque,21 3140 1629,zjesus@example.org,Barista,2022-04-23
+846,Eloah,Costa,(081) 9382 9418,montenegrodavi-lucca@example.org,Gerente,2022-02-27
+29,Heitor,Farias,11 1161 9048,vitor-gabriel11@example.com,Gerente,2021-09-14
+938,Davi Lucca,Câmara,21 1004 5681,gfarias@example.org,Atendente,2022-05-27
+139,Manuella,Aragão,+55 (084) 6248 2061,nsilva@example.org,Gerente,2022-10-02
+166,Anthony Gabriel,Carvalho,(011) 9822-7089,da-cunhaian@example.net,Barista,2024-05-18
+91,Stella,Siqueira,(041) 5058-2968,vitor-hugoda-rocha@example.net,Gerente,2023-01-17
+333,Melissa,da Cunha,(051) 4464 0444,rezendeluiz-otavio@example.net,Atendente,2021-09-06
+254,Enrico,Pastor,0800-454-5089,acamargo@example.net,Cozinheiro,2022-10-04
+153,Mariana,Fogaça,+55 (061) 1263 8565,thalespastor@example.org,Cozinheiro,2021-06-19
+220,João Gabriel,da Luz,+55 (041) 6546 7444,lucca96@example.org,Cozinheiro,2023-07-27
+104,Dom,Rezende,+55 (071) 0421 7487,pireslavinia@example.com,Gerente,2022-05-03
+322,Pietra,Silveira,+55 71 9483 9194,gda-luz@example.net,Atendente,2023-07-11
+654,Enzo Gabriel,Gomes,51 2786 1931,zcirino@example.net,Barista,2021-09-01
+82,Vitor Gabriel,Pacheco,(021) 4101-8463,zda-rocha@example.com,Cozinheiro,2021-11-15
+164,Valentim,Cunha,+55 (041) 7399-8728,limalorena@example.com,Cozinheiro,2024-03-07
+896,Pietro,Almeida,41 4471 5487,ana-luizapereira@example.org,Barista,2022-08-13
+531,Otto,da Luz,0900 610 2804,liz50@example.com,Atendente,2022-06-01
+188,Dante,Moura,+55 (071) 1373 7636,ana-sophiaporto@example.com,Gerente,2023-02-21
+347,Ana Lívia,Fonseca,+55 (051) 1486 8814,yan92@example.net,Gerente,2022-06-25
+90,Ana Lívia,Carvalho,+55 (081) 3136-1804,henry-gabrielmontenegro@example.org,Atendente,2024-03-31
+634,Manuela,Moura,41 9456-8197,dnunes@example.com,Barista,2022-04-04
+205,Camila,Almeida,+55 71 3799 6685,guilhermecosta@example.org,Barista,2021-10-19
+941,Ian,Cavalcanti,(041) 7851-7000,maria-liz35@example.net,Cozinheiro,2021-09-22
+190,Nicolas,Martins,(084) 6762-3195,kjesus@example.com,Gerente,2022-02-08
+494,Pietro,Marques,(031) 3711 0004,borgesmiguel@example.com,Cozinheiro,2024-04-24
+887,Murilo,Lima,0300-531-6015,afogaca@example.org,Gerente,2021-12-21
+504,Alana,Cassiano,0500-544-6645,marquesalexia@example.net,Atendente,2023-04-11
+159,Ana Liz,Cassiano,11 2866 8555,da-pazmatteo@example.org,Atendente,2021-11-23
+813,Brenda,Silveira,61 9091 2202,franciscopinto@example.org,Atendente,2023-01-02
+576,Otávio,da Conceição,0300 970 2900,mathiaspimenta@example.net,Cozinheiro,2021-09-22
+420,Gabrielly,Leão,71 6908 6657,esouza@example.net,Cozinheiro,2024-04-05
+964,Ester,Santos,+55 (071) 1259 1020,maria-sophiasampaio@example.com,Gerente,2023-10-03
+557,Maria Julia,Vieira,+55 31 4725-2612,faraujo@example.org,Barista,2022-10-11
+590,Pedro Henrique,Carvalho,+55 41 4070-0727,xnovaes@example.org,Atendente,2024-02-21
+271,Emilly,Guerra,(071) 2245-0283,qcastro@example.net,Gerente,2022-02-22
+342,Otto,Cavalcanti,(061) 5498 4157,henriquecorreia@example.net,Atendente,2024-06-14
+935,Otto,Carvalho,(021) 8500 6948,raul09@example.com,Barista,2021-09-11
+266,Davi,da Rosa,(031) 7044 1762,ecardoso@example.org,Atendente,2023-10-30
+553,Henrique,Correia,+55 81 8507 5687,paulo95@example.net,Barista,2022-10-23
+229,Zoe,Pereira,+55 (031) 3609-6805,sda-rocha@example.net,Barista,2022-08-30
+683,Bruno,Garcia,(051) 9611 1285,rodriguesvitoria@example.com,Atendente,2021-07-05
+613,Camila,Barros,(084) 4548-9624,maysaaraujo@example.com,Barista,2023-04-20
+276,José,Moura,+55 (051) 2677-1065,machadoolivia@example.com,Gerente,2024-05-06
+601,Ana Vitória,Santos,0900 655 4271,caroline87@example.org,Gerente,2023-04-30
+403,Luísa,da Rocha,31 5814-0677,claricemontenegro@example.com,Cozinheiro,2023-01-31
+815,Olivia,da Rosa,+55 21 3791 2846,jmontenegro@example.net,Cozinheiro,2023-09-15
+273,Luna,Fernandes,+55 61 6542 6888,adias@example.net,Atendente,2022-10-25
+341,Carolina,Peixoto,31 3778-1522,ribeiroemanuel@example.net,Atendente,2023-03-19
+593,Marcela,Porto,+55 (081) 1641-7892,novaesryan@example.com,Gerente,2023-12-19
+63,Kamilly,Melo,+55 51 2318 7136,borgesheloisa@example.org,Cozinheiro,2022-01-11
+371,Enzo,Casa Grande,+55 (071) 3790 6243,pietro65@example.net,Atendente,2024-01-08
+226,João Miguel,Oliveira,(084) 7137-8600,cavalcanteyuri@example.net,Atendente,2023-10-07
+847,Felipe,Fogaça,0800 011 7316,davi01@example.org,Atendente,2022-05-08
+991,Cecília,Brito,+55 (031) 5460-4687,cardosomaya@example.org,Cozinheiro,2023-05-26
+506,Jade,Sampaio,81 0342 6327,alanaabreu@example.com,Gerente,2023-01-24
+899,Ana Julia,Costa,+55 51 4447 0462,coliveira@example.net,Atendente,2023-02-11
+879,Calebe,Guerra,+55 81 7254 0493,babreu@example.com,Barista,2024-04-27
+124,Anna Liz,Dias,(011) 1567 2392,qbarbosa@example.com,Atendente,2021-11-05
+221,Oliver,Mendonça,+55 (031) 0206 1101,arthur60@example.com,Barista,2022-10-25
+122,Milena,Machado,81 4909-0952,novaisluna@example.org,Cozinheiro,2022-12-02
+644,João Lucas,Teixeira,(031) 8180 3193,isis75@example.net,Barista,2022-02-27
+653,Gabriel,Caldeira,71 6472-1939,aylla57@example.net,Cozinheiro,2021-09-09
+709,Heloisa,Viana,+55 (021) 3102 4643,da-matabeatriz@example.com,Barista,2021-11-12
+196,Isabelly,Freitas,(061) 3094 3980,enzo-gabriel54@example.net,Gerente,2022-09-12
+127,Carolina,da Mota,84 0412 8922,manuela68@example.net,Gerente,2021-09-03
+41,Valentina,das Neves,+55 (051) 4054-3578,matteogomes@example.org,Barista,2022-10-22
+686,Allana,Albuquerque,+55 (071) 2704 2114,jmoraes@example.net,Cozinheiro,2023-02-27
+142,Mariane,Moreira,61 2890-4064,marinanovais@example.org,Gerente,2024-04-13
+837,Juliana,Pacheco,(081) 3079 7609,rafaela54@example.org,Atendente,2022-06-25
+519,Yuri,das Neves,+55 (071) 6676 5197,cavalcantithomas@example.com,Gerente,2024-06-14
+183,Cauê,Caldeira,0900-440-9505,evelyngarcia@example.com,Gerente,2021-12-31
+114,Pietra,Mendonça,0800-805-9480,ycunha@example.net,Barista,2021-07-11
+365,Stella,Moreira,0900 819 1062,diasalicia@example.com,Cozinheiro,2022-10-04
+731,Maysa,Albuquerque,+55 84 2890-6834,rochaclarice@example.com,Atendente,2023-12-10
+905,Calebe,Vargas,(061) 2348 9561,moraesmaria-sophia@example.com,Atendente,2022-09-08
+495,Henry Gabriel,Pereira,0900 007 2202,xabreu@example.org,Cozinheiro,2022-01-16
+235,Enrico,Barros,81 5966-5237,gferreira@example.org,Barista,2022-11-07
+537,Nicole,Câmara,0500-908-6697,sborges@example.net,Atendente,2022-11-09
+856,Henrique,Rodrigues,+55 (061) 2102 3624,cecilia34@example.net,Atendente,2023-01-30
+981,Emanuelly,da Cunha,+55 71 9968 4466,kda-conceicao@example.com,Barista,2023-07-08
+881,Fernanda,Campos,51 2133 0132,juliacavalcante@example.org,Atendente,2023-12-22
+469,Leonardo,Moraes,+55 84 6307 3377,cecilia98@example.com,Cozinheiro,2021-08-30
+842,Anna Liz,Souza,+55 31 2078 0836,isaque43@example.com,Atendente,2021-10-13
+871,Maria Clara,Andrade,+55 (011) 9086 5435,joao-lucas00@example.net,Barista,2023-02-05
+57,Caio,da Mata,(041) 7710-0332,gustavodias@example.com,Barista,2021-09-01
+717,Vitor Hugo,Brito,+55 21 4704-4672,lrocha@example.org,Barista,2023-01-04
+516,Enrico,Nogueira,(071) 9712-3036,aylla48@example.org,Cozinheiro,2024-04-08
+749,Mariana,Gomes,81 6817-6761,thiago41@example.net,Cozinheiro,2022-09-06
+84,Augusto,Pinto,21 0286-2977,lara82@example.net,Gerente,2024-01-10
+928,Vinicius,Garcia,(031) 6499 8294,isiscaldeira@example.net,Barista,2021-07-16
+408,Ana Carolina,da Cruz,51 4839 1384,leticia88@example.com,Gerente,2023-07-11
+623,Vitor Hugo,Mendes,+55 (071) 9491-4908,nda-rocha@example.net,Atendente,2021-12-13
+632,Joaquim,Pereira,+55 (041) 3617 8357,alicia67@example.org,Gerente,2023-06-08
+282,Emilly,Sousa,(021) 9003-9464,monteiroluana@example.net,Gerente,2023-12-14
+360,Maria Helena,Pires,+55 51 4548 1011,da-costaana-cecilia@example.org,Barista,2022-08-26
+577,Thomas,Rezende,11 2268-2748,zfonseca@example.com,Gerente,2023-02-06
+32,João Gabriel,Porto,(071) 3753 2257,cunhaliam@example.com,Barista,2023-06-10
+55,João Gabriel,Sampaio,+55 (071) 2012 0849,saramoraes@example.org,Gerente,2023-09-08
+400,Davi Luiz,Nogueira,+55 31 8993 9690,diaseloah@example.net,Cozinheiro,2021-12-03
+391,Benicio,da Mata,+55 (041) 1388 1733,monteirofrancisco@example.org,Atendente,2023-10-06
+753,Maria Julia,da Costa,+55 61 4033-2330,camargodavi-lucas@example.com,Barista,2022-09-07
+423,Ana Júlia,Sales,0900 451 2625,bviana@example.com,Atendente,2021-12-09
+97,Bryan,Rios,(051) 3297-4345,ycavalcanti@example.com,Atendente,2023-06-23
+666,Amanda,Moraes,(071) 1892-6453,benicio10@example.com,Gerente,2023-05-22
+527,Marcela,Pacheco,+55 (061) 8026 9627,enzo-gabrielfernandes@example.com,Atendente,2024-02-03
+255,Davi Lucca,Costela,+55 81 0043-7444,enzopeixoto@example.net,Atendente,2022-12-18
+72,Otto,Marques,+55 (084) 0518 6522,leopires@example.org,Gerente,2022-09-18
+14,Marcelo,Teixeira,(031) 1358-4939,vasconceloscaua@example.org,Barista,2024-03-21
+920,Caio,da Costa,41 5180 5825,davi-lucasguerra@example.org,Barista,2024-03-30
+777,Lunna,das Neves,+55 11 3491 3533,carolinaandrade@example.com,Cozinheiro,2023-11-06
+37,Valentina,Nascimento,+55 (031) 1767 8791,joao-vitor35@example.net,Atendente,2021-12-04
+4,Camila,Azevedo,(051) 4264 2666,tmelo@example.org,Gerente,2023-05-30
+932,Cauã,Alves,+55 71 9415 8237,ana-livia97@example.net,Cozinheiro,2022-12-12
+324,João Miguel,Costela,84 7161-6032,beatrizsiqueira@example.com,Gerente,2022-11-30
+361,Luiz Miguel,Alves,+55 81 3963-4643,ncorreia@example.org,Atendente,2024-01-19
+47,Ana Beatriz,Rocha,+55 84 0035 3930,ysantos@example.com,Barista,2023-01-25
+43,Ana Carolina,Machado,0300-247-9299,luiz-feliperezende@example.org,Cozinheiro,2022-08-14
+297,Heitor,Machado,+55 (071) 0178 2386,lucas-gabriel09@example.com,Atendente,2022-09-14
+948,Cecilia,Fonseca,+55 21 6406 3465,theobarbosa@example.com,Cozinheiro,2022-06-24
+910,Bento,Camargo,+55 (081) 0194 1252,zsantos@example.org,Cozinheiro,2022-09-22
+364,Lavínia,Sá,+55 11 8879 6198,mateus62@example.com,Atendente,2023-08-08
+520,Maria Eduarda,Mendes,+55 (011) 0576-9732,laraujo@example.com,Gerente,2023-07-06
+704,Joana,Marques,21 5892-6273,ana-carolinasales@example.org,Barista,2022-12-31
+534,Arthur Gabriel,Guerra,(041) 0350-1601,diasdavi-lucas@example.net,Atendente,2023-03-17
+853,Daniela,Almeida,(081) 7275 7749,miguelbarros@example.com,Cozinheiro,2023-11-24
+924,Henrique,Alves,(031) 0732 3383,arthur-gabriel75@example.net,Cozinheiro,2022-06-19
+442,Yuri,Pimenta,+55 (011) 9331 5596,da-cruzalexia@example.org,Atendente,2024-01-18
+415,Marina,Pires,(061) 7792-5797,cassianomaria-eduarda@example.org,Atendente,2023-08-19
+301,João Vitor,Nascimento,21 5108-4560,brendacamara@example.net,Barista,2024-02-17
+951,Joana,Casa Grande,+55 61 0318-5087,da-pazemanuel@example.com,Gerente,2022-02-19
+629,Bárbara,Pacheco,+55 (041) 0707 8167,ccostela@example.com,Cozinheiro,2021-06-17
+972,Murilo,das Neves,+55 (061) 0803 3194,qcamargo@example.com,Cozinheiro,2023-10-16
+281,Maria Alice,Pinto,(081) 7963-1297,riosmathias@example.com,Barista,2023-04-13
+181,Clara,Cunha,(084) 7548-0739,marquesravy@example.com,Atendente,2023-06-01
+985,Sophia,Aparecida,+55 71 4203-3242,silvabenicio@example.net,Atendente,2023-09-24
+449,Catarina,Pinto,+55 (061) 4836-0860,vvargas@example.org,Barista,2021-07-26
+128,Ana,da Mota,71 5169-1932,abreuluiz-henrique@example.com,Gerente,2024-04-01
+150,Pedro Miguel,Ribeiro,31 7658-8364,montenegromariane@example.org,Gerente,2023-03-12
+145,Arthur,Sá,(081) 4648 9028,davi-miguelguerra@example.net,Cozinheiro,2021-07-23
+328,Emanuel,da Mota,11 3282 3493,theopastor@example.org,Atendente,2021-12-04
+390,Vitor Gabriel,Sales,+55 (021) 5855 1290,anthonyda-conceicao@example.com,Cozinheiro,2024-04-10
+626,Ravi Lucca,Ferreira,(021) 1134 4520,piresdom@example.org,Gerente,2021-10-23
+225,Stephany,Dias,+55 71 6527-5073,avargas@example.com,Gerente,2022-12-14
+621,Camila,Carvalho,+55 21 9647-7678,ecarvalho@example.com,Barista,2022-06-27
+799,Ravi Lucca,Cassiano,+55 61 0551 9264,ana55@example.org,Barista,2023-10-21
+743,Nicolas,Sales,11 6586 0547,da-motajoao-vitor@example.net,Barista,2022-10-13
+382,Henry Gabriel,da Rocha,+55 (084) 2830-5594,kevin43@example.com,Gerente,2021-06-26
+327,Guilherme,Costa,21 6226-9201,marquesamanda@example.com,Atendente,2023-04-21
+543,Liam,Sousa,+55 21 4750-1719,ugomes@example.net,Barista,2022-01-01
+49,Zoe,Fogaça,51 5543 7439,santosmariana@example.net,Barista,2024-03-23
+278,Gabriel,Barbosa,+55 (031) 6858 7663,monteirorebeca@example.net,Barista,2022-03-21
+647,Isabelly,Sales,+55 21 5380-0675,ninacosta@example.org,Atendente,2021-06-27
+148,Olívia,Pastor,+55 (084) 1664-9622,abreurael@example.net,Cozinheiro,2022-08-09
+2,João Pedro,Pinto,0500 263 3544,joaquimferreira@example.com,Cozinheiro,2023-05-12
+630,Eloá,da Rosa,(051) 2129-0459,osantos@example.net,Atendente,2022-12-19
+321,Mariana,Cavalcante,+55 61 0098 6311,nicole10@example.net,Cozinheiro,2022-08-27
+545,Davi Luiz,Montenegro,+55 41 9797 7840,maria-fernanda97@example.org,Barista,2022-06-17
+480,Isaque,da Mata,(081) 6638 0702,antonio45@example.net,Atendente,2022-05-10
+445,Henry,Vasconcelos,+55 (041) 4345-9223,calebesousa@example.net,Gerente,2023-06-24
+823,Laura,Correia,41 1589 8756,da-costasophia@example.com,Barista,2024-05-26
+922,Ísis,das Neves,51 1134 9190,joaquim03@example.org,Gerente,2023-04-22
+211,Ayla,Duarte,21 2534-2348,dvargas@example.net,Gerente,2023-01-07
+24,Lunna,Aparecida,(081) 1934-9321,opacheco@example.net,Barista,2023-05-22
+93,Julia,Nascimento,(081) 1202-2963,emelo@example.org,Atendente,2023-05-18
+505,Vitor Gabriel,Machado,+55 31 8139 4276,samuel71@example.net,Barista,2023-03-19
+245,Lunna,Rios,61 4355 2169,nrodrigues@example.com,Barista,2024-03-18
+477,Otávio,Casa Grande,(081) 1671-6027,ana-sophia25@example.net,Atendente,2022-12-12
+931,Bárbara,da Cruz,(084) 0859-8619,dcardoso@example.org,Cozinheiro,2023-05-19
+35,Lucca,Silveira,+55 (031) 3067-2520,pedro-lucasaraujo@example.org,Cozinheiro,2022-11-17
+60,Maria Clara,Cassiano,+55 (011) 6327-0401,mendesthomas@example.com,Atendente,2023-02-27
+351,Maitê,Ribeiro,+55 21 0449 5961,jesusana@example.org,Cozinheiro,2021-10-17
+81,Bryan,Cardoso,(041) 4097-3429,jmontenegro@example.com,Barista,2022-02-26
+305,Amanda,Cirino,(041) 5104 7686,emillycampos@example.org,Atendente,2023-01-11
+507,Heitor,Rocha,+55 71 9033 6668,luizamendes@example.net,Barista,2023-04-15
+234,Julia,Costa,31 8179 3469,emillysilveira@example.org,Atendente,2023-08-26
+298,Maria Eduarda,Duarte,(051) 7605 6218,heitordias@example.net,Gerente,2024-02-18
+945,Rael,Correia,(011) 0609 2427,tcasa-grande@example.org,Barista,2023-10-03
+893,Laís,Lopes,84 8048-3067,piresrafaela@example.net,Atendente,2022-06-23
+748,Lucas,Alves,+55 (081) 5899-0916,yanjesus@example.net,Barista,2024-02-15
+26,Larissa,Santos,+55 (041) 4902 2971,milena99@example.org,Barista,2021-12-23
+171,Joana,Pinto,21 2691-6561,ribeirosarah@example.com,Barista,2023-01-20
+175,Stella,Camargo,+55 71 1109 9488,arocha@example.org,Barista,2022-06-09
+927,Stella,Moraes,+55 (051) 1607 6596,moraesthomas@example.org,Gerente,2023-07-08
+218,Marcela,Viana,41 0719-5891,pedro-miguelcavalcanti@example.org,Cozinheiro,2024-02-25
+771,Lavínia,da Paz,+55 (084) 7499 6100,vinicius00@example.com,Cozinheiro,2021-07-02
+474,Luiz Miguel,Costela,+55 (021) 7965 5889,miguel81@example.net,Cozinheiro,2022-02-26
+172,Lucas,Moraes,21 6952-5830,ninapires@example.com,Gerente,2024-03-21
+797,Gustavo Henrique,Porto,(021) 6399-7771,xmendonca@example.org,Atendente,2024-04-19
+606,Eloah,Sales,+55 11 5046 4040,baparecida@example.net,Barista,2021-10-20
+970,Davi Luiz,Moreira,+55 (021) 5958 3899,vcassiano@example.com,Gerente,2023-10-08
+444,Maya,Costela,(084) 4224 4804,lorenzo04@example.org,Barista,2023-09-27
+781,José,Fonseca,81 8811 6822,antonioda-costa@example.org,Barista,2022-12-03
+8,Heloisa,Câmara,+55 81 6070 9818,ycostela@example.com,Cozinheiro,2023-07-09
+966,Dante,Sousa,+55 31 9550-9163,da-costaerick@example.com,Barista,2024-04-11
+705,Ravi,da Conceição,+55 71 8914 5160,flima@example.org,Barista,2022-01-19
+1,Lunna,Rezende,+55 21 8770 2541,stella31@example.com,Barista,2022-08-05
+392,Theodoro,Pacheco,+55 (021) 6888-5173,cunhaenzo-gabriel@example.org,Atendente,2024-02-10
+279,Fernando,Cassiano,(061) 4620-3244,joao-vitor04@example.org,Atendente,2023-09-29
+3,Gabriel,Fernandes,+55 21 1691-4957,luara48@example.org,Barista,2021-08-03
+186,Benjamim,Marques,+55 51 6440 3063,benjaminbarbosa@example.net,Barista,2023-09-18
+329,André,Sales,+55 31 5203 7388,oliverda-rosa@example.net,Atendente,2021-08-01
+374,Enzo Gabriel,Viana,(041) 0245-4601,cassianotheo@example.com,Atendente,2021-07-16
+261,Anthony,Siqueira,+55 11 2533 5890,spinto@example.com,Cozinheiro,2022-09-20
+306,Beatriz,Sales,81 3156-0433,cunhamaite@example.org,Gerente,2023-04-30
+486,Yago,Cassiano,+55 (084) 2990-6085,rafaelapinto@example.net,Cozinheiro,2024-03-24
+916,Felipe,Aparecida,(081) 1123-1515,duartebernardo@example.org,Gerente,2022-03-27
+687,Henry,Pires,(061) 6159-8661,rafael67@example.com,Gerente,2021-07-25
+291,Enzo,Montenegro,+55 (084) 7005-6682,eloacirino@example.net,Gerente,2023-09-07
+388,Augusto,Rios,0800 857 4700,da-matamaria-sophia@example.org,Atendente,2021-07-18
+713,Bruno,Pacheco,+55 (041) 3953-4135,qda-mota@example.com,Gerente,2023-10-09
+53,Juliana,Brito,31 5364 3888,mariah18@example.net,Gerente,2021-12-19
+827,Davi Lucas,Pereira,+55 (041) 9687-3521,livia84@example.net,Atendente,2022-12-20
+318,Lívia,Novais,81 5714 5496,siqueiraana-laura@example.org,Barista,2022-12-02
+87,Levi,Sousa,+55 (011) 1010-0300,brayan68@example.com,Atendente,2022-11-27
+265,Apollo,Garcia,(011) 0071-8712,castroisabelly@example.net,Gerente,2023-07-23
+17,Pedro Lucas,Teixeira,(031) 6708-5704,evelyn38@example.net,Gerente,2023-07-20
+375,Kaique,Lopes,0300-751-9436,olivia83@example.org,Barista,2023-09-16
+514,Valentina,Jesus,+55 61 6618-6136,domaparecida@example.org,Atendente,2024-06-14
+724,Gustavo Henrique,Santos,71 1631-7620,hborges@example.org,Gerente,2023-12-12
+567,Augusto,Cavalcanti,84 0817 7237,fdas-neves@example.org,Gerente,2024-03-07
+747,Arthur Miguel,Fernandes,0900 233 6793,dmendes@example.org,Gerente,2022-11-23
+886,Liam,Aragão,(051) 7308-7318,abreugabrielly@example.com,Atendente,2022-07-09
+167,Catarina,Abreu,+55 61 9613 6160,icavalcanti@example.com,Gerente,2023-08-28
+824,Pedro Lucas,Barbosa,+55 (011) 4025-4837,vpires@example.net,Cozinheiro,2022-11-14
+712,José Pedro,Silva,(061) 2750-1765,maria50@example.org,Barista,2021-12-28
+902,Ana Júlia,Cardoso,+55 (051) 4934-7881,rafaelajesus@example.org,Cozinheiro,2023-08-06
+398,Sara,Melo,+55 71 3987-6181,eduardo04@example.net,Gerente,2023-01-09
+483,Ana Julia,Sales,0500-592-9966,barbara83@example.net,Gerente,2022-01-04
+395,Ryan,Rocha,+55 (021) 9316 4116,eda-mota@example.org,Barista,2023-04-17
+1000,Sophie,Pinto,(021) 8555-1970,joaovasconcelos@example.org,Barista,2024-04-12
+911,Vinícius,Peixoto,+55 41 5209-6917,pintopedro-miguel@example.org,Gerente,2023-04-23
+316,Sabrina,da Conceição,(081) 5199-5713,lda-paz@example.net,Gerente,2023-05-24
+954,Rafael,Cirino,+55 (011) 6892 7838,qcamargo@example.org,Atendente,2022-09-21
+958,Mathias,Cardoso,(061) 1508-6055,stella79@example.org,Atendente,2022-07-18
+299,Kamilly,da Mata,+55 (061) 4092-2909,camargodanilo@example.com,Gerente,2024-04-12
+987,Rafaela,Cardoso,(051) 3957 3091,vcorreia@example.net,Barista,2023-01-04
+71,Mariah,Martins,0300 344 7465,mariana13@example.net,Barista,2022-10-25
+926,Emilly,Pimenta,81 3774 2441,dgomes@example.com,Barista,2021-12-11
+369,Gael,Cavalcanti,21 8182 9321,saanthony@example.net,Gerente,2021-08-13
+711,Rafaela,Duarte,0500-285-4171,auroraborges@example.com,Barista,2021-11-19
+165,Nicole,Novaes,+55 (031) 0088-5213,montenegroevelyn@example.org,Gerente,2024-04-30
+257,Lucca,Leão,(021) 5791-5055,maria-ceciliaporto@example.com,Gerente,2022-06-23
+116,Enzo,Moraes,+55 (031) 9754-5313,daniela35@example.com,Gerente,2021-10-23
+715,Felipe,Caldeira,+55 (041) 9150 6541,barbara54@example.org,Cozinheiro,2021-09-03
+608,Rodrigo,Sales,61 4236-8004,zfarias@example.net,Gerente,2023-05-20
+614,Gael Henrique,Pereira,+55 61 2656 6332,bsa@example.net,Gerente,2022-09-27
+496,Agatha,Machado,+55 84 1917 1544,bruno34@example.org,Barista,2023-02-06
+143,Pietra,Monteiro,0800-894-6656,vnovais@example.org,Gerente,2023-11-12
+546,Danilo,Marques,(081) 2314-7675,larissasilveira@example.org,Cozinheiro,2023-05-15
+244,Vitor,Sales,+55 (081) 2122-9562,ana-ceciliacamargo@example.org,Cozinheiro,2021-07-01
+767,Pedro,da Conceição,+55 (021) 0796-6040,theopinto@example.com,Barista,2023-06-14
+695,Anna Liz,Machado,0800-204-1273,ununes@example.net,Cozinheiro,2021-08-21
+622,André,Mendes,+55 71 1959-7524,cbrito@example.net,Gerente,2022-02-03
+518,Luara,Leão,(031) 8077-8765,abreusophie@example.org,Atendente,2022-10-21
+135,Caroline,Silva,(071) 7971-4360,carvalhoyan@example.com,Barista,2021-06-16
+873,Davi Lucca,Costela,0800 719 9958,piresleandro@example.com,Atendente,2022-11-04
+821,Augusto,Rios,31 5929 0305,gpereira@example.org,Atendente,2023-06-12
+289,Murilo,Cunha,+55 81 0705 1258,isabellydias@example.net,Gerente,2023-10-02
+126,Pedro Lucas,Lopes,31 8857 6772,gustavo-henrique85@example.org,Atendente,2023-02-08
+491,Clarice,Porto,+55 (041) 3744-2921,marquesclarice@example.net,Gerente,2024-02-27
+979,Valentina,Dias,(081) 3245-8793,portopietra@example.org,Barista,2022-10-29
+202,Marcelo,Cardoso,0300 268 5013,joao-miguelcasa-grande@example.net,Barista,2022-02-20
+850,Maria Júlia,Azevedo,0900 919 9792,maria-eduarda76@example.com,Barista,2021-09-11
+240,Laura,Cirino,11 8385-5475,castrogabriel@example.org,Atendente,2024-01-06
+112,Paulo,da Mata,(011) 0974 1266,barbosaanthony@example.com,Barista,2024-02-27
+28,Maria Helena,Araújo,0900-582-5796,otavioviana@example.com,Atendente,2022-10-13
+136,Milena,Alves,(021) 7995 0459,ana-lizda-luz@example.org,Barista,2022-05-16
+465,Clara,Rezende,(021) 4797 4223,siqueiraluisa@example.net,Barista,2024-05-18
+812,Bruno,Borges,(071) 0554 8903,arthur38@example.net,Atendente,2022-07-21
+870,Luiz Miguel,Cassiano,+55 41 8783-1250,bruna71@example.net,Atendente,2024-04-04
+287,Guilherme,Guerra,(081) 9136 0377,maria-lauralopes@example.org,Cozinheiro,2023-11-17
+775,Aylla,Moraes,0500-530-4863,isaaccavalcanti@example.org,Gerente,2023-11-28
+427,Vinícius,Silva,61 1893-2459,andradececilia@example.com,Gerente,2024-03-26
+384,Luiz Felipe,Campos,0500 603 5161,otto41@example.net,Gerente,2022-12-01
+795,Liz,Novais,(031) 6222-4616,guerraotto@example.org,Atendente,2023-10-03
+680,Emilly,Barbosa,+55 (021) 5155-9288,mcostela@example.org,Cozinheiro,2023-07-13
+272,Diogo,Mendes,31 0866 1481,leaoigor@example.net,Atendente,2023-10-20
+214,Caio,Pereira,31 3205 0030,josemendonca@example.net,Cozinheiro,2023-06-23
+27,Levi,Vargas,71 0281-8824,yago86@example.org,Cozinheiro,2024-05-06
+719,Isabela,Fernandes,+55 (031) 2467 1630,silvaravi-lucca@example.org,Gerente,2024-01-15
+479,Maria Helena,Cavalcante,+55 (084) 5787-4928,joaquim82@example.org,Gerente,2024-03-02
+688,Melissa,Castro,0300 870 5542,leosantos@example.com,Cozinheiro,2022-04-30
+733,Emanuella,Moura,+55 (051) 1674-2495,eda-rocha@example.com,Cozinheiro,2024-01-06
+903,Lucca,Pinto,(071) 0407-1087,lucas21@example.net,Cozinheiro,2024-03-15
+816,Luana,Silva,+55 71 3772 7488,zcosta@example.net,Atendente,2022-02-08
+48,Marcela,Mendonça,51 6383 4503,macedomelina@example.com,Barista,2023-05-16
+101,Valentina,Barbosa,+55 (021) 9207-8178,melina11@example.net,Barista,2023-11-10
+691,Enzo Gabriel,Nunes,81 5623 8043,sousagabriel@example.com,Gerente,2023-05-09
+460,Brayan,Freitas,31 6230 6541,ucostela@example.org,Barista,2021-10-09
+892,Cecília,Mendonça,+55 (011) 4573-5871,cda-conceicao@example.com,Cozinheiro,2021-11-03
+223,Sophia,Mendonça,84 9776-3600,ravi-luccada-paz@example.net,Barista,2022-04-30
+618,Amanda,Marques,+55 61 5779 5926,theo87@example.org,Barista,2021-08-11
+412,Aurora,Azevedo,(031) 7044-2577,ceciliaalmeida@example.net,Gerente,2021-11-12
+624,Rafael,Pinto,(084) 2031-2404,rodriguesalicia@example.net,Atendente,2021-09-02
+425,Isabelly,Novais,81 0780 6253,ralmeida@example.net,Atendente,2023-04-07
+236,Giovanna,das Neves,+55 (084) 2258-7510,scastro@example.com,Barista,2021-08-04
+803,José,Silva,+55 (061) 8523-1504,arthur-miguelaparecida@example.com,Atendente,2021-09-29
+203,Pietra,Moura,+55 31 4338 5598,jcarvalho@example.net,Gerente,2023-03-19
+832,Erick,Dias,+55 81 9332 9873,rochajuan@example.com,Barista,2021-12-10
+967,Manuela,Siqueira,+55 71 9983 5325,lfernandes@example.org,Cozinheiro,2021-11-20
+950,Alícia,Cardoso,+55 (031) 3320-4032,davi-miguelcavalcanti@example.com,Gerente,2022-11-02
+337,Camila,da Mota,71 0675-1026,bda-conceicao@example.net,Barista,2023-01-06
+607,Lucas,Martins,(031) 7044-7180,alexandre55@example.org,Gerente,2023-04-03
+85,Otto,Farias,(021) 9650 2854,daniel40@example.com,Cozinheiro,2024-05-19
+854,Aylla,Lima,+55 (051) 2970 9967,lucas-gabriel50@example.net,Barista,2022-08-20
+862,Raul,Nascimento,+55 (011) 0757 9284,agatha00@example.org,Atendente,2022-02-09
+169,Sophia,Ribeiro,+55 (081) 7399 6852,raelcarvalho@example.net,Atendente,2022-09-10
+547,Ana Liz,Pastor,11 3786-6859,sabrinacampos@example.net,Atendente,2023-09-26
+660,Pedro Henrique,Sales,61 9010 5687,guerrathales@example.com,Barista,2023-07-14
+611,Emilly,da Mata,(081) 7005 4934,beniciovieira@example.com,Barista,2023-06-14
+841,Sarah,Pereira,(041) 0162-8628,luiz-otavioalves@example.net,Gerente,2022-02-22
+655,Clarice,Azevedo,+55 (041) 3847 7324,lorenzosales@example.com,Barista,2022-03-06
+280,Liam,Costa,(061) 8208-6625,umoura@example.net,Atendente,2023-09-23
+562,Mariah,da Mata,(051) 1343 2791,eloah92@example.com,Barista,2023-03-22
+561,Asafe,Oliveira,31 4658 9031,luiz-otavio72@example.org,Gerente,2022-05-29
+523,Maria Eduarda,Aparecida,+55 (031) 2815-5223,nogueiraasafe@example.org,Cozinheiro,2021-08-19
+900,Maria Clara,Farias,11 7621 1958,joao-gabriel81@example.net,Cozinheiro,2023-05-10
+855,Brayan,Cavalcante,(084) 5855 8056,cunhadiogo@example.net,Barista,2022-07-25
+904,Joana,das Neves,+55 41 0970-9697,joao-miguel08@example.com,Cozinheiro,2023-06-21
+582,Maria Eduarda,Carvalho,+55 (041) 3114 2442,ncostela@example.net,Barista,2023-06-23
+571,Gael Henrique,Freitas,(084) 8414 9828,yuri28@example.org,Gerente,2023-07-03
+162,Bryan,Costa,21 9497 3474,rafaelaporto@example.com,Cozinheiro,2021-06-19
+975,Luiz Gustavo,Freitas,81 6525-4890,rafael78@example.com,Atendente,2021-12-23
+262,Larissa,Cunha,+55 84 4497-1466,laviniagarcia@example.com,Barista,2023-06-01
+579,Antony,Cardoso,+55 (021) 7060 4029,benjamimmelo@example.com,Atendente,2022-05-15
+919,Giovanna,Ferreira,0300 893 8780,eferreira@example.org,Gerente,2022-03-10
+984,Bianca,Casa Grande,(061) 6592 0452,sampaiomanuela@example.net,Barista,2023-11-25
+625,Alexia,Viana,0300-901-3513,mendesjose@example.com,Barista,2022-03-10
+619,Ana,Souza,+55 61 1636 9435,enzo-gabrielfonseca@example.net,Cozinheiro,2022-08-23
+121,Mirella,Andrade,11 1707 4516,fariaspedro-henrique@example.org,Gerente,2021-12-26
+785,Luiz Miguel,Abreu,+55 (031) 1955 6479,milenaabreu@example.org,Barista,2023-06-20
+961,Heloisa,Abreu,+55 31 2815 3453,renancardoso@example.net,Gerente,2024-03-26
+752,Yan,Gonçalves,41 8741-8950,silvamirella@example.org,Gerente,2021-11-14
+502,Maria Helena,Aragão,+55 11 5925-6364,heloisa49@example.com,Gerente,2021-06-23
+913,Rael,Pastor,71 2142-1924,raparecida@example.com,Barista,2022-07-12
+635,Levi,Rodrigues,+55 84 9481-0691,goncalvesyan@example.org,Barista,2021-07-14
+912,Bryan,Câmara,21 8218-2215,lucas-gabrielpimenta@example.com,Atendente,2022-10-09
+574,Guilherme,Fernandes,+55 (041) 1924-5447,eloacassiano@example.net,Cozinheiro,2023-05-06
+888,Melissa,Teixeira,61 7607-8138,natalia21@example.com,Cozinheiro,2023-07-30
+684,Evelyn,Nascimento,(061) 5989 8032,giovanna23@example.net,Barista,2023-08-10
+727,José Miguel,Farias,+55 11 4490-2927,maria-clarafogaca@example.com,Atendente,2024-05-01
+192,Matheus,Montenegro,+55 31 0447-7920,nicole87@example.org,Gerente,2023-03-24
+739,Otávio,Cavalcante,84 2062 8012,lorenajesus@example.net,Gerente,2022-07-30
+207,Dante,Sales,(051) 9510-2980,maria-clara14@example.net,Barista,2023-01-30
+69,Ana Laura,Garcia,+55 84 8960 6630,bduarte@example.net,Cozinheiro,2021-12-07
+339,Nicolas,Silveira,71 0301-9036,ccasa-grande@example.org,Barista,2021-11-11
+645,Luigi,Aparecida,0900 868 5948,viniciuscampos@example.net,Cozinheiro,2022-01-26
+441,Helena,Moraes,61 2084 1565,siqueiraalicia@example.com,Cozinheiro,2023-10-25
+140,Antony,Costa,+55 (071) 7107 1279,vnovaes@example.com,Cozinheiro,2022-06-06
+672,Ana Julia,Mendes,+55 (021) 2108-6931,macedomariah@example.net,Gerente,2021-07-15
+953,Thiago,Rodrigues,(051) 9528 2467,uda-mota@example.org,Atendente,2024-04-07
+313,Maysa,Porto,+55 41 8555 6697,alvesisaque@example.com,Gerente,2022-01-28
+801,Théo,Aragão,+55 (051) 6961 3937,novaisian@example.org,Atendente,2021-11-11
+603,Olívia,Abreu,+55 51 8654 6552,levi18@example.net,Gerente,2023-07-31
+219,Benício,Moraes,81 1730-1935,guerraravi-lucca@example.org,Barista,2021-09-08
+456,Dom,Monteiro,+55 81 3188 1480,enascimento@example.org,Barista,2021-11-30
+185,Sabrina,Costela,+55 71 5203-9449,aparecidamariah@example.net,Atendente,2022-07-23
+251,Henry,Alves,+55 71 5976-9624,ralbuquerque@example.org,Cozinheiro,2022-02-10
+642,Isabel,Brito,41 1754-6581,luccada-luz@example.org,Cozinheiro,2022-12-28
+612,Luana,Cunha,31 5939-2282,laparecida@example.com,Atendente,2022-10-12
+942,Maria Helena,da Costa,0500-539-9696,kaique43@example.org,Barista,2024-03-17
+476,Luiz Felipe,Ferreira,51 4188 6973,henrymoreira@example.com,Atendente,2023-07-27
+86,Anthony,Moura,+55 (021) 8917 7937,da-motamaysa@example.net,Cozinheiro,2022-08-19
+194,Maria Cecília,Caldeira,+55 (041) 1943-7403,barbosakevin@example.org,Barista,2022-07-26
+152,Cecilia,Lopes,+55 (021) 0836-3898,luiz-henriquecosta@example.net,Barista,2024-05-02
+698,Matteo,Lima,+55 31 5656-7358,felipe18@example.org,Atendente,2024-02-16
+248,Alexia,Teixeira,41 5316 8590,jose-pedrobrito@example.net,Atendente,2022-07-18
+861,Ana Vitória,Sá,31 9423 2579,rodrigueseloa@example.net,Barista,2023-08-27
+144,Heitor,Moura,0800-812-8261,uvieira@example.net,Atendente,2022-08-23
+763,Pietra,Novaes,(051) 6842 8101,novaesluiz-gustavo@example.com,Atendente,2022-10-16
+343,Henry,Cavalcante,(041) 5468 7700,da-luzotavio@example.net,Barista,2021-12-08
+138,Henry,Guerra,(041) 9174 4525,ravi-luccapastor@example.org,Atendente,2022-11-01
+312,Otávio,da Mota,31 5800-1335,erickcasa-grande@example.org,Gerente,2023-12-28
+760,Luan,Jesus,+55 31 4226-7009,vporto@example.com,Atendente,2024-03-05
+58,Vinícius,Cunha,(041) 7953 2113,milenadias@example.net,Barista,2023-10-26
+997,Luiz Henrique,Rios,+55 11 6432 4315,luara98@example.com,Cozinheiro,2024-05-12
+512,Vicente,Oliveira,+55 81 2049 6921,aragaoliz@example.org,Gerente,2023-04-02
+882,Miguel,Duarte,+55 (084) 1046 5171,luiz-miguel12@example.org,Barista,2022-06-08
+461,Renan,Nascimento,21 2356 9106,sofiamoura@example.org,Cozinheiro,2023-08-14
+735,Gabrielly,das Neves,21 4430-2983,uribeiro@example.net,Gerente,2023-05-03
+604,Heloísa,Cavalcanti,(041) 4846 0991,isaacmelo@example.net,Atendente,2024-03-06
+123,Sofia,Ramos,21 6358 9954,agatha48@example.com,Atendente,2022-05-13
+231,Sabrina,Aragão,71 1022 6019,carolina11@example.net,Cozinheiro,2022-01-04
+866,Théo,Moreira,(021) 1119-5324,nalbuquerque@example.net,Gerente,2021-12-11
+722,Sophia,Pimenta,+55 51 2066 9963,cavalcantiheitor@example.com,Barista,2021-10-23
+925,Arthur Gabriel,da Paz,(021) 7280-5678,matteo63@example.org,Gerente,2023-01-01
+16,Vicente,Andrade,84 2944-8571,mariana99@example.org,Barista,2022-01-16
+163,Enzo Gabriel,Nascimento,(031) 9779-1999,jfarias@example.com,Atendente,2023-02-11
+891,Yan,Pereira,+55 (051) 7544-4268,ottoferreira@example.net,Cozinheiro,2022-01-06
+61,Maria Isis,da Mota,(011) 0359 7891,almeidacaleb@example.net,Cozinheiro,2023-04-26
+568,Cecília,Moreira,0900-659-0552,mathiasbarbosa@example.net,Barista,2023-06-23
+616,Marina,Silveira,(011) 5200 7331,luiz-fernando83@example.com,Atendente,2023-03-24
+98,Otávio,Silveira,61 5936-0652,raparecida@example.com,Barista,2022-04-18
+40,Brayan,Câmara,71 6182 7114,castroisaac@example.net,Cozinheiro,2022-12-11
+179,Lucas Gabriel,Oliveira,+55 51 4177 5610,abreufelipe@example.com,Cozinheiro,2022-04-20
+907,José Pedro,Azevedo,+55 (051) 3002-2860,gustavo30@example.org,Cozinheiro,2023-11-24
+998,Heitor,Silva,+55 (011) 8062 6421,moraesisis@example.com,Gerente,2024-02-29
+933,Diego,da Conceição,+55 11 0943 6663,zborges@example.net,Barista,2024-05-21
+780,Isis,Cirino,(051) 9944 8830,maria-fernandada-rocha@example.com,Atendente,2023-09-07
+426,Ester,Rios,(084) 8409 6931,rodrigueslucas-gabriel@example.net,Cozinheiro,2021-08-01
+134,Sophia,da Rosa,71 8581-5841,oferreira@example.org,Barista,2022-03-12
+668,Leandro,Peixoto,31 6022-6568,pmarques@example.com,Cozinheiro,2022-07-20
+132,Raquel,da Conceição,(084) 0358-2410,pedro-miguel18@example.com,Atendente,2023-01-01
+302,Luigi,Araújo,+55 (031) 7163-7845,wcunha@example.org,Gerente,2021-11-04
+584,Rodrigo,Lima,+55 (041) 5825-7601,galmeida@example.com,Atendente,2023-02-12
+885,Dom,Montenegro,+55 61 4765 9807,nsilveira@example.net,Barista,2023-09-08
+20,Carolina,Costela,+55 (021) 1000-9791,kda-costa@example.net,Barista,2022-06-24
+585,Ana Julia,Teixeira,(051) 9138 0875,gustavo-henrique67@example.net,Gerente,2023-10-09
+517,Rebeca,Fernandes,+55 84 9917 6079,olivia70@example.com,Barista,2022-10-20
+784,Gael Henrique,Nascimento,0900 386 2593,maria-julia90@example.net,Barista,2022-10-23
+716,Ana Sophia,Casa Grande,84 5854-1476,pereiraamanda@example.org,Barista,2023-12-17
+740,Enzo Gabriel,Nascimento,41 0182 3290,diogo18@example.org,Barista,2022-09-23
+10,Gabriela,Melo,31 9277-4091,cavalcantegustavo-henrique@example.com,Gerente,2023-08-02
+102,Stephany,Santos,0300-416-7774,fernandesbryan@example.net,Atendente,2023-03-02
+263,Alice,Moreira,+55 41 1541-7146,sda-costa@example.org,Atendente,2023-04-01
+182,Levi,da Rocha,61 8459 1932,leonardo86@example.net,Barista,2024-01-08
+405,Anna Liz,Rocha,(084) 8855 8122,ucastro@example.net,Atendente,2022-08-13
+825,Letícia,Sousa,+55 71 0680 6517,pietronogueira@example.net,Gerente,2023-02-17
+170,Camila,Costa,+55 (061) 6825 2639,wcaldeira@example.net,Gerente,2023-06-06
+473,Joana,Ribeiro,(071) 5831 8965,emontenegro@example.org,Atendente,2021-07-21
+826,Bella,Azevedo,+55 (061) 8136-8140,nleao@example.org,Gerente,2023-10-14
+33,Eduarda,Novaes,+55 (041) 4725 4236,nunesliz@example.net,Barista,2021-07-11
+222,Daniela,Siqueira,+55 11 7149 9150,dantemelo@example.net,Barista,2022-10-05
+368,Natália,Ferreira,61 9411-3156,davi-miguelsouza@example.org,Barista,2022-09-14
+467,Valentim,Ferreira,+55 31 1677 9674,antonioteixeira@example.org,Barista,2023-05-10
+994,Júlia,Garcia,(021) 2561-8003,brenda16@example.org,Atendente,2022-09-26
+661,Levi,Borges,21 5665-3711,oporto@example.org,Gerente,2021-12-06
+996,Samuel,Camargo,(081) 0306-1860,andradeaurora@example.net,Cozinheiro,2023-04-27
+75,Maria Julia,Macedo,(031) 0835-0441,maria-liz52@example.net,Atendente,2021-10-07
+808,Stephany,Pacheco,(061) 5787-7445,montenegroravi-lucca@example.org,Gerente,2023-02-18
+380,Maria Luiza,Brito,+55 (084) 1438 9683,rezendeisabela@example.com,Atendente,2021-07-16
+817,Bruna,da Cruz,+55 (084) 9277-6463,cavalcantearthur-gabriel@example.com,Gerente,2022-11-30
+782,Giovanna,Ferreira,+55 (051) 1553 1605,fariasenzo-gabriel@example.org,Cozinheiro,2021-07-16
+79,Dante,Cardoso,+55 (084) 8334-4404,brenomarques@example.net,Gerente,2022-10-05
+92,Lucas Gabriel,Melo,+55 (071) 2378-6510,correiasofia@example.org,Atendente,2024-05-12
+435,Maria Vitória,Fernandes,+55 81 6023 8539,riosmatheus@example.com,Atendente,2024-02-29
+31,Samuel,Pastor,+55 (021) 4187-3812,anthonyda-cunha@example.net,Barista,2021-07-26
+151,Ester,Viana,+55 (051) 6720-6409,fonsecaravi@example.net,Gerente,2024-02-08
+751,Maria Júlia,Costela,(051) 1523 3608,caue90@example.net,Cozinheiro,2023-04-15
+253,Heloísa,Costa,+55 (061) 7135 3362,da-luzmariane@example.com,Barista,2023-04-18
+554,Sophie,Casa Grande,+55 51 0119 1534,casa-granderhavi@example.com,Cozinheiro,2021-10-19
+794,João Lucas,Fernandes,(071) 4237 8637,da-conceicaohenry-gabriel@example.net,Barista,2022-09-09
+993,Ravi Lucca,Farias,61 8142 2783,thiago24@example.com,Gerente,2023-08-04
+565,Melina,Peixoto,+55 11 8976 5759,maysa22@example.org,Cozinheiro,2024-01-04
+550,Francisco,Fonseca,(081) 1640 7627,sdias@example.org,Gerente,2021-08-01
+436,Lara,Moura,84 8907-5364,carolinemoraes@example.org,Atendente,2023-01-02
+819,Isabel,Pastor,+55 81 5765-6444,araujoantony@example.com,Cozinheiro,2022-12-27
+115,Luiz Otávio,Cardoso,+55 81 2208-7475,brendacastro@example.net,Gerente,2021-12-27
+7,Cauê,Duarte,+55 21 6191 6381,ravy45@example.com,Atendente,2023-02-05
+965,Mariah,Melo,+55 51 7591 7901,da-costarhavi@example.org,Atendente,2022-04-27
+829,Rhavi,Pimenta,+55 51 9348 3467,nogueiranoah@example.net,Atendente,2022-03-13
+600,Esther,das Neves,84 3261 2638,lpacheco@example.org,Cozinheiro,2021-11-23
+937,Anthony Gabriel,Novais,31 9844 1452,davi-lucas56@example.net,Atendente,2022-09-26
+409,Marina,Cunha,(021) 3479-2670,diego10@example.net,Cozinheiro,2023-06-06
+141,José,Garcia,84 8414-7136,cardosoagatha@example.org,Barista,2023-08-06
+119,Ana Laura,da Luz,0300 060 2750,marina84@example.org,Barista,2021-10-25
+447,Maria Luiza,Albuquerque,41 3459 4986,fonsecamurilo@example.net,Gerente,2022-09-24
+161,Ana Beatriz,Azevedo,+55 (011) 1916-8291,zandrade@example.com,Barista,2021-12-20
+701,Natália,Camargo,(021) 0202-2726,hadassacunha@example.org,Barista,2022-03-24
+627,Anthony,Câmara,+55 61 4605 7763,mendesyago@example.com,Atendente,2024-02-19
+918,Ísis,Cirino,0800 423 2512,isadoranogueira@example.org,Cozinheiro,2023-12-14
+107,Mariana,Caldeira,+55 41 3200 5347,garciahadassa@example.com,Gerente,2024-05-01
+605,Luiz Miguel,Guerra,+55 (031) 7877 5156,leaocecilia@example.org,Atendente,2023-03-29
+399,Otto,da Conceição,0500 436 8757,benicio73@example.com,Gerente,2021-11-30
+443,Elisa,Correia,+55 31 7755 2751,fernandesmaria-flor@example.net,Cozinheiro,2023-01-11
+848,Lívia,Gonçalves,+55 (031) 1450 6237,danilo01@example.com,Barista,2023-04-19
+909,Vitor Gabriel,Azevedo,+55 11 8346 6770,nathanalmeida@example.com,Cozinheiro,2024-01-18
+587,Cecília,da Conceição,+55 81 9034-6234,isabella29@example.net,Atendente,2023-08-08
+952,Sophia,da Mata,(011) 9621 7062,xda-conceicao@example.com,Atendente,2021-11-25
+363,Luiz Otávio,Vargas,+55 41 4890-8106,da-rochaarthur-gabriel@example.net,Atendente,2022-10-24
+70,Ana Carolina,Sousa,0900 901 4595,pedro-henrique82@example.com,Barista,2024-04-11
+217,Ana,Cirino,0800-475-3097,ana-lizgarcia@example.com,Barista,2021-07-02
+831,Anna Liz,Monteiro,+55 81 3994 1568,sajoao@example.net,Cozinheiro,2024-01-31
+478,Gael,Aragão,(084) 6743 7936,cirinoana-julia@example.net,Gerente,2022-01-28
+292,Breno,Cirino,+55 21 9595 1636,qmendes@example.com,Gerente,2022-04-10
+552,Maria Julia,Rodrigues,+55 (084) 5370-4252,maria-sophia76@example.com,Atendente,2022-10-21
+252,Heitor,Silva,(021) 1039-4490,hcampos@example.org,Atendente,2023-07-22
+489,Daniela,Jesus,(011) 5603 2418,icirino@example.net,Barista,2022-10-22
+96,João Felipe,Guerra,(051) 5940 8810,goncalvesana-livia@example.org,Gerente,2023-09-06
+830,Jade,Nunes,+55 51 6134 7109,melinaalves@example.net,Barista,2022-02-06
+744,Helena,da Costa,+55 (081) 0923-0456,olivia04@example.net,Barista,2024-01-23
+180,Isabela,Barbosa,81 8791-7993,afreitas@example.com,Cozinheiro,2024-01-16
+238,Agatha,Andrade,+55 (031) 4874 4936,ucostela@example.org,Atendente,2022-01-18
+393,Giovanna,Abreu,0800 994 2854,maria-luisamachado@example.net,Gerente,2023-04-13
+551,Dante,Porto,(011) 4952-7817,britogabriela@example.org,Atendente,2022-11-01
+18,Levi,Lopes,+55 (021) 6834-9733,machadodante@example.org,Barista,2022-05-22
+807,Nicolas,Brito,21 0998 5080,rda-cruz@example.com,Barista,2023-02-18
+533,Sabrina,Monteiro,0300 351 1054,liamda-mata@example.org,Atendente,2023-11-02
+493,Marcelo,Almeida,+55 (071) 5035-4877,lorenzoteixeira@example.com,Barista,2023-07-06
+294,Isadora,Cassiano,(041) 4102 4587,beatriz89@example.org,Barista,2022-05-31
+694,Théo,Azevedo,0800-719-0428,bda-luz@example.net,Barista,2022-04-27
+883,Emilly,Vasconcelos,+55 11 3093-9471,vsousa@example.com,Atendente,2023-07-09
+113,Brenda,Câmara,0300-483-1036,augusto46@example.net,Barista,2022-01-09
+640,Nicolas,Marques,21 5093 5305,mouraamanda@example.com,Cozinheiro,2022-03-18
+690,Benício,da Costa,11 6570-8007,lmoura@example.com,Atendente,2022-01-31
+620,Leonardo,Novais,21 6056 8940,thales17@example.com,Atendente,2024-02-18
+822,Paulo,Brito,71 3588 7830,vdias@example.org,Cozinheiro,2024-04-29
+498,Isis,Marques,(084) 8756-6351,carolina99@example.com,Atendente,2023-01-02
+818,Eloá,Vargas,(071) 5705-7552,imacedo@example.net,Gerente,2021-10-20
+440,Francisco,da Cruz,51 9195 3952,bmelo@example.net,Atendente,2023-07-20
+501,Sofia,Novaes,41 7280-5720,davi30@example.net,Barista,2023-10-13
+198,Sarah,Nogueira,+55 71 4478 1408,barbosamatheus@example.net,Barista,2023-10-12
+277,Cauê,da Luz,+55 41 5171 7587,jda-mata@example.com,Barista,2023-01-03
+806,João Miguel,Mendonça,(021) 2036-8195,melohenrique@example.net,Barista,2021-07-02
+726,Emilly,Camargo,+55 (031) 8011-8764,novaescarolina@example.com,Atendente,2024-02-04
+730,Antônio,Câmara,41 5176 7687,mirellasilva@example.com,Atendente,2023-05-07
+513,Nathan,Cunha,(011) 1589-8403,raulribeiro@example.net,Cozinheiro,2021-09-19
+247,Daniela,Vieira,41 8726 2671,barbara20@example.org,Atendente,2022-01-14
+68,Dante,Barbosa,(051) 7768-3034,silveiraana-livia@example.net,Barista,2024-04-07
+542,Raul,Duarte,+55 21 6085 4742,freitasarthur@example.com,Barista,2024-04-26
+497,Ayla,Costela,+55 11 1090-9542,daniel45@example.net,Atendente,2021-12-21
+331,Helena,Guerra,+55 21 2607-3406,camposmurilo@example.net,Atendente,2022-01-08
+233,Nathan,Sampaio,+55 (011) 2601 0533,luisa82@example.net,Barista,2021-07-17
+983,Rhavi,Nogueira,81 9757 6553,cardosoarthur-miguel@example.net,Gerente,2023-06-02
+462,Gustavo Henrique,Barros,51 2356 0798,qduarte@example.com,Cozinheiro,2024-05-28
+759,Emanuella,Lima,(031) 2504 1412,hcardoso@example.org,Atendente,2022-09-15
+216,Carolina,Brito,+55 11 3054-2487,vitoria64@example.org,Barista,2024-03-31
+592,Amanda,Souza,+55 (041) 1098-3458,milena00@example.com,Atendente,2022-12-31
+293,Maria Helena,Montenegro,+55 31 8222 9925,yagocasa-grande@example.com,Cozinheiro,2024-04-05
+184,Léo,Nogueira,+55 71 1981-9999,costeladaniela@example.org,Barista,2021-10-26
+971,Isaac,Cavalcante,41 7031 1537,qdas-neves@example.net,Barista,2023-08-18
+741,Benjamim,Nogueira,+55 (081) 7837 2309,ana-lauranovais@example.org,Gerente,2024-02-28
+275,Ana Vitória,Ribeiro,0500-019-6848,luiz-otavio63@example.com,Atendente,2021-12-24
+356,Pedro Henrique,da Mota,+55 (011) 4141-3571,maria-juliamendes@example.com,Gerente,2023-06-23
+215,Vitória,da Rocha,(071) 7829 2394,ayllacosta@example.com,Gerente,2022-01-17
+914,Valentina,Nogueira,41 1589-7520,carlos-eduardo07@example.org,Atendente,2023-01-02
+242,Anna Liz,da Rosa,0800-996-9657,camilada-cruz@example.org,Atendente,2022-04-20
+105,Francisco,Borges,(011) 2620-8138,valentina91@example.com,Gerente,2021-10-29
+973,Josué,da Mota,+55 (051) 8209-2105,anthony-gabrielpimenta@example.org,Cozinheiro,2021-06-18
+428,Diogo,Cavalcante,0800 681 4898,liviaandrade@example.com,Cozinheiro,2022-04-07
+894,Renan,Gomes,71 3975-7871,cmoreira@example.org,Barista,2024-01-03
+990,Rafaela,Cassiano,+55 21 8947-4092,raquelsouza@example.com,Cozinheiro,2023-07-08
+864,Juan,Cunha,+55 (061) 9276 8046,mateus41@example.com,Gerente,2022-10-06
+199,Maria Clara,da Mota,(011) 4757-0955,matheus55@example.net,Barista,2021-10-30
+344,Ryan,Correia,0800-054-4227,liamandrade@example.com,Barista,2023-07-03
+669,Clara,Santos,(011) 2920 9834,luigi94@example.com,Cozinheiro,2024-03-04
+957,Paulo,Silveira,(051) 6920-2746,isisnovaes@example.net,Cozinheiro,2023-12-14
+187,Alice,Gonçalves,31 0367-0887,marquesmarcela@example.com,Atendente,2021-11-18
+19,Anthony Gabriel,Cassiano,+55 (041) 7095 5765,leaoluisa@example.com,Atendente,2023-11-15
+389,Ravi Lucca,Casa Grande,+55 21 3350-9805,rezendejosue@example.org,Cozinheiro,2023-10-27
+833,Arthur Gabriel,Farias,(041) 5222 5439,acirino@example.com,Barista,2023-01-13
+908,Yasmin,Monteiro,+55 (021) 7570 9197,lmendonca@example.org,Gerente,2021-07-31
+865,Yuri,Brito,0300 470 4162,marcelamoreira@example.net,Gerente,2024-04-25
+646,Danilo,Fonseca,31 3508 1529,thiagofogaca@example.net,Atendente,2021-10-07
+78,Letícia,Macedo,+55 84 1798-1553,luiz-felipenovaes@example.net,Gerente,2023-05-05
+64,Leonardo,Moreira,(061) 4371 6994,luccacardoso@example.org,Atendente,2022-03-03
+718,Ana Cecília,Melo,(031) 1133 9989,guerraheloisa@example.org,Barista,2021-08-17
+734,Diogo,da Mata,+55 (011) 7785 2264,stephanyaraujo@example.net,Barista,2021-12-15
+25,Agatha,Vasconcelos,0800 763 5011,nlopes@example.net,Gerente,2022-05-26
+776,Leonardo,Gomes,(071) 0865 0051,maria-lauraviana@example.com,Barista,2022-07-14
+589,Cauã,Barbosa,+55 (011) 2503-9052,aparecidajoao-guilherme@example.org,Barista,2022-09-17
+111,Rebeca,Casa Grande,41 5348 9201,sophia36@example.net,Barista,2022-10-05
+940,Luara,Moreira,+55 11 8534 4538,nferreira@example.com,Gerente,2022-12-20
+95,Evelyn,Pereira,+55 71 9970-6316,sacaio@example.org,Cozinheiro,2021-11-18
+673,Maria Clara,Pinto,+55 51 7228 9845,rezendemanuella@example.net,Gerente,2022-08-27
+652,Maria Clara,da Paz,0800-355-3575,aparecidaemanuella@example.net,Atendente,2022-02-19
+66,Ravi Lucca,Casa Grande,+55 41 1308 7508,imontenegro@example.com,Cozinheiro,2024-04-17
+692,Ágatha,Duarte,+55 51 1514 8179,gabriellyabreu@example.net,Cozinheiro,2021-11-29
+332,Mateus,Freitas,+55 61 0012-1653,da-conceicaocecilia@example.net,Atendente,2023-07-15
+901,Hadassa,Duarte,+55 (081) 9806-1219,kamillyaragao@example.net,Atendente,2024-03-27
+65,Olívia,Pastor,0800 208 4106,portobianca@example.com,Gerente,2022-06-12
+283,Josué,Nascimento,+55 (061) 6526-6847,klima@example.com,Cozinheiro,2023-05-06
+137,Oliver,Machado,(031) 0020 3553,nascimentojuliana@example.net,Cozinheiro,2022-03-12
+487,Ester,Siqueira,51 3205 4251,antonella63@example.net,Cozinheiro,2023-12-03
+595,Luna,Moreira,61 2485-5687,cmendes@example.org,Barista,2022-05-25
+367,Ryan,da Conceição,+55 (051) 9782 9275,wcorreia@example.net,Barista,2022-04-25
+707,Luiz Fernando,Rezende,41 9348-1781,alexiacampos@example.com,Barista,2022-05-10
+765,Kevin,Macedo,+55 61 1910 9736,pachecoluna@example.net,Gerente,2022-10-15
+641,Paulo,Farias,+55 (081) 1717 7706,agatha03@example.net,Atendente,2022-10-13
+464,Kamilly,Martins,61 4678-4307,fribeiro@example.net,Cozinheiro,2021-08-18
+256,Ravi,Teixeira,+55 21 7974-2271,sousaraquel@example.com,Gerente,2022-09-09
+835,Fernando,Souza,+55 (041) 5926 1041,isadoracorreia@example.org,Gerente,2021-08-23
+633,Gabriela,Sá,(041) 5627 7610,sophiemelo@example.net,Cozinheiro,2022-07-08
+206,Maria Flor,Almeida,(011) 7010-5777,macedoluiz-fernando@example.net,Cozinheiro,2021-12-28
+76,Mathias,Mendonça,(021) 8518 2739,vitorrocha@example.net,Cozinheiro,2021-10-30
+581,Francisco,Aragão,21 4321 0444,gnovaes@example.org,Gerente,2022-02-19
+884,Valentim,Brito,+55 (041) 6883-2021,bcorreia@example.com,Gerente,2022-01-04
+52,Bianca,Garcia,71 4032-8739,davi-lucas22@example.com,Atendente,2023-10-13
+406,Kaique,Araújo,+55 84 4660 5105,wda-mata@example.com,Gerente,2022-10-02
