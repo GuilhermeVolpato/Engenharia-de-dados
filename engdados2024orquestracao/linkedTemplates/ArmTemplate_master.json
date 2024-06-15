@@ -1,0 +1,84 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Nome do Data Factory",
+			"defaultValue": "engdados2024orquestracao"
+		},
+		"PingadoDataLakeStorage1_accountKey": {
+			"type": "secureString",
+			"metadata": "Cadeia de caracteres segura para 'accountKey' de 'PingadoDataLakeStorage1'"
+		},
+		"PingadoSqlDatabase1_password": {
+			"type": "secureString",
+			"metadata": "Cadeia de caracteres segura para 'password' de 'PingadoSqlDatabase1'"
+		},
+		"PingadoDataLakeStorage1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://datalake3fd6d8e4d660916d.dfs.core.windows.net/"
+		},
+		"PingadoSqlDatabase1_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "pingadoserver.database.windows.net"
+		},
+		"PingadoSqlDatabase1_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "CafeteriaPingado"
+		},
+		"PingadoSqlDatabase1_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "admin_pingado"
+		},
+		"containerUri": {
+			"type": "string",
+			"metadata": "URI para a conta de armazenamento contendo os modelos do ARM vinculados"
+		},
+		"containerSasToken": {
+			"type": "string",
+			"metadata": "Token SAS para a conta de armazenamento contendo modelos do ARM vinculados"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "engdados2024orquestracao_ArmTemplate_0",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"PingadoDataLakeStorage1_accountKey": {
+						"value": "[parameters('PingadoDataLakeStorage1_accountKey')]"
+					},
+					"PingadoSqlDatabase1_password": {
+						"value": "[parameters('PingadoSqlDatabase1_password')]"
+					},
+					"PingadoDataLakeStorage1_properties_typeProperties_url": {
+						"value": "[parameters('PingadoDataLakeStorage1_properties_typeProperties_url')]"
+					},
+					"PingadoSqlDatabase1_properties_typeProperties_server": {
+						"value": "[parameters('PingadoSqlDatabase1_properties_typeProperties_server')]"
+					},
+					"PingadoSqlDatabase1_properties_typeProperties_database": {
+						"value": "[parameters('PingadoSqlDatabase1_properties_typeProperties_database')]"
+					},
+					"PingadoSqlDatabase1_properties_typeProperties_userName": {
+						"value": "[parameters('PingadoSqlDatabase1_properties_typeProperties_userName')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}
