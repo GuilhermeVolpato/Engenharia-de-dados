@@ -26,14 +26,40 @@ Arquivo fonte: [https://dbdiagram.io/d/6499ee8e02bd1c4a5e18a355]<code>link pro a
 
 ### Desenho de Arquitetura:
 
+## Pré-requisitos
+
 Coloqui uma imagem do seu projeto, como no exemplo abaixo:
 
 ![image](https://github.com/jlsilva01/projeto-ed-satc/assets/484662/541de6ab-03fa-49b3-a29f-dec8857360c1)
 
-
 ## Pré-requisitos
 
+### SQL Server Docker Image
+
+Esta é a imagem Docker do SQL Server configurada com os dados necessários. Siga os passos abaixo para baixar e executar o contêiner.<br>
+
+### Passos para Baixar e Executar a Imagem
+
+```sh
+docker pull bielsalaz07/cafeteria:v1
+
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Eng_Dados_Cafeteria" -p 1433:1433 --name novo-sql-server --hostname novo-sql-server -d bielsalaz07/cafeteria:v1
+```
+
 ### SQL Server
+
+Nome do servidor: localhost,1433<br>
+Logon: sa<br>
+Senha: Eng_Dados_Cafeteria<br>
+
+
+Caso ocorra algum erro no login, no modal de login abrir opções(canto inferior direito), marcar "Certificado de servidor confiavel", e rodar os proximos dois comandos<br>
+
+```sh
+dotnet dev-certs https --clean
+
+dotnet dev-certs https --trust
+```
 
 ### ADLS Gen 2
 
@@ -54,6 +80,7 @@ Dar exemplos
 E repita:
 
 ```
+
 Até finalizar
 ```
 
