@@ -1,0 +1,19 @@
+{
+	"name": "CardapioSqlTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PingadoSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "TabelasSqlDatabase"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "cardapio"
+		}
+	}
+}
