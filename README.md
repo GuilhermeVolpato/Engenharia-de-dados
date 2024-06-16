@@ -26,10 +26,11 @@ Arquivo fonte: [https://dbdiagram.io/d/6499ee8e02bd1c4a5e18a355]<code>link pro a
 
 ### Desenho de Arquitetura:
 
+## Pré-requisitos
+
 Coloqui uma imagem do seu projeto, como no exemplo abaixo:
 
 ![image](https://github.com/jlsilva01/projeto-ed-satc/assets/484662/541de6ab-03fa-49b3-a29f-dec8857360c1)
-
 
 ## Pré-requisitos
 
@@ -79,6 +80,7 @@ Dar exemplos
 E repita:
 
 ```
+
 Até finalizar
 ```
 
