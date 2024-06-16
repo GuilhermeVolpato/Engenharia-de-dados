@@ -1,0 +1,27 @@
+{
+	"name": "FileLandingPedido",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PingadoDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "FilesLandingDatalake"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "FilePedido.csv",
+				"folderPath": "Pedido",
+				"fileSystem": "landing-zone"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
