@@ -11,6 +11,9 @@
 		"PingadoSqlDatabase1_password": {
 			"value": ""
 		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"value": ""
+		},
 		"PingadoDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://datalake3fd6d8e4d660916d.dfs.core.windows.net/"
 		},

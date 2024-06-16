@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Cadeia de caracteres segura para 'password' de 'PingadoSqlDatabase1'"
 		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"type": "secureString",
+			"metadata": "Cadeia de caracteres segura para 'accessToken' de 'AzureDatabricksDeltaLake1'"
+		},
 		"PingadoDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://datalake3fd6d8e4d660916d.dfs.core.windows.net/"
@@ -64,6 +68,9 @@
 					"PingadoSqlDatabase1_password": {
 						"value": "[parameters('PingadoSqlDatabase1_password')]"
 					},
+					"AzureDatabricksDeltaLake1_accessToken": {
+						"value": "[parameters('AzureDatabricksDeltaLake1_accessToken')]"
+					},
 					"PingadoDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('PingadoDataLakeStorage1_properties_typeProperties_url')]"
 					},
@@ -79,6 +86,26 @@
 				}
 			},
 			"dependsOn": []
+		},
+		{
+			"name": "engdados2024orquestracao_ArmTemplate_1",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_1.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					}
+				}
+			},
+			"dependsOn": [
+				"[resourceId('Microsoft.Resources/deployments', 'engdados2024orquestracao_ArmTemplate_0')]"
+			]
 		}
 	]
 }
