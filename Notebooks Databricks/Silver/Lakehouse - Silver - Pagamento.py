@@ -47,7 +47,7 @@ display(dbutils.fs.ls(f"/mnt/{storageAccountName}/bronze"))
 
 # COMMAND ----------
 
-df_cardapio = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze/Cardapio")
+df_pagamento = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze/Pagamento")
 
 
 # COMMAND ----------
@@ -59,13 +59,13 @@ df_cardapio = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_cardapio = df_cardapio.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("cardapio"))
+df_pagamento = df_pagamento.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("pagamento"))
 
 
 # COMMAND ----------
 
 # Obtenha todas as colunas do DataFrame
-colunas = df_cardapio.columns
+colunas = df_pagamento.columns
 
 # Converta todas as colunas para maiúsculas
 colunas_maiusculas = [coluna.upper() for coluna in colunas]
@@ -82,16 +82,11 @@ for coluna in colunas_maiusculas:
 
 # COMMAND ----------
 
-df_cardapio = (df_cardapio
-               .withColumnRenamed("id_item_cardapio","CODIGO_ITEM_CARDAPIO")
-               .withColumnRenamed("nome_item" , "NOME_ITEM_CARDAPIO")
-               .withColumnRenamed("valor" , "VALOR")
-               .withColumnRenamed("descricao" , "DESCRICAO")
-               .withColumnRenamed("categoria" , "CATEGORIA")
-               .withColumnRenamed("disponibilidade" , "DISPONIBILIDADE")
-               .withColumnRenamed("data_hora_bronze" , "DATA_HORA_BRONZE")
-               .withColumnRenamed("nome_arquivo" , "NOME_ARQUIVO")
-               .withColumnRenamed("data_hora_silver" , "DATA_HORA_SILVER"))
+df_pagamento = (df_pagamento
+            .withColumnRenamed("id_pagamento", "CODIGO_PAGAMENTO") 
+            .withColumnRenamed("tipo", "TIPO") 
+            .withColumnRenamed("status", "STATUS") 
+            .withColumnRenamed("taxa", "TAXA"))
 
 # COMMAND ----------
 
@@ -100,7 +95,7 @@ df_cardapio = (df_cardapio
 
 # COMMAND ----------
 
-df_cardapio.display()
+df_pagamento.display()
 
 # COMMAND ----------
 
@@ -109,8 +104,7 @@ df_cardapio.display()
 
 # COMMAND ----------
 
-df_cardapio = df_cardapio.dropDuplicates()
-
+df_pagamento = df_pagamento.dropDuplicates()
 
 # COMMAND ----------
 
@@ -119,7 +113,7 @@ df_cardapio = df_cardapio.dropDuplicates()
 
 # COMMAND ----------
 
-df_cardapio = df_cardapio.fillna({"VALOR": 0, "DISPONIBILIDADE": "False"})
+df_pagamento = df_pagamento.fillna({"STATUS": 0})
 
 # COMMAND ----------
 
@@ -128,7 +122,7 @@ df_cardapio = df_cardapio.fillna({"VALOR": 0, "DISPONIBILIDADE": "False"})
 
 # COMMAND ----------
 
-df_cardapio.write.format('delta').save(f"/mnt/{storageAccountName}/silver/Cardapio")
+df_pagamento.write.format('delta').save(f"/mnt/{storageAccountName}/silver/Pagamento")
 
 # COMMAND ----------
 
@@ -146,4 +140,4 @@ display(dbutils.fs.ls(f"/mnt/{storageAccountName}/silver/"))
 
 # COMMAND ----------
 
-spark.read.format('delta').load(f'/mnt/{storageAccountName}/silver/Cardapio').limit(10).display()
+spark.read.format('delta').load(f'/mnt/{storageAccountName}/silver/Pagamento').limit(10).display()
