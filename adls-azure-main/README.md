@@ -1,5 +1,8 @@
+#### Disponibilizado por [jlsilva01](https://github.com/jlsilva01)
+
 ## Criando Azure Data Lake Storage no Azure gratuito - Sem cartão de crédito
 #### Disclaimer: Utilizar somente para fins de estudo e testes da tecnologia
+
 
 ### Pré-requisitos:
 
