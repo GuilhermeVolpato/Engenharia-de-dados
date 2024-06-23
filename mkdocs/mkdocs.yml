@@ -1,0 +1,45 @@
+site_name: Pingado Café Docs
+site_description: Site Pingado Café
+site_author: Guilherme Volpato, Luiz Otavio, Gabriel Canarin, Naum Marcirio, Guilherme Silveira, Charles Clezar, Pedro Hahn, João Eduardo
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: 'brown'
+    accent: 'brown'
+
+nav:
+  - Boas Vindas: index.md
+  - Pré-Requisitos e Ferramentas: prerequisitos.md
+  - Como Executar o Projeto: comoExecutar.md
+
+  
+  
+markdown_extensions:
+  - toc:
+      permalink: True
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GuilhermeVolpato/Engenharia-de-dados.git
+
