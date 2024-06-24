@@ -59,7 +59,7 @@ df_comanda = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze/
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_comanda = df_comanda.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("comanda"))
+df_comanda = df_comanda.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("comanda"))
 
 
 # COMMAND ----------

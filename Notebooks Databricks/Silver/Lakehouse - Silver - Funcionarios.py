@@ -59,7 +59,7 @@ df_funcionarios = spark.read.format('delta').load(f"/mnt/{storageAccountName}/br
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_funcionarios = df_funcionarios.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("funcionarios"))
+df_funcionarios = df_funcionarios.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("funcionarios"))
 
 
 # COMMAND ----------

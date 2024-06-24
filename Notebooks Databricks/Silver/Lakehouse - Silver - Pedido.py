@@ -59,7 +59,7 @@ df_pedido = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze/P
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_pedido = df_pedido.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("pedido"))
+df_pedido = df_pedido.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("pedido"))
 
 
 # COMMAND ----------

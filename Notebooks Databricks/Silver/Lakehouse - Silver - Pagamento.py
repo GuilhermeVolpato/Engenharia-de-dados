@@ -59,7 +59,7 @@ df_pagamento = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronz
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_pagamento = df_pagamento.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("pagamento"))
+df_pagamento = df_pagamento.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("pagamento"))
 
 
 # COMMAND ----------
