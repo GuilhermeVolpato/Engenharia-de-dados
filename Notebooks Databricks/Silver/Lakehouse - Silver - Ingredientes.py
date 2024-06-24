@@ -59,7 +59,7 @@ df_ingredientes = spark.read.format('delta').load(f"/mnt/{storageAccountName}/br
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_ingredientes = df_ingredientes.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("ingredientes"))
+df_ingredientes = df_ingredientes.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("ingredientes"))
 
 
 # COMMAND ----------

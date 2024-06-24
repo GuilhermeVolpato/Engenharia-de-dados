@@ -59,7 +59,7 @@ df_cardapio = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_cardapio = df_cardapio.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("cardapio"))
+df_cardapio = df_cardapio.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("cardapio"))
 
 
 # COMMAND ----------

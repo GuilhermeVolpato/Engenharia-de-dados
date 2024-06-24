@@ -59,7 +59,7 @@ df_mesas = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze/Me
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_mesas = df_mesas.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("mesas"))
+df_mesas = df_mesas.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("mesas"))
 
 
 # COMMAND ----------

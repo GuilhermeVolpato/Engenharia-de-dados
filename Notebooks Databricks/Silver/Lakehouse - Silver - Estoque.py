@@ -59,7 +59,7 @@ df_estoque = spark.read.format('delta').load(f"/mnt/{storageAccountName}/bronze/
 
 from pyspark.sql.functions import current_timestamp, lit
 
-df_estoque = df_estoque.withColumn("data_hora_silver", current_timestamp()).withColumn("nome_arquivo", lit("estoque"))
+df_estoque = df_estoque.withColumn("DATA_HORA_SILVER", current_timestamp()).withColumn("NOME_ARQUIVO", lit("estoque"))
 
 
 # COMMAND ----------
