@@ -2,140 +2,64 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-O projeto deverá contemplar a leitura de dados de um ambiente relacional, copiar para um Data Lake, transformar/refinar e disponibilizar os dados em um modelo dimensional ou OBT para consumo através de um dashboard
+# Documentação do Sistema Pingado Café
 
-[GuilhermeVolpato](https://github.com/GuilhermeVolpato)<br>
-[luizotavio-vieira](https://github.com/luizotavio-vieira)<br>
-[GabrielCanarin](https://github.com/GabrielCanarin)<br>
-[NaumMarcirio](https://github.com/NaumMarcirio)<br>
-[GuilhermeMSilveira](https://github.com/GuilhermeMSilveira)<br>
-[CharlesClezar](https://github.com/CharlesClezar)<br>
-[pedrohahn](https://github.com/pedrohahn)<br>
-[KinhoMilak](https://github.com/KinhoMilak)<br>
+# Introdução ao Projeto Pingado Café
 
-## Começando
+Bem-vindo à documentação do projeto Pingado Café, um sistema de gerenciamento desenvolvido para a matéria de Engenharia de Dados, utilizando como base um banco relacional de um projeto passado, para alimentar uma tabela Data Lake, e apresentar um Dashboard com resultados da Cafeteria.
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+## Visão Geral
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+- O ambiente relacional – origem – tem 6 tabelas, 10.000 linhas para cada tabela principal e com distribuição de datas para os últimos 3 anos ( O banco de dados utilizado foi modelado na matéria de Banco de Dados 2, [Modelo Relacional](https://dbdiagram.io/d/6499ee8e02bd1c4a5e18a355)).
+- Foi utilizado a biblioteca Faker do Python, para gerar as massas de dados e popular o ambiente relacional.
+- A ingestão dos dados foi feita através do Azure DataBricks (cloud).
+- O Data Lake foi criado em cima de um object storage (cloud) usando a arquitetura medalhão (camadas Landing, Bronze, Silver e Gold).
+- Os dados serão gravados no object storage no formato Delta Lake nas camadas Bronze, Silver e Gold.
+  A transformação será feita através do Apache Spark (Python/pyspark).
+- As funções de ingestão, transformação e movimentação dos dados entre as camadas são
+  orquestradas e agendadas através da ferramenta Azure DataBricks.
+- Os dados serão disponibilizados na camada Gold no formato dimensional (OBT).
+- Foi 4 KPIs e 2 métricas para compor o dashboard no DataBricks.
+- O dashboard consome os dados do modelo OBT, direto da camada gold.
+- A documentação completa do trabalho está publicada no MkDocs.
 
+## Objetivo do Projeto
 
-### Modelo Físico Relacinal:
-Utilizado [https://dbdiagram.io/]<br>
-Arquivo fonte: [https://dbdiagram.io/d/6499ee8e02bd1c4a5e18a355]<code>link pro arquivo</code><br>
+O objetivo do projeto Pingado Café é desenvolver um sistema de gerenciamento de dados que utilize um banco de dados relacional existente para alimentar um Data Lake, possibilitando a criação de um Dashboard para a apresentação de resultados e insights sobre a operação da cafeteria. Este projeto visa a integração e transformação de grandes volumes de dados, aplicando uma arquitetura moderna e eficiente para armazenamento e processamento de dados, com o uso de tecnologias de ponta como Azure DataBricks, Delta Lake e Apache Spark. Com isso, busca-se fornecer uma plataforma robusta para análise de dados, permitindo uma visão detalhada e otimizada do desempenho da cafeteria, através de KPIs e métricas específicas, e a disponibilização desses dados em um formato dimensional (OBT) adequado para a construção de dashboards informativos e úteis.
 
-### Desenho de Arquitetura:
+## Desenho de Arquitetura:
 
-## Pré-requisitos
+![image](./images/DIAGRAMA%20ETL.png)
 
-Coloqui uma imagem do seu projeto, como no exemplo abaixo:
+## Estrutura da Documentação
 
-![image](https://github.com/jlsilva01/projeto-ed-satc/assets/484662/541de6ab-03fa-49b3-a29f-dec8857360c1)
+Esta documentação foi organizada para guiar você por todas as funcionalidades e componentes do Pingado Café. Aqui, você encontrará:
 
-## Pré-requisitos
+- **[Apresentação](./index.md)**.
+- **[Pré-Requisitos e Ferramentas](./prerequisitos.md)**.
+- **[Execução](./comoExecutar.md)**.
 
-### SQL Server Docker Image
+Esperamos que esta documentação seja útil e que o Pingado Café ajude a transformar a gestão de sua cafeteria, tornando-a mais eficiente e lucrativa.
 
-Esta é a imagem Docker do SQL Server configurada com os dados necessários. Siga os passos abaixo para baixar e executar o contêiner.<br>
+## Integrantes
 
-### Passos para Baixar e Executar a Imagem
+- Charles Clezar
+- Gabriel Canarin Salazar
+- Guilherme Silveira
+- Guilherme Volpato
+- João Eduardo Milak Farias
+- Luiz Otavio Vieira
+- Naum Marcirio
+- Pedro Hahn
 
-```sh
-docker pull bielsalaz07/cafeteria:v1
-
-docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Eng_Dados_Cafeteria" -p 1433:1433 --name novo-sql-server --hostname novo-sql-server -d bielsalaz07/cafeteria:v1
-```
-
-### SQL Server
-
-Nome do servidor: localhost,1433<br>
-Logon: sa<br>
-Senha: Eng_Dados_Cafeteria<br>
-
-
-Caso ocorra algum erro no login, no modal de login abrir opções(canto inferior direito), marcar "Certificado de servidor confiavel", e rodar os proximos dois comandos<br>
-
-```sh
-dotnet dev-certs https --clean
-
-dotnet dev-certs https --trust
-```
-
-### ADLS Gen 2
-
-### Azure Data Factory
-
-### Azure Databricks
-
-## Instalação
-
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-## Ferramentas utilizadas
-
-Mencione as ferramentas que você usou para criar seu projeto
-
-* Ferramenta 1 + link - Breve descrição
-* Ferramenta 2 + link - Breve descrição
-* Ferramenta 3 + link - Breve descrição
-
-## Colaboração
-
-Por favor, leia o [COLABORACAO](https://gist.github.com/usuario/colaboracao.md) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-Se desejar publicar suas modificações em um repositório remoto no GitHub, siga estes passos:
-
-1. Crie um novo repositório vazio no GitHub.
-2. No terminal, navegue até o diretório raiz do projeto.
-3. Execute os seguintes comandos:
-
-```bash
-git remote set-url origin https://github.com/seu-usuario/nome-do-novo-repositorio.git
-git add .
-git commit -m "Adicionar minhas modificações"
-git push -u origin master
-```
-
-Isso configurará o repositório remoto e enviará suas modificações para lá.
-
-## Versão
-
-Fale sobre a versão e o controle de versões para o projeto. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Aluno 1** - *Trabalho Inicial* - [(https://github.com/linkParaPerfil)](https://github.com/linkParaPerfil)
-* **Aluno 2** - *Documentação* - [https://github.com/linkParaPerfil](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
 
 ## Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/jlsilva01/projeto-ed-satc/blob/main/LICENSE) para detalhes.
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/GuilhermeVolpato/Engenharia-de-dados/License) para detalhes.
 
 ## Referências
 
 Cite aqui todas as referências utilizadas neste projeto, pode ser outros repositórios, livros, artigos de internet etc.
+
 
 
