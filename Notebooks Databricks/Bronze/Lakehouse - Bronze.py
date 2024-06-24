@@ -31,42 +31,6 @@ storageAccountName = ""
 storageAccountAccessKey = ""
 sasToken = ""
 
-def mount_adls(blobContainerName):
-    try:
-      dbutils.fs.mount(
-        source = "wasbs://{}@{}.blob.core.windows.net".format(blobContainerName, storageAccountName),
-        mount_point = f"/mnt/{storageAccountName}/{blobContainerName}",
-        #extra_configs = {'fs.azure.account.key.' + storageAccountName + '.blob.core.windows.net': storageAccountAccessKey}
-        extra_configs = {'fs.azure.sas.' + blobContainerName + '.' + storageAccountName + '.blob.core.windows.net': sasToken}
-      )
-      print("OK!")
-    except Exception as e:
-      print("Falha", e)
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ### Definindo uma função para desmontar um ADLS com um ponto de montagem
-
-# COMMAND ----------
-
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/landing-zone"))
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/bronze"))
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/silver"))
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/gold"))
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ###Montando todos os containers
-
-# COMMAND ----------
-
-mount_adls('landing-zone')
-mount_adls('bronze')
-mount_adls('silver')
-mount_adls('gold')
-
 # COMMAND ----------
 
 # MAGIC %md

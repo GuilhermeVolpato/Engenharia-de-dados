@@ -8,113 +8,24 @@ spark
 
 # COMMAND ----------
 
-import pandas as pd
-import pyodbc
-
-# Configurações da conexão com o SQL Server
-server = ''
-database = ''
-username = ''
-password = ''
-
+Host = ""
+Port = 1433
+Database = "pingado-database"
+Username = ""
+Password = ""
+Driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+Url = f"jdbc:sqlserver://{Host}:{Port};databaseName={Database}"
 
 # COMMAND ----------
 
-try:
-    # Conectando ao SQL Server
-
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password};Connection Timeout=180')
-
-
-    # Especificando a query SQL ou a tabela que você deseja ler
-    query_cardapio = "SELECT * FROM cardapio"
-
-    # Lendo os dados do SQL Server para um DataFrame do pandas
-    df_cardapio = pd.read_sql(query_cardapio, conn)
-    
-    print("conectou ebaa")
-    # Fechar a conexão
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
-try:
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-
-    query_comanda = "SELECT * FROM comanda"
-
-    df_comanda = pd.read_sql(query_comanda, conn)
-    
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
-try:
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-
-    query_estoque = "SELECT * FROM estoque"
-
-    df_estoque = pd.read_sql(query_estoque, conn)
-    
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
-try:
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-
-    query_funcionarios = "SELECT * FROM funcionarios"
-
-    df_funcionarios = pd.read_sql(query_funcionarios, conn)
-    
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
-try:
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-
-    query_ingredientes = "SELECT * FROM ingredientes"
-
-    df_ingredientes = pd.read_sql(query_ingredientes, conn)
-    
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
-try:
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-
-    query_mesas = "SELECT * FROM mesas"
-
-    df_mesas = pd.read_sql(query_mesas, conn)
-    
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
-try:
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-
-    query_pagamento = "SELECT * FROM pagamento"
-
-    df_pagamento = pd.read_sql(query_pagamento, conn)
-    
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
-try:
-    conn = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-
-    query_pedido = "SELECT * FROM pedido"
-
-    df_pedido = pd.read_sql(query_pedido, conn)
-    
-    conn.close()
-except pyodbc.Error as e:
-    print("Erro ao conectar-se ao banco de dados:", e)
-
+df_cardapio = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "cardapio").option("user", Username).option("password", Password).load()
+df_comanda = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "comanda").option("user", Username).option("password", Password).load() 
+df_estoque = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "estoque").option("user", Username).option("password", Password).load() 
+df_funcionarios = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "funcionarios").option("user", Username).option("password", Password).load() 
+df_ingredientes = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "ingredientes").option("user", Username).option("password", Password).load()
+df_mesas = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "mesas").option("user", Username).option("password", Password).load()
+df_pagamento = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "pagamento").option("user", Username).option("password", Password).load()
+df_pedido = spark.read.format("jdbc").option("driver", Driver).option("url", Url).option("dbtable", "pedido").option("user", Username).option("password", Password).load()
 
 # COMMAND ----------
 
@@ -155,6 +66,13 @@ def mount_adls(blobContainerName):
 
 # COMMAND ----------
 
+dbutils.fs.unmount((f"/mnt/{storageAccountName}/landing-zone"))
+dbutils.fs.unmount((f"/mnt/{storageAccountName}/bronze"))
+dbutils.fs.unmount((f"/mnt/{storageAccountName}/silver"))
+dbutils.fs.unmount((f"/mnt/{storageAccountName}/gold"))
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ###Montando todos os containers
 
@@ -173,15 +91,6 @@ mount_adls('gold')
 # COMMAND ----------
 
 display(dbutils.fs.mounts())
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ### Mostrando todos os arquivos da camada landing-zone
-
-# COMMAND ----------
-
-display(dbutils.fs.ls(f"/mnt/{storageAccountName}/landing-zone"))
 
 # COMMAND ----------
 
