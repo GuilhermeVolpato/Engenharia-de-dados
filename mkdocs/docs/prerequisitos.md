@@ -108,4 +108,4 @@ terraform apply
 
 2 - Entre no Workspace Databricks, vá na aba computação e crie um Cluster.
 
-3 -
+3 - 
