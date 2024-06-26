@@ -29,7 +29,7 @@ display(dbutils.fs.mounts())
 
 storageAccountName = ""
 storageAccountAccessKey = ""
-sasToken = ""
+sasToken = "s"
 
 # COMMAND ----------
 

@@ -48,7 +48,7 @@ display(dbutils.fs.mounts())
 
 # COMMAND ----------
 
-storageAccountName = ""
+storageAccountName = "datalakec9a8951eabdc0653"
 storageAccountAccessKey = ""
 sasToken = ""
 
@@ -66,10 +66,13 @@ def mount_adls(blobContainerName):
 
 # COMMAND ----------
 
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/landing-zone"))
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/bronze"))
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/silver"))
-dbutils.fs.unmount((f"/mnt/{storageAccountName}/gold"))
+try:
+    dbutils.fs.unmount((f"/mnt/{storageAccountName}/landing-zone"))
+    dbutils.fs.unmount((f"/mnt/{storageAccountName}/bronze"))
+    dbutils.fs.unmount((f"/mnt/{storageAccountName}/silver"))
+    dbutils.fs.unmount((f"/mnt/{storageAccountName}/gold"))
+except:
+    print("Sem pontos montados.")
 
 # COMMAND ----------
 
@@ -94,19 +97,30 @@ display(dbutils.fs.mounts())
 
 # COMMAND ----------
 
+df_cardapio.show(10)
+df_comanda.show(10)
+df_estoque.show(10)
+df_funcionarios.show(10)
+df_ingredientes.show(10)
+df_mesas.show(10)
+df_pagamento.show(10)
+df_pedido.show(10)
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ###Salvando os dataframes em delta lake (formato de arquivo) no data lake (repositorio cloud)
 
 # COMMAND ----------
 
-df_cardapio.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Cardapio")
-df_comanda.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Comanda")
-df_estoque.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Estoque")
-df_funcionarios.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Funcionarios")
-df_ingredientes.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Ingredientes")
-df_mesas.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Mesas")
-df_pagamento.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Pagamento")
-df_pedido.write.format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Pedido")
+df_cardapio.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Cardapio")
+df_comanda.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Comanda")
+df_estoque.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Estoque")
+df_funcionarios.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Funcionarios")
+df_ingredientes.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Ingredientes")
+df_mesas.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Mesas")
+df_pagamento.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Pagamento")
+df_pedido.write.option("header", "true").format('csv').save(f"/mnt/{storageAccountName}/landing-zone/Pedido")
 
 
 # COMMAND ----------
