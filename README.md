@@ -29,7 +29,7 @@ O objetivo do projeto Pingado Café é desenvolver um sistema de gerenciamento d
 
 ## Desenho de Arquitetura:
 
-![image](./images/DIAGRAMA%20ETL.png)
+![image](./mkdocs/docs/images/DIAGRAMA%20ETL.png)
 
 ## Estrutura da Documentação
 
