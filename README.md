@@ -19,7 +19,7 @@ Bem-vindo à documentação do projeto Pingado Café, um sistema de gerenciament
 - As funções de ingestão, transformação e movimentação dos dados entre as camadas são
   orquestradas e agendadas através da ferramenta Azure DataBricks.
 - Os dados serão disponibilizados na camada Gold no formato dimensional (OBT).
-- Foi 4 KPIs e 2 métricas para compor o dashboard no DataBricks.
+- Foram utilizadas 4 KPIs e 2 métricas para compor o dashboard no DataBricks.
 - O dashboard consome os dados do modelo OBT, direto da camada gold.
 - A documentação completa do trabalho está publicada no MkDocs.
 
@@ -55,7 +55,7 @@ Esperamos que esta documentação seja útil e que o Pingado Café ajude a trans
 
 ## Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/GuilhermeVolpato/Engenharia-de-dados/License) para detalhes.
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/GuilhermeVolpato/Engenharia-de-dados/License) para mais detalhes.
 
 ## Referências
 
