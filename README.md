@@ -6,14 +6,14 @@
 
 # Introdução ao Projeto Pingado Café
 
-Bem-vindo à documentação do projeto Pingado Café, um sistema de gerenciamento desenvolvido para a matéria de Engenharia de Dados, utilizando como base um banco relacional de um projeto passado, para alimentar uma tabela Data Lake, e apresentar um Dashboard com resultados da Cafeteria.
+Bem-vindo à documentação do projeto "Pingado Café" um sistema de gerenciamento desenvolvido para a disciplina de Engenharia de Dados, utilizando como base um banco relacional de um projeto passado, para alimentar uma tabela Data Lake, e apresentar um Dashboard com resultados da Cafeteria.
 
 ## Visão Geral
 
 - O ambiente relacional – origem – tem 6 tabelas, 10.000 linhas para cada tabela principal e com distribuição de datas para os últimos 3 anos ( O banco de dados utilizado foi modelado na matéria de Banco de Dados 2, [Modelo Relacional](https://dbdiagram.io/d/6499ee8e02bd1c4a5e18a355)).
 - Foi utilizado a biblioteca Faker do Python, para gerar as massas de dados e popular o ambiente relacional.
 - A ingestão dos dados foi feita através do Azure DataBricks (cloud).
-- O Data Lake foi criado em cima de um object storage (cloud) usando a arquitetura medalhão (camadas Landing, Bronze, Silver e Gold).
+- O Data Lake foi criado em cima de um object storage (cloud) usando a arquitetura medalhão (Camadas Landing, Bronze, Silver e Gold).
 - Os dados serão gravados no object storage no formato Delta Lake nas camadas Bronze, Silver e Gold.
   A transformação será feita através do Apache Spark (Python/pyspark).
 - As funções de ingestão, transformação e movimentação dos dados entre as camadas são
