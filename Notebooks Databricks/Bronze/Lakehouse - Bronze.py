@@ -1,4 +1,5 @@
 # Databricks notebook source
+# MAGIC
 # MAGIC %md
 # MAGIC ##Validando a SparkSession
 
@@ -56,14 +57,15 @@ display(dbutils.fs.ls(f"/mnt/{storageAccountName}/landing-zone"))
 
 # COMMAND ----------
 
-df_cardapio = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Cardapio/cardapio.csv")
-df_comanda = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Comanda/comanda.csv")
-df_estoque = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Estoque/estoque.csv")
-df_funcionarios = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Funcionarios/funcionarios.csv")
-df_ingredientes = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Ingredientes/ingredientes.csv")
-df_mesas = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Mesas/mesas.csv")
-df_pagamento = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Pagamento/pagamento.csv")
-df_pedido = spark.read.option("infeschema", "true").option("header", "true").csv(f"/mnt/{storageAccountName}/landing-zone/Pedido/pedido.csv")
+df_cardapio = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Cardapio")
+df_comanda = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Comanda")
+df_estoque = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Estoque")
+df_funcionarios = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Funcionarios")
+df_ingredientes = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Ingredientes")
+df_mesas = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Mesas")
+df_pagamento = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Pagamento")
+df_pedido = spark.read.format('csv').option("header", "true").load(f"/mnt/{storageAccountName}/landing-zone/Pedido")
+
 
 
 # COMMAND ----------
