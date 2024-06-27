@@ -1,0 +1,1071 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Site Pingado Café">
+      
+      
+        <meta name="author" content="Guilherme Volpato, Luiz Otavio, Gabriel Canarin, Naum Marcirio, Guilherme Silveira, Charles Clezar, Pedro Hahn, João Eduardo">
+      
+      
+      
+        <link rel="prev" href="../prerequisitos/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
+    
+    
+      
+        <title>Como Executar o Projeto - Pingado Café Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="brown">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#como-executar" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Pingado Café Docs" class="md-header__button md-logo" aria-label="Pingado Café Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pingado Café Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Como Executar o Projeto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Pingado Café Docs" class="md-nav__button md-logo" aria-label="Pingado Café Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Pingado Café Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Boas Vindas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prerequisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pré-Requisitos e Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Como Executar o Projeto
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Como Executar o Projeto
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scripts-que-serao-executados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scripts que serão executados:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scripts que serão executados:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escrevendo-dados-na-camada-landing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escrevendo dados na camada landing.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passando-os-dados-para-a-camada-bronze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passando os dados para a camada bronze.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passando-os-dados-para-a-camada-prata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passando os dados para a camada prata.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passando-os-dados-para-a-camada-gold" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passando os dados para a camada gold.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criar-as-tabelas-para-o-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criar as tabelas para o dashboard.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-para" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ir para ...
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scripts-que-serao-executados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scripts que serão executados:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scripts que serão executados:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escrevendo-dados-na-camada-landing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escrevendo dados na camada landing.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passando-os-dados-para-a-camada-bronze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passando os dados para a camada bronze.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passando-os-dados-para-a-camada-prata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passando os dados para a camada prata.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passando-os-dados-para-a-camada-gold" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passando os dados para a camada gold.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criar-as-tabelas-para-o-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criar as tabelas para o dashboard.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-para" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ir para ...
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="como-executar">Como Executar<a class="headerlink" href="#como-executar" title="Permanent link">&para;</a></h1>
+<h2 id="scripts-que-serao-executados">Scripts que serão executados:<a class="headerlink" href="#scripts-que-serao-executados" title="Permanent link">&para;</a></h2>
+<p><br></p>
+<h3 id="escrevendo-dados-na-camada-landing">Escrevendo dados na camada landing.<a class="headerlink" href="#escrevendo-dados-na-camada-landing" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code>spark
+
+
+
+Host = &quot;&quot;
+Port = 1433
+Database = &quot;pingado-database&quot;
+Username = &quot;&quot;
+Password = &quot;&quot;
+Driver = &quot;com.microsoft.sqlserver.jdbc.SQLServerDriver&quot;
+Url = f&quot;jdbc:sqlserver://{Host}:{Port};databaseName={Database}&quot;
+
+
+
+df_cardapio = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;cardapio&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load()
+df_comanda = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;comanda&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load() 
+df_estoque = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;estoque&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load() 
+df_funcionarios = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;funcionarios&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load() 
+df_ingredientes = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;ingredientes&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load()
+df_mesas = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;mesas&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load()
+df_pagamento = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;pagamento&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load()
+df_pedido = spark.read.format(&quot;jdbc&quot;).option(&quot;driver&quot;, Driver).option(&quot;url&quot;, Url).option(&quot;dbtable&quot;, &quot;pedido&quot;).option(&quot;user&quot;, Username).option(&quot;password&quot;, Password).load()
+
+
+
+display(dbutils.fs.mounts())
+
+
+
+storageAccountName = &quot;datalakec9a8951eabdc0653&quot;
+storageAccountAccessKey = &quot;&quot;
+sasToken = &quot;&quot;
+
+def mount_adls(blobContainerName):
+    try:
+      dbutils.fs.mount(
+        source = &quot;wasbs://{}@{}.blob.core.windows.net&quot;.format(blobContainerName, storageAccountName),
+        mount_point = f&quot;/mnt/{storageAccountName}/{blobContainerName}&quot;,
+        #extra_configs = {&#39;fs.azure.account.key.&#39; + storageAccountName + &#39;.blob.core.windows.net&#39;: storageAccountAccessKey}
+        extra_configs = {&#39;fs.azure.sas.&#39; + blobContainerName + &#39;.&#39; + storageAccountName + &#39;.blob.core.windows.net&#39;: sasToken}
+      )
+      print(&quot;OK!&quot;)
+    except Exception as e:
+      print(&quot;Falha&quot;, e)
+
+
+
+try:
+    dbutils.fs.unmount((f&quot;/mnt/{storageAccountName}/landing-zone&quot;))
+    dbutils.fs.unmount((f&quot;/mnt/{storageAccountName}/bronze&quot;))
+    dbutils.fs.unmount((f&quot;/mnt/{storageAccountName}/silver&quot;))
+    dbutils.fs.unmount((f&quot;/mnt/{storageAccountName}/gold&quot;))
+except:
+    print(&quot;Sem pontos montados.&quot;)
+
+
+
+mount_adls(&#39;landing-zone&#39;)
+mount_adls(&#39;bronze&#39;)
+mount_adls(&#39;silver&#39;)
+mount_adls(&#39;gold&#39;)
+
+
+
+display(dbutils.fs.mounts())
+
+
+
+df_cardapio.show(10)
+df_comanda.show(10)
+df_estoque.show(10)
+df_funcionarios.show(10)
+df_ingredientes.show(10)
+df_mesas.show(10)
+df_pagamento.show(10)
+df_pedido.show(10)
+
+
+
+df_cardapio.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Cardapio&quot;)
+df_comanda.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Comanda&quot;)
+df_estoque.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Estoque&quot;)
+df_funcionarios.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Funcionarios&quot;)
+df_ingredientes.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Ingredientes&quot;)
+df_mesas.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Mesas&quot;)
+df_pagamento.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Pagamento&quot;)
+df_pedido.write.option(&quot;header&quot;, &quot;true&quot;).format(&#39;csv&#39;).save(f&quot;/mnt/{storageAccountName}/landing-zone/Pedido&quot;)
+
+
+
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Cardapio&quot;))
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Comanda&quot;))
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Estoque&quot;))
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Funcionarios&quot;))
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Ingredientes&quot;))
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Mesas&quot;))
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Pagamento&quot;))
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone/Pedido&quot;))
+</code></pre></div>
+<br></p>
+<h3 id="passando-os-dados-para-a-camada-bronze">Passando os dados para a camada bronze.<a class="headerlink" href="#passando-os-dados-para-a-camada-bronze" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>spark
+
+
+
+display(dbutils.fs.mounts())
+
+
+storageAccountName = &quot;&quot;
+storageAccountAccessKey = &quot;&quot;
+sasToken = &quot;&quot;
+
+
+
+display(dbutils.fs.mounts())
+
+
+
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/landing-zone&quot;))
+
+
+
+df_cardapio = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Cardapio&quot;)
+df_comanda = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Comanda&quot;)
+df_estoque = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Estoque&quot;)
+df_funcionarios = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Funcionarios&quot;)
+df_ingredientes = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Ingredientes&quot;)
+df_mesas = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Mesas&quot;)
+df_pagamento = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Pagamento&quot;)
+df_pedido = spark.read.format(&#39;csv&#39;).option(&quot;header&quot;, &quot;true&quot;).load(f&quot;/mnt/{storageAccountName}/landing-zone/Pedido&quot;)
+
+
+
+from pyspark.sql.functions import current_timestamp, lit
+
+df_cardapio = df_cardapio.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;cardapio.csv&quot;))
+df_comanda = df_comanda.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;comanda.csv&quot;))
+df_estoque = df_estoque.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;estoque.csv&quot;))
+df_funcionarios = df_funcionarios.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;funcionarios.csv&quot;))
+df_ingredientes = df_ingredientes.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;ingredientes.csv&quot;))
+df_mesas = df_mesas.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;mesas.csv&quot;))
+df_pagamento = df_pagamento.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;pagamento.csv&quot;))
+df_pedido = df_pedido.withColumn(&quot;DATA_HORA_BRONZE&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;pedido.csv&quot;))
+
+
+
+df_cardapio.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Cardapio&quot;)
+df_comanda.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Comanda&quot;)
+df_estoque.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Estoque&quot;)
+df_funcionarios.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Funcionarios&quot;)
+df_ingredientes.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Ingredientes&quot;)
+df_mesas.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Mesas&quot;)
+df_pagamento.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Pagamento&quot;)
+df_pedido.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/bronze/Pedido&quot;)
+
+
+
+spark.read.format(&#39;delta&#39;).load(f&#39;/mnt/{storageAccountName}/bronze/Cardapio&#39;).limit(10).display()
+</code></pre></div>
+<p><br></p>
+<h3 id="passando-os-dados-para-a-camada-prata">Passando os dados para a camada prata.<a class="headerlink" href="#passando-os-dados-para-a-camada-prata" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>spark
+
+
+
+display(dbutils.fs.mounts())
+
+
+
+storageAccountName = &quot;&quot;
+storageAccountAccessKey = &quot;&quot;
+sasToken = &quot;&quot;
+
+
+
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/bronze&quot;))
+
+
+
+df_cardapio = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/bronze/Cardapio&quot;)
+
+
+
+from pyspark.sql.functions import current_timestamp, lit
+
+df_cardapio = df_cardapio.withColumn(&quot;DATA_HORA_SILVER&quot;, current_timestamp()).withColumn(&quot;NOME_ARQUIVO&quot;, lit(&quot;cardapio&quot;))
+
+
+
+colunas = df_cardapio.columns
+
+
+colunas_maiusculas = [coluna.upper() for coluna in colunas]
+
+
+print(&quot;Colunas em maiúsculas:&quot;)
+for coluna in colunas_maiusculas:
+    print(coluna)
+
+
+
+df_cardapio = (df_cardapio
+               .withColumnRenamed(&quot;id_item_cardapio&quot;,&quot;CODIGO_ITEM_CARDAPIO&quot;)
+               .withColumnRenamed(&quot;nome_item&quot; , &quot;NOME_ITEM_CARDAPIO&quot;)
+               .withColumnRenamed(&quot;valor&quot; , &quot;VALOR&quot;)
+               .withColumnRenamed(&quot;descricao&quot; , &quot;DESCRICAO&quot;)
+               .withColumnRenamed(&quot;categoria&quot; , &quot;CATEGORIA&quot;)
+               .withColumnRenamed(&quot;disponibilidade&quot; , &quot;DISPONIBILIDADE&quot;)
+               .withColumnRenamed(&quot;data_hora_bronze&quot; , &quot;DATA_HORA_BRONZE&quot;)
+               .withColumnRenamed(&quot;nome_arquivo&quot; , &quot;NOME_ARQUIVO&quot;)
+               .withColumnRenamed(&quot;data_hora_silver&quot; , &quot;DATA_HORA_SILVER&quot;))
+
+
+
+df_cardapio.display()
+
+
+
+df_cardapio = df_cardapio.dropDuplicates()
+
+
+
+df_cardapio = df_cardapio.fillna({&quot;VALOR&quot;: 0, &quot;DISPONIBILIDADE&quot;: &quot;False&quot;})
+
+
+
+df_cardapio.write.format(&#39;delta&#39;).save(f&quot;/mnt/{storageAccountName}/silver/Cardapio&quot;)
+
+
+
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/silver/&quot;))
+
+
+spark.read.format(&#39;delta&#39;).load(f&#39;/mnt/{storageAccountName}/silver/Cardapio&#39;).limit(10).display()
+</code></pre></div>
+<p><br></p>
+<h3 id="passando-os-dados-para-a-camada-gold">Passando os dados para a camada gold.<a class="headerlink" href="#passando-os-dados-para-a-camada-gold" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>spark
+
+
+
+display(dbutils.fs.mounts())
+
+
+
+storageAccountName = &quot;&quot;
+storageAccountAccessKey = &quot;&quot;
+sasToken = &quot;s&quot;
+
+
+
+display(dbutils.fs.ls(f&quot;/mnt/{storageAccountName}/silver&quot;))
+
+
+
+df_cardapio = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Cardapio&quot;)
+df_comanda = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Comanda&quot;)
+df_estoque = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Estoque&quot;)
+df_funcionarios = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Funcionarios&quot;)
+df_ingredientes = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Ingredientes&quot;)
+df_mesas = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Mesas&quot;)
+df_pagamento = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Pagamento&quot;)
+df_pedido = spark.read.format(&#39;delta&#39;).load(f&quot;/mnt/{storageAccountName}/silver/Pedido&quot;)
+
+
+
+df_obt = df_comanda \
+    .join(df_pagamento, df_comanda.CODIGO_PAGAMENTO == df_pagamento.CODIGO_PAGAMENTO) \
+    .join(df_funcionarios, df_comanda.CODIGO_FUNCIONARIO == df_funcionarios.CODIGO_FUNCIONARIO) \
+    .join(df_mesas, df_comanda.CODIGO_MESA == df_mesas.CODIGO_MESA) \
+    .join(df_pedido, df_comanda.CODIGO_COMANDA == df_pedido.CODIGO_COMANDA) \
+    .join(df_cardapio, df_pedido.CODIGO_CARDAPIO == df_cardapio.CODIGO_ITEM_CARDAPIO) \
+    .select(
+        df_comanda.CODIGO_COMANDA.alias(&quot;CODIGO_COMANDA&quot;),
+        df_comanda.CODIGO_MESA.alias(&quot;CODIGO_MESA&quot;),
+        df_comanda.CODIGO_PAGAMENTO.alias(&quot;CODIGO_PAGAMENTO&quot;),
+        df_comanda.CODIGO_FUNCIONARIO.alias(&quot;CODIGO_FUNCIONARIO&quot;),
+        df_comanda.VALOR_TOTAL.alias(&quot;VALOR_TOTAL&quot;),
+        df_pagamento.TIPO.alias(&quot;TIPO_PAGAMENTO&quot;),
+        df_pagamento.STATUS.alias(&quot;STATUS_PAGAMENTO&quot;),
+        df_pagamento.TAXA.alias(&quot;TAXA_PAGAMENTO&quot;),
+        df_funcionarios.NOME.alias(&quot;NOME_FUNCIONARIO&quot;),
+        df_funcionarios.SOBRENOME.alias(&quot;SOBRENOME_FUNCIONARIO&quot;),
+        df_funcionarios.TELEFONE.alias(&quot;TELEFONE_FUNCIONARIO&quot;),
+        df_funcionarios.EMAIL.alias(&quot;EMAIL_FUNCIONARIO&quot;),
+        df_funcionarios.CARGO.alias(&quot;CARGO_FUNCIONARIO&quot;),
+        df_funcionarios.DATA_CONTRATACAO.alias(&quot;DATA_CONTRATACAO_FUNCIONARIO&quot;),
+        df_mesas.QUANTIDADE_LUGARES.alias(&quot;QUANTIDADE_LUGARES_MESA&quot;),
+        df_mesas.LOCAL.alias(&quot;LOCAL_MESA&quot;),
+        df_mesas.STATUS.alias(&quot;STATUS_MESA&quot;),
+        df_pedido.CODIGO_PEDIDO.alias(&quot;CODIGO_PEDIDO&quot;),
+        df_pedido.CODIGO_CARDAPIO.alias(&quot;CODIGO_CARDAPIO&quot;),
+        df_pedido.STATUS.alias(&quot;STATUS_PEDIDO&quot;),
+        df_pedido.DATA_HORA_PEDIDO.alias(&quot;DATA_HORA_PEDIDO&quot;),
+        df_pedido.QUANTIDADE.alias(&quot;QUANTIDADE_PEDIDO&quot;),
+        df_cardapio.NOME_ITEM_CARDAPIO.alias(&quot;NOME_ITEM_CARDAPIO&quot;),
+        df_cardapio.VALOR.alias(&quot;VALOR_ITEM_CARDAPIO&quot;),
+        df_cardapio.DESCRICAO.alias(&quot;DESCRICAO_ITEM_CARDAPIO&quot;),
+        df_cardapio.CATEGORIA.alias(&quot;CATEGORIA_ITEM_CARDAPIO&quot;),
+        df_cardapio.DISPONIBILIDADE.alias(&quot;DISPONIBILIDADE_ITEM_CARDAPIO&quot;),
+        df_comanda.DATA_HORA_BRONZE.alias(&quot;DATA_HORA_BRONZE&quot;),
+        df_comanda.DATA_HORA_SILVER.alias(&quot;DATA_HORA_SILVER&quot;),
+    )
+
+
+
+df_obt.write.format(&#39;delta&#39;).mode(&#39;overwrite&#39;).save(f&#39;/mnt/{storageAccountName}/gold/obt_cafeteria&#39;)
+
+
+
+spark.read.format(&#39;delta&#39;).load(f&#39;/mnt/{storageAccountName}/gold/obt_cafeteria&#39;).limit(10).display()
+</code></pre></div>
+<p><br></p>
+<h3 id="criar-as-tabelas-para-o-dashboard">Criar as tabelas para o dashboard.<a class="headerlink" href="#criar-as-tabelas-para-o-dashboard" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>spark
+
+storageAccountName = &quot;&quot;
+storageAccountAccessKey = &quot;&quot;
+sasToken = &quot;&quot;
+%pip install matplotlib pandas
+
+obt = spark.read.format(&#39;delta&#39;).load(f&#39;/mnt/{storageAccountName}/gold/obt_cafeteria&#39;)
+import matplotlib.pyplot as plt
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, sum, year, month
+from datetime import datetime, timedelta
+
+spark = SparkSession.builder.appName(&quot;FaturamentoItem&quot;).getOrCreate()
+
+data_inicio = datetime.now().replace(day=1) - timedelta(days=1)
+data_fim = datetime(data_inicio.year, data_inicio.month, 1)
+
+obt_ultimo_mes = obt.filter((col(&quot;data_hora_pedido&quot;) &gt;= data_fim)
+                            &amp; (col(&quot;data_hora_pedido&quot;) &lt;= data_inicio))
+
+faturamento_por_item = obt_ultimo_mes.groupBy(&quot;nome_item_cardapio&quot;) \
+                                     .agg(sum(&quot;valor_item_cardapio&quot;).alias(&quot;faturamento_total&quot;)) \
+                                     .orderBy(&quot;faturamento_total&quot;, ascending=False) \
+                                     .toPandas()
+
+nomes_itens = faturamento_por_item[&quot;nome_item_cardapio&quot;]
+faturamentos = faturamento_por_item[&quot;faturamento_total&quot;]
+
+plt.figure(figsize=(10, 6))
+plt.bar(nomes_itens, faturamentos, color=&#39;skyblue&#39;)
+plt.xlabel(&#39;Nome do Item&#39;)
+plt.ylabel(&#39;Faturamento Total&#39;)
+plt.title(&#39;Faturamento Total por Item - Último Mês&#39;)
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+item_maior_faturamento = faturamento_por_item.iloc[0]
+plt.annotate(f&#39;Maior Faturamento: R$ {item_maior_faturamento[&quot;faturamento_total&quot;]:.2f}&#39;,
+             xy=(item_maior_faturamento.name, item_maior_faturamento[&quot;faturamento_total&quot;]),
+             xytext=(0, 20),
+             textcoords=&quot;offset points&quot;,
+             ha=&#39;center&#39;,
+             fontsize=10,
+             bbox=dict(boxstyle=&#39;round,pad=0.3&#39;, facecolor=&#39;yellow&#39;, alpha=0.5))
+
+plt.show()
+
+import matplotlib.pyplot as plt
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, sum, year, month
+from datetime import datetime, timedelta
+
+spark = SparkSession.builder.appName(&quot;KPI_Forma_Pagamento_Ultimo_Mes&quot;).getOrCreate()
+
+data_inicio = datetime.now().replace(day=1) - timedelta(days=1)
+data_fim = datetime(data_inicio.year, data_inicio.month, 1)
+
+obt_ultimo_mes = obt.filter((col(&quot;data_hora_pedido&quot;) &gt;= data_fim)
+                            &amp; (col(&quot;data_hora_pedido&quot;) &lt;= data_inicio))
+
+faturamento_por_forma_pagamento = obt_ultimo_mes.groupBy(&quot;tipo_pagamento&quot;) \
+                                                .agg(sum(&quot;valor_total&quot;).alias(&quot;faturamento_total&quot;)) \
+                                                .orderBy(&quot;faturamento_total&quot;, ascending=False) \
+                                                .toPandas()  # Converte para Pandas para facilitar a plotagem com matplotlib
+
+tipos_pagamento = faturamento_por_forma_pagamento[&quot;tipo_pagamento&quot;]
+faturamentos = faturamento_por_forma_pagamento[&quot;faturamento_total&quot;]
+
+plt.figure(figsize=(4, 4))
+plt.pie(faturamentos, labels=tipos_pagamento, autopct=&#39;%1.1f%%&#39;, startangle=140)
+plt.title(&#39;Faturamento por Tipo de Pagamento - Último Mês&#39;)
+plt.axis(&#39;equal&#39;)  # Mantém o aspecto de um círculo
+plt.tight_layout()
+
+
+plt.show()
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
+
+spark = SparkSession.builder.appName(&quot;KPI_PedidosEmAberto&quot;).getOrCreate()
+
+pedidos_em_aberto = obt.filter(col(&quot;status_pagamento&quot;) == False).count()
+
+plt.figure(figsize=(4, 2))  # Tamanho da KPI
+plt.text(0.5, 0.5, f&#39;Pedidos em Aberto:\n{pedidos_em_aberto}&#39;,
+         fontsize=14, ha=&#39;center&#39;, va=&#39;center&#39;, bbox=dict(facecolor=&#39;lightcoral&#39;, alpha=0.5))
+
+plt.axis(&#39;off&#39;)  # Remove os eixos
+
+plt.show()
+
+import matplotlib.pyplot as plt
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, sum, year, month
+from datetime import datetime, timedelta
+
+
+spark = SparkSession.builder.appName(&quot;KPI_SomaTaxaCartaoCredito&quot;).getOrCreate()
+
+
+data_inicio = datetime.now().replace(day=1) - timedelta(days=1)
+data_fim = datetime(data_inicio.year, data_inicio.month, 1)
+
+
+obt_ultimo_mes_cartao_credito = obt.filter((col(&quot;data_hora_pedido&quot;) &gt;= data_fim)
+                                          &amp; (col(&quot;data_hora_pedido&quot;) &lt;= data_inicio)
+                                          &amp; (col(&quot;tipo_pagamento&quot;) == &quot;Cartão de Crédito&quot;))
+
+
+soma_taxa_cartao_credito = obt_ultimo_mes_cartao_credito.agg(sum(&quot;taxa_pagamento&quot;).alias(&quot;soma_taxa&quot;)).collect()[0][&quot;soma_taxa&quot;]
+
+plt.figure(figsize=(4, 2))  # Tamanho da KPI
+plt.text(0.5, 0.5, f&#39;Taxa de recebimento\nde Cartão de Crédito:\nR$ {soma_taxa_cartao_credito:.2f}&#39;,
+         fontsize=14, ha=&#39;center&#39;, va=&#39;center&#39;, bbox=dict(facecolor=&#39;lightblue&#39;, alpha=0.5))
+
+plt.axis(&#39;off&#39;)  # Remove os eixos
+
+
+plt.show()
+
+import matplotlib.pyplot as plt
+import pandas as pd
+from pyspark.sql import SparkSession
+from pyspark.sql import functions as F
+from datetime import datetime, timedelta
+
+spark = SparkSession.builder.appName(&quot;FaturamentoUltimosSeteDias&quot;).getOrCreate()
+
+data_atual = datetime.now().date()
+datas_para_exibir = [(data_atual.replace(day=23) - timedelta(days=i)).strftime(&#39;%Y-%m-%d&#39;) for i in range(7)]
+
+faturamento_ultimos_sete_dias = obt.filter(
+    F.col(&#39;data_hora_pedido&#39;).cast(&#39;date&#39;).isin(datas_para_exibir)
+).groupBy(
+    F.col(&#39;data_hora_pedido&#39;).cast(&#39;date&#39;).alias(&#39;data&#39;)
+).agg(
+    F.sum(&#39;valor_total&#39;).alias(&#39;faturamento_total&#39;)
+).orderBy(
+    &#39;data&#39;
+)
+
+faturamento_ultimos_sete_dias_pd = faturamento_ultimos_sete_dias.toPandas()
+
+faturamento_ultimos_sete_dias_pd[&#39;data&#39;] = pd.to_datetime(faturamento_ultimos_sete_dias_pd[&#39;data&#39;])
+faturamento_ultimos_sete_dias_pd[&#39;data&#39;] = faturamento_ultimos_sete_dias_pd[&#39;data&#39;].dt.strftime(&#39;%d/%m/%Y&#39;)
+
+faturamento_ultimos_sete_dias_pd = faturamento_ultimos_sete_dias_pd.sort_values(by=&#39;data&#39;)
+
+plt.figure(figsize=(10, 6))
+plt.bar(faturamento_ultimos_sete_dias_pd[&#39;data&#39;], faturamento_ultimos_sete_dias_pd[&#39;faturamento_total&#39;], color=&#39;green&#39;)
+plt.title(&#39;Faturamento Diário nos Últimos 7 Dias&#39;)
+plt.xlabel(&#39;Data&#39;)
+plt.ylabel(&#39;Faturamento Total (R$)&#39;)
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+total_faturado = faturamento_ultimos_sete_dias_pd[&#39;faturamento_total&#39;].sum()
+plt.annotate(f&#39;Total faturado: R$ {total_faturado:.2f}&#39;,
+             xy=(0.5, 0.5),
+             xycoords=&#39;axes fraction&#39;,
+             xytext=(0, 20),
+             textcoords=&#39;offset points&#39;,
+             ha=&#39;center&#39;,
+             fontsize=12,
+             bbox=dict(boxstyle=&#39;round,pad=0.3&#39;, facecolor=&#39;yellow&#39;, alpha=0.5))
+
+plt.show()
+
+from pyspark.sql import SparkSession
+from pyspark.sql import functions as F
+
+spark = SparkSession.builder.appName(&quot;KPIComandasComBebida&quot;).getOrCreate()
+
+comandas_com_bebida = obt.filter(F.col(&#39;categoria_item_cardapio&#39;) == &#39;Bebida&#39;)
+
+total_comandas = obt.select(&#39;codigo_comanda&#39;).distinct().count()
+
+total_comandas_com_bebida = comandas_com_bebida.select(&#39;codigo_comanda&#39;).distinct().count()
+
+porcentagem_comandas_com_bebida = (total_comandas_com_bebida / total_comandas) * 100
+
+import matplotlib.pyplot as plt
+
+labels = [&#39;Comandas com Bebida E Comida&#39;, &#39;Comandas Individuais&#39;]
+sizes = [porcentagem_comandas_com_bebida, 100 - porcentagem_comandas_com_bebida]
+colors = [&#39;#ff9999&#39;,&#39;#66b3ff&#39;]
+explode = (0.1, 0)  # explode 1st slice
+
+plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct=&#39;%1.1f%%&#39;,
+        shadow=True, startangle=140)
+
+plt.axis(&#39;equal&#39;)  # Equal aspect ratio ensures that pie is drawn as a circle.
+plt.title(&#39;Porcentagem de Comandas com Bebida&#39;)
+
+plt.show()
+
+spark.read.format(&#39;delta&#39;).load(f&#39;/mnt/{storageAccountName}/gold/obt_cafeteria&#39;).limit(10).display()
+obt.createOrReplaceTempView(&quot;obt_view&quot;)
+%sql
+select count(codigo_comanda) from obt_view
+</code></pre></div>
+<h2 id="ir-para">Ir para ...<a class="headerlink" href="#ir-para" title="Permanent link">&para;</a></h2>
+<ul>
+<li>-&gt; <strong><a href="../">Apresentação</a></strong>.</li>
+<li>-&gt; <strong><a href="../prerequisitos/">Pré-Requisitos e Ferramentas</a></strong>.</li>
+<li>-&gt; <strong><a href="./">Execução</a></strong>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/GuilhermeVolpato/Engenharia-de-dados.git" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+    
+  </body>
+</html>

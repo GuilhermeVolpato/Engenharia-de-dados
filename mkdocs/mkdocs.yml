@@ -39,7 +39,12 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra:
-  social:
+   nav:
+    - type: 'link'
+      name: 'GitHub'
+      href: 'https://github.com/GuilhermeVolpato/Engenharia-de-dados.git'
+      icon: 'fontawesome/brands/github'
+   social:
     - icon: fontawesome/brands/github
       link: https://github.com/GuilhermeVolpato/Engenharia-de-dados.git
 
