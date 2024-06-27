@@ -6,20 +6,20 @@
 
 # Introdução ao Projeto Pingado Café
 
-Bem-vindo à documentação do projeto Pingado Café, um sistema de gerenciamento desenvolvido para a matéria de Engenharia de Dados, utilizando como base um banco relacional de um projeto passado, para alimentar uma tabela Data Lake, e apresentar um Dashboard com resultados da Cafeteria.
+Bem-vindo à documentação do projeto "Pingado Café" um sistema de gerenciamento desenvolvido para a disciplina de Engenharia de Dados, utilizando como base um banco relacional de um projeto passado, para alimentar uma tabela Data Lake, e apresentar um Dashboard com resultados da Cafeteria.
 
 ## Visão Geral
 
 - O ambiente relacional – origem – tem 6 tabelas, 10.000 linhas para cada tabela principal e com distribuição de datas para os últimos 3 anos ( O banco de dados utilizado foi modelado na matéria de Banco de Dados 2, [Modelo Relacional](https://dbdiagram.io/d/6499ee8e02bd1c4a5e18a355)).
 - Foi utilizado a biblioteca Faker do Python, para gerar as massas de dados e popular o ambiente relacional.
 - A ingestão dos dados foi feita através do Azure DataBricks (cloud).
-- O Data Lake foi criado em cima de um object storage (cloud) usando a arquitetura medalhão (camadas Landing, Bronze, Silver e Gold).
+- O Data Lake foi criado em cima de um object storage (cloud) usando a arquitetura medalhão (Camadas Landing, Bronze, Silver e Gold).
 - Os dados serão gravados no object storage no formato Delta Lake nas camadas Bronze, Silver e Gold.
   A transformação será feita através do Apache Spark (Python/pyspark).
 - As funções de ingestão, transformação e movimentação dos dados entre as camadas são
   orquestradas e agendadas através da ferramenta Azure DataBricks.
 - Os dados serão disponibilizados na camada Gold no formato dimensional (OBT).
-- Foi 4 KPIs e 2 métricas para compor o dashboard no DataBricks.
+- Foram utilizadas 4 KPIs e 2 métricas para compor o dashboard no DataBricks.
 - O dashboard consome os dados do modelo OBT, direto da camada gold.
 - A documentação completa do trabalho está publicada no MkDocs.
 
@@ -55,7 +55,7 @@ Esperamos que esta documentação seja útil e que o Pingado Café ajude a trans
 
 ## Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/GuilhermeVolpato/Engenharia-de-dados/License) para detalhes.
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/GuilhermeVolpato/Engenharia-de-dados/License) para mais detalhes.
 
 ## Referências
 
