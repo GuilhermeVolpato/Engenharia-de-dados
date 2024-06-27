@@ -1,0 +1,735 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Site Pingado Café">
+      
+      
+        <meta name="author" content="Guilherme Volpato, Luiz Otavio, Gabriel Canarin, Naum Marcirio, Guilherme Silveira, Charles Clezar, Pedro Hahn, João Eduardo">
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../comoExecutar/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
+    
+    
+      
+        <title>Pré-Requisitos e Ferramentas - Pingado Café Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="brown">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pre-requisitos-para-executar-o-projeto" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Pingado Café Docs" class="md-header__button md-logo" aria-label="Pingado Café Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pingado Café Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pré-Requisitos e Ferramentas
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Pingado Café Docs" class="md-nav__button md-logo" aria-label="Pingado Café Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Pingado Café Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Boas Vindas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Pré-Requisitos e Ferramentas
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Pré-Requisitos e Ferramentas
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criando-azure-data-lake-storage-no-azure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criando Azure Data Lake Storage no Azure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criando Azure Data Lake Storage no Azure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#disponibilizado-por-jlsilva01" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disponibilizado por jlsilva01
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pré-requisitos:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      SQL Server
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      DataBricks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-para" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ir para ...
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comoExecutar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Como Executar o Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criando-azure-data-lake-storage-no-azure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criando Azure Data Lake Storage no Azure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criando Azure Data Lake Storage no Azure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#disponibilizado-por-jlsilva01" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disponibilizado por jlsilva01
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pré-requisitos:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      SQL Server
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      DataBricks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-para" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ir para ...
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="pre-requisitos-para-executar-o-projeto">Pre requisitos para executar o projeto<a class="headerlink" href="#pre-requisitos-para-executar-o-projeto" title="Permanent link">&para;</a></h1>
+<p>Segue os pre requisitos para execução do projeto.</p>
+<ul>
+<li>Será necessário uma conta na Microsoft Azure.</li>
+</ul>
+<h2 id="criando-azure-data-lake-storage-no-azure">Criando Azure Data Lake Storage no Azure<a class="headerlink" href="#criando-azure-data-lake-storage-no-azure" title="Permanent link">&para;</a></h2>
+<h4 id="disponibilizado-por-jlsilva01">Disponibilizado por <a href="https://github.com/jlsilva01">jlsilva01</a><a class="headerlink" href="#disponibilizado-por-jlsilva01" title="Permanent link">&para;</a></h4>
+<h3 id="pre-requisitos">Pré-requisitos:<a class="headerlink" href="#pre-requisitos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://learn.microsoft.com/pt-br/cli/azure/">Azure CLI</a></li>
+<li><a href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
+<li><a href="https://www.terraform.io/downloads">Terraform</a></li>
+<li>Conta Microsoft</li>
+</ul>
+<h3 id="passos">Passos:<a class="headerlink" href="#passos" title="Permanent link">&para;</a></h3>
+<p>1 - Efetuar o login no Azure através do Azure CLI.</p>
+<div class="highlight"><pre><span></span><code>az<span class="w"> </span>login
+</code></pre></div>
+<p>2 - Conferir sua assinatura atual.</p>
+<div class="highlight"><pre><span></span><code>az<span class="w"> </span>account<span class="w"> </span>show<span class="w"> </span>-o<span class="w"> </span>table
+</code></pre></div>
+<p>3 - Listar todas as assinaturas do Azure da sua conta Microsoft, utilizando o comando abaixo (troque o e-mail abaixo pelo e-mail da sua conta Azure).</p>
+<div class="highlight"><pre><span></span><code>az<span class="w"> </span>account<span class="w"> </span>list<span class="w"> </span>--query<span class="w"> </span><span class="s2">&quot;[?user.name==&#39;&lt;Insira seu E-Mail Aqui&gt;&#39;].{Name:name, ID:id, Default:isDefault}&quot;</span><span class="w"> </span>-o<span class="w"> </span>table
+</code></pre></div>
+<p>4 - Utilizar a sua assinatura do Azure (troque o "Sua Assinatura" abaixo pelo nome da sua assinatura da conta Azure).</p>
+<div class="highlight"><pre><span></span><code>az<span class="w"> </span>account<span class="w"> </span><span class="nb">set</span><span class="w"> </span>--subscription<span class="w"> </span><span class="s2">&quot;&lt;Sua Assinatura&gt;&quot;</span>
+</code></pre></div>
+<p>5 - Consultar o nome do Resource Group criado para a sua conta.</p>
+<div class="highlight"><pre><span></span><code>az<span class="w"> </span>group<span class="w"> </span>list<span class="w"> </span>-o<span class="w"> </span>table
+</code></pre></div>
+<p>6 - Ajustar a variável <em>resource_group_name</em> do arquivo <code>adls-azure-main/variables.tf</code> com o nome do Resource Group informado no passo anterior.</p>
+<div class="highlight"><pre><span></span><code><span class="kr">variable</span><span class="w"> </span><span class="nv">&quot;resource_group_name&quot;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="na">default</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&lt;Seu Resource Group&gt;&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>7 - Criar os recursos na assinatura Azure selecionada.</p>
+<div class="highlight"><pre><span></span><code>terraform<span class="w"> </span>init
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>terraform<span class="w"> </span>validate
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>terraform<span class="w"> </span>fmt
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>terraform<span class="w"> </span>plan
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>terraform<span class="w"> </span>apply
+</code></pre></div>
+<p>8 - Logar no <a href="https://portal.azure.com/">portal.azure.com</a> e conferir o deploy do ADLS.</p>
+<h2 id="sql-server">SQL Server<a class="headerlink" href="#sql-server" title="Permanent link">&para;</a></h2>
+<p>1 - Dentro do portal Azure, criar um banco SQL do Azure</p>
+<p>2 - Executar o script de criação das tabelas no seu banco de dados. </p>
+<div class="highlight"><pre><span></span><code>CREATE TABLE &quot;comanda&quot;(
+    &quot;id_comanda&quot; INT NOT NULL,
+    &quot;id_mesa&quot; INT NOT NULL,
+    &quot;id_pagamento&quot; INT NOT NULL,
+    &quot;id_funcionario&quot; INT NOT NULL,
+    &quot;valor_total&quot; FLOAT NOT NULL
+);
+ALTER TABLE
+    &quot;comanda&quot; ADD CONSTRAINT &quot;comanda_id_comanda_primary&quot; PRIMARY KEY(&quot;id_comanda&quot;);
+
+
+
+CREATE TABLE &quot;pagamento&quot;(
+    &quot;id_pagamento&quot; INT NOT NULL,
+    &quot;tipo&quot; VARCHAR(25) NOT NULL,
+    &quot;status&quot; BIT NOT NULL,
+    &quot;taxa&quot; FLOAT NOT NULL
+);
+ALTER TABLE
+    &quot;pagamento&quot; ADD CONSTRAINT &quot;pagamento_id_pagamento_primary&quot; PRIMARY KEY(&quot;id_pagamento&quot;);
+
+
+CREATE TABLE &quot;ingredientes&quot;(
+    &quot;id_item_cardapio&quot; INT NOT NULL,
+    &quot;id_estoque&quot; INT NOT NULL,
+    &quot;quantidade&quot; INT NOT NULL,
+    &quot;unidade&quot; VARCHAR(10) NULL
+);
+
+
+
+CREATE TABLE &quot;estoque&quot;(
+    &quot;id_estoque&quot; INT NOT NULL,
+    &quot;ingrediente&quot; VARCHAR(30) NOT NULL,
+    &quot;quantidade&quot; FLOAT NOT NULL,
+    &quot;unidade&quot; VARCHAR(10) NULL
+);
+ALTER TABLE
+    &quot;estoque&quot; ADD CONSTRAINT &quot;estoque_id_estoque_primary&quot; PRIMARY KEY(&quot;id_estoque&quot;);
+
+
+
+
+CREATE TABLE &quot;funcionarios&quot;(
+    &quot;id_funcionario&quot; INT NOT NULL,
+    &quot;nome&quot; VARCHAR(20) NOT NULL,
+    &quot;sobrenome&quot; VARCHAR(50) NOT NULL,
+    &quot;telefone&quot; VARCHAR(30) NOT NULL,
+    &quot;email&quot; VARCHAR(50) NULL,
+    &quot;cargo&quot; VARCHAR(20) NOT NULL,
+    &quot;data_contratacao&quot; DATETIME NOT NULL
+);
+ALTER TABLE
+    &quot;funcionarios&quot; ADD CONSTRAINT &quot;funcionarios_id_funcionario_primary&quot; PRIMARY KEY(&quot;id_funcionario&quot;);
+
+CREATE TABLE &quot;cardapio&quot;(
+    &quot;id_item_cardapio&quot; INT NOT NULL,
+    &quot;nome_item&quot; VARCHAR(30) NOT NULL,
+    &quot;valor&quot; FLOAT NOT NULL,
+    &quot;descricao&quot; VARCHAR(80) NOT NULL,
+    &quot;categoria&quot; VARCHAR(30) NOT NULL,
+    &quot;disponibilidade&quot; BIT NOT NULL
+);
+ALTER TABLE
+    &quot;cardapio&quot; ADD CONSTRAINT &quot;cardapio_id_item_cardapio_primary&quot; PRIMARY KEY(&quot;id_item_cardapio&quot;);
+CREATE INDEX &quot;cardapio_nome_item_index&quot; ON
+    &quot;cardapio&quot;(&quot;nome_item&quot;);
+
+
+
+CREATE TABLE &quot;mesas&quot;(
+    &quot;id_mesa&quot; INT NOT NULL,
+    &quot;qtd_lugares&quot; INT NOT NULL,
+    &quot;local&quot; VARCHAR(100) NOT NULL,
+    &quot;status&quot; BIT NOT NULL
+);
+ALTER TABLE
+    &quot;mesas&quot; ADD CONSTRAINT &quot;mesas_id_mesa_primary&quot; PRIMARY KEY(&quot;id_mesa&quot;);
+
+
+
+CREATE TABLE &quot;pedido&quot;(
+    &quot;id_pedido&quot; INT NOT NULL,
+    &quot;id_comanda&quot; INT NOT NULL,
+    &quot;id_cardapio&quot; INT NOT NULL,
+    &quot;status&quot; BIT NOT NULL,
+    &quot;data_hora_pedido&quot; DATETIME NOT NULL,
+    &quot;quantidade&quot; INT NOT NULL
+);
+
+ALTER TABLE
+    &quot;pedido&quot; ADD CONSTRAINT &quot;pedido_id_pedido_primary&quot; PRIMARY KEY(&quot;id_pedido&quot;);
+
+ALTER TABLE
+    &quot;comanda&quot; ADD CONSTRAINT &quot;comanda_id_funcionario_foreign&quot; FOREIGN KEY(&quot;id_funcionario&quot;) REFERENCES &quot;funcionarios&quot;(&quot;id_funcionario&quot;);
+ALTER TABLE
+    &quot;comanda&quot; ADD CONSTRAINT &quot;comanda_id_mesa_foreign&quot; FOREIGN KEY(&quot;id_mesa&quot;) REFERENCES &quot;mesas&quot;(&quot;id_mesa&quot;);
+ALTER TABLE
+    &quot;comanda&quot; ADD CONSTRAINT &quot;comanda_id_pagamento_foreign&quot; FOREIGN KEY(&quot;id_pagamento&quot;) REFERENCES &quot;pagamento&quot;(&quot;id_pagamento&quot;);
+ALTER TABLE
+    &quot;ingredientes&quot; ADD CONSTRAINT &quot;ingredientes_id_item_cardapio_foreign&quot; FOREIGN KEY(&quot;id_item_cardapio&quot;) REFERENCES &quot;cardapio&quot;(&quot;id_item_cardapio&quot;);
+ALTER TABLE
+    &quot;ingredientes&quot; ADD CONSTRAINT &quot;ingredientes_id_estoque_foreign&quot; FOREIGN KEY(&quot;id_estoque&quot;) REFERENCES &quot;estoque&quot;(&quot;id_estoque&quot;);
+ALTER TABLE
+    &quot;pedido&quot; ADD CONSTRAINT &quot;pedido_id_cardapio_foreign&quot; FOREIGN KEY(&quot;id_cardapio&quot;) REFERENCES &quot;cardapio&quot;(&quot;id_item_cardapio&quot;);
+ALTER TABLE
+    &quot;pedido&quot; ADD CONSTRAINT &quot;pedido_id_comanda_foreign&quot; FOREIGN KEY(&quot;id_comanda&quot;) REFERENCES &quot;comanda&quot;(&quot;id_comanda&quot;);
+</code></pre></div>
+<p>3 - Executar o codigo <code>./PythonFaker/faker.ipynb</code> alterando as seguintes variaveis para as respectivas variaveis do seu banco.
+<div class="highlight"><pre><span></span><code># Definir os detalhes da conexão
+server = &#39;&#39;
+database = &#39;&#39;
+username = &#39;&#39;
+password = &#39;&#39;
+</code></pre></div></p>
+<h2 id="databricks">DataBricks<a class="headerlink" href="#databricks" title="Permanent link">&para;</a></h2>
+<p>1 - Dentro do Portal Azure, criar um recurso DataBricks.</p>
+<p>2 - Entre no Workspace Databricks, vá na aba computação e crie um Cluster.</p>
+<p>3 - Na aba espaço de trabalhos, conecte o databricks com o repositório no GitHub. </p>
+<p>4 - No Notebook <code>Notebooks Databricks/Landing/LakeHouse - Landing.py</code> Alterar as variaveis (Host, Database, Username, Password) para os dados do seu banco.
+<div class="highlight"><pre><span></span><code>Host = &quot;&quot;
+Port = 1433
+Database = &quot;&quot;
+Username = &quot;&quot;
+Password = &quot;&quot;
+Driver = &quot;com.microsoft.sqlserver.jdbc.SQLServerDriver&quot;
+Url = f&quot;jdbc:sqlserver://{Host}:{Port};databaseName={Database}&quot;
+</code></pre></div></p>
+<p>5- Em todos os Notebooks alterar as seguintes variaveis para os dados do seu Azure Data Lake storage.
+<div class="highlight"><pre><span></span><code>storageAccountName = &quot;&quot;
+storageAccountAccessKey = &quot;&quot;
+sasToken = &quot;&quot;
+</code></pre></div></p>
+<h2 id="ir-para">Ir para ...<a class="headerlink" href="#ir-para" title="Permanent link">&para;</a></h2>
+<ul>
+<li>-&gt; <strong><a href="../">Apresentação</a></strong>.</li>
+<li>-&gt; <strong><a href="./">Pré-Requisitos e Ferramentas</a></strong>.</li>
+<li>-&gt; <strong><a href="../comoExecutar/">Execução</a></strong>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/GuilhermeVolpato/Engenharia-de-dados.git" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+    
+  </body>
+</html>
