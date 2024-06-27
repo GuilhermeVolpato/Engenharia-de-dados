@@ -52,7 +52,29 @@ Esperamos que esta documentação seja útil e que o Pingado Café ajude a trans
 - Naum Marcirio
 - Pedro Hahn
 
-
+ ## Executando mkdocs
+ - Criar .venv
+```
+python -m venv venv
+```
+ - Executar .venv
+   - Windows
+    ```
+    venv\Scripts\activate
+    ```
+    - Mac
+    ```
+    source venv/bin/activate
+    ```
+ - Instalando mkdocs e o theme
+  ```
+  pip install mkdocs mkdocs-material
+  ```
+- Rodar o servidor
+```
+mkdocs serve
+```
+ 
 ## Licença
 
 Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/GuilhermeVolpato/Engenharia-de-dados/blob/main/License/license.md) para mais detalhes.
