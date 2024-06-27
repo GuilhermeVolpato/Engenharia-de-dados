@@ -55,7 +55,7 @@ Esperamos que esta documentação seja útil e que o Pingado Café ajude a trans
 
 ## Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE]([https://github.com/GuilhermeVolpato/Engenharia-de-dados/License](https://github.com/GuilhermeVolpato/Engenharia-de-dados/blob/main/License/license.md)) para mais detalhes.
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/GuilhermeVolpato/Engenharia-de-dados/blob/main/License/license.md) para mais detalhes.
 
 ## Referências
 
