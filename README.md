@@ -4,6 +4,8 @@
 
 # Documentação do Sistema Pingado Café
 
+![LINK](https://guilhermevolpato.github.io/Engenharia-de-dados/)
+
 # Introdução ao Projeto Pingado Café
 
 Bem-vindo à documentação do projeto "Pingado Café" um sistema de gerenciamento desenvolvido para a disciplina de Engenharia de Dados, utilizando como base um banco relacional de um projeto passado, para alimentar uma tabela Data Lake, e apresentar um Dashboard com resultados da Cafeteria.
